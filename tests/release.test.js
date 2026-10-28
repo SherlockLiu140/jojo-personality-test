@@ -12,6 +12,8 @@ const raw = JSON.parse(read('data.json'));
 const art = JSON.parse(read('assets/characters/manifest.json'));
 const engine = require('../engine.js');
 const data = engine.normalize(raw);
+const CHAR_COUNT = data.characters.length;
+const Q_COUNT = 36;
 
 test('browser scripts and editable JSON remain synchronized', () => {
   const context = {window: {}};
@@ -21,17 +23,27 @@ test('browser scripts and editable JSON remain synchronized', () => {
   assert.deepEqual(JSON.parse(JSON.stringify(context.window.JOJO_ART)), art);
 });
 
-test('36 questions, 45 unique characters and 9 dimensions are valid', () => {
-  assert.equal(data.questions.length, 36);
-  assert.equal(data.characters.length, 45);
+test('36 Likert questions, expanded cast and 9 dimensions are valid', () => {
+  assert.equal(data.questions.length, Q_COUNT);
+  assert.equal(data.characters.length, CHAR_COUNT);
+  assert.ok(CHAR_COUNT >= 53);
   assert.equal(data.dimensions.length, 9);
   assert.equal(data.parts.length, 9);
-  assert.equal(new Set(data.characters.map(c => c.id)).size, 45);
-  assert.equal(new Set(data.questions.map(q => q.id)).size, 36);
+  assert.equal(new Set(data.characters.map(c => c.id)).size, CHAR_COUNT);
+  assert.equal(new Set(data.questions.map(q => q.id)).size, Q_COUNT);
+  assert.equal(raw.meta.version, '1.1.0');
+  assert.equal(raw.meta.characterCount, CHAR_COUNT);
+  assert.deepEqual(raw.scoring.choiceValues, [-3, -2, -1, 0, 1, 2, 3]);
+  assert.ok(Array.isArray(raw.works) && raw.works.length >= 10);
+  assert.ok(raw.works.some(w => w.id === 'none'));
+  const requiredIds = ['stroheim', 'hol_horse', 'fugo', 'trish', 'anasui', 'emporio', 'kakyoin'];
+  for (const id of requiredIds) assert.ok(data.characters.some(c => c.id === id), `missing ${id}`);
   const dimensions = new Set(data.dimensions.map(d => d.id));
   for (const q of data.questions) {
-    assert.equal(q.options.length, 4);
+    assert.equal(q.options.length, 7);
     assert.ok(q.text);
+    const rawQ = raw.questions.find(rq => rq.id === q.id);
+    assert.deepEqual(rawQ.options.map(o => o.scores[rawQ.category]), [3, 2, 1, 0, -1, -2, -3]);
     for (const o of q.options) {
       assert.ok(o.text);
       for (const [id, value] of Object.entries(o.scores)) {
@@ -54,7 +66,7 @@ test('scoring is bounded, deterministic and sorted across 2000 seeded samples', 
     const answers = data.questions.map(q => Math.floor(random() * q.options.length));
     const result = engine.score(answers, data);
     assert.deepEqual(result, engine.score(answers, data));
-    assert.equal(result.ranking.length, 45);
+    assert.equal(result.ranking.length, CHAR_COUNT);
     for (const value of Object.values(result.values)) assert.ok(Number.isFinite(value) && value >= 0 && value <= 100);
     result.ranking.forEach((r, i) => {
       assert.ok(Number.isFinite(r.similarity) && r.similarity >= 0 && r.similarity <= 100);
@@ -65,10 +77,25 @@ test('scoring is bounded, deterministic and sorted across 2000 seeded samples', 
   }
 });
 
+test('works selection boosts familiar parts without dropping others', () => {
+  const answers = data.questions.map(() => 3);
+  const base = engine.score(answers, data, {selectedWorks: ['none']});
+  const boosted = engine.score(answers, data, {selectedWorks: ['part-3']});
+  assert.equal(base.ranking.length, CHAR_COUNT);
+  assert.equal(boosted.ranking.length, CHAR_COUNT);
+  assert.deepEqual(boosted.familiarParts, [3]);
+  const kakyoinBase = base.ranking.find(r => r.id === 'kakyoin');
+  const kakyoinBoost = boosted.ranking.find(r => r.id === 'kakyoin');
+  assert.ok(kakyoinBoost.distance <= kakyoinBase.distance);
+  assert.ok(kakyoinBoost.partMatch);
+  const noneOnly = engine.score(answers, data, {selectedWorks: ['none']});
+  assert.equal(noneOnly.familiarParts.length, 0);
+});
+
 test('invalid answers are rejected and exact ties use character IDs', () => {
   const valid = data.questions.map(() => 0);
   for (const invalid of [null, [], valid.slice(1), [...valid, 0]]) assert.throws(() => engine.score(invalid, data));
-  for (const invalid of [null, -1, 4, 0.5, '0', NaN, Infinity]) {
+  for (const invalid of [null, -1, 7, 0.5, '0', NaN, Infinity]) {
     const answers = valid.slice(); answers[0] = invalid;
     assert.throws(() => engine.score(answers, data));
   }
@@ -78,12 +105,17 @@ test('invalid answers are rejected and exact ties use character IDs', () => {
 });
 
 test('every runtime image is local, present and consistent with rights metadata', () => {
-  assert.equal(art.length, 45);
-  assert.equal(new Set(art.map(a => a.id)).size, 45);
+  assert.equal(art.length, CHAR_COUNT);
+  assert.equal(new Set(art.map(a => a.id)).size, CHAR_COUNT);
   for (const a of art) {
     assert.ok(data.characters.some(c => c.id === a.id));
     assert.equal(a.rightsUnknown, true);
     assert.match(a.sourcePage, /^https:\/\//);
+    if (a.placeholder) {
+      assert.equal(a.placeholder, true);
+      assert.ok(a.image == null || a.image === '');
+      continue;
+    }
     for (const name of [a.image, a.thumbnail]) {
       assert.ok(name && !path.isAbsolute(name) && !name.split('/').includes('..'));
       assert.ok(fs.statSync(path.join(root, name)).isFile());
@@ -107,6 +139,8 @@ test('runtime has no remote asset loading or network submission APIs', () => {
   assert.doesNotMatch(read('styles.css'), /@import|url\(\s*["']?https?:/i);
   assert.doesNotMatch(read('app.js'), /\bfetch\s*\(|XMLHttpRequest|WebSocket|sendBeacon/);
   for (const file of ['styles.css', 'data.js', 'art.js', 'engine.js', 'app.js']) assert.ok(fs.statSync(path.join(root, file)).isFile());
+  assert.match(read('app.js'), /likert/);
+  assert.match(read('app.js'), /works/);
 });
 
 test('release tree contains no credential files or private workspace metadata', () => {

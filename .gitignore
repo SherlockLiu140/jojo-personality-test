@@ -25,3 +25,7 @@ qa-output/
 Thumbs.db
 .idea/
 .vscode/
+
+# Design reference screenshots (not shipped)
+_ref-likert-ui.png
+_ref-*.png

@@ -1,22 +1,23 @@
 {
   "meta": {
-    "id": "jojo-personality-36",
-    "version": "1.0.0",
+    "id": "jojo-personality-36-likert",
+    "version": "1.1.0",
     "language": "zh-CN",
     "verifiedAt": "2026-10-28",
     "questionCount": 36,
-    "characterCount": 45,
+    "characterCount": 53,
     "estimatedMinutes": "8–12",
     "title": "你的奇妙人格",
-    "subtitle": "36 个日常选择，找到与你共鸣的 JOJO 角色",
-    "scope": "覆盖漫画主线第 1–9 部的 45 位代表角色，不含全部角色、外传与游戏原创人物。",
+    "subtitle": "先勾选看过的作品，再回答 36 道程度题，找到与你共鸣的 JOJO 角色",
+    "scope": "覆盖漫画主线第 1–9 部的 53 位代表角色（含新增主力队员／关键配角），不含全部角色、外传与游戏原创人物。新增角色暂无官方立绘，以首字母占位呈现。",
     "disclaimer": "这是基于角色解读制作的娱乐性风格匹配，不是心理诊断或经科学验证的人格量表。结果不评价能力、道德或心理健康。",
     "villainDisclaimer": "与反派角色相似，只表示某些做事风格接近，不代表认同其行为，也不意味着你具有相同的道德倾向。",
     "interpretationNote": "角色标签、文字解读与数值原型为本测验的原创解读，并非官方人格设定。",
     "ongoingNote": "第九部角色解读基于截至核验日期可见的官方介绍与已有情节，后续发展可能改变理解。",
     "privacyNote": "题目不要求姓名、联系方式、健康或其他敏感信息。建议仅在当前浏览器处理作答；如使用本地存储，应提供清除入口。",
     "spoilerNote": "默认介绍不涉及死亡、结局、血缘秘密或替身进化；人物身份与出场部数仍可能构成轻度剧透。外链可能包含完整剧情。",
-    "sourceNote": "部数与基础人物事实主要核对官方门户；少数人物辅以 JoJo Wiki。人物风格为编辑性解读。"
+    "sourceNote": "部数与基础人物事实主要核对官方门户；少数人物辅以 JoJo Wiki。人物风格为编辑性解读。",
+    "worksNote": "开始答题前可多选你看过的 JOJO 作品（部数／OVA／游戏／番外）。匹配时会对熟悉部数的角色给予轻微优先；若仅选「几乎没看过」，则不做作品加权。"
   },
   "dimensions": [
     {
@@ -87,34 +88,55 @@
     {
       "id": "q01",
       "category": "initiative",
-      "text": "临时多出一个周末，你一直想做的小计划终于有了空档。你通常会：",
+      "text": "你经常想到就立刻行动，而不是把计划想得很完整再开始。",
       "options": [
         {
-          "id": "a",
-          "text": "把时间、材料和可能的问题都确认好，再开始",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "initiative": -2
+            "initiative": 3
           }
         },
         {
-          "id": "b",
-          "text": "先动手做一个小版本，遇到问题再补",
+          "id": "1",
+          "text": "同意",
+          "scores": {
+            "initiative": 2
+          }
+        },
+        {
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "initiative": 1
           }
         },
         {
-          "id": "c",
-          "text": "先列出最关键的两三步，当天按计划推进",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "initiative": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
           "scores": {
             "initiative": -1
           }
         },
         {
-          "id": "d",
-          "text": "趁兴致正浓立刻开始，路线在行动中决定",
+          "id": "5",
+          "text": "不认同",
           "scores": {
-            "initiative": 2
+            "initiative": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "initiative": -3
           }
         }
       ]
@@ -122,34 +144,55 @@
     {
       "id": "q02",
       "category": "adaptability",
-      "text": "你熟悉的方法这次效果一般，但还没有完全失灵。你会：",
+      "text": "遇到卡壳时，你乐于换一套全新的办法，而不是继续打磨原来的方法。",
       "options": [
         {
-          "id": "a",
-          "text": "跳出原来的框架，重新定义怎么做",
+          "id": "0",
+          "text": "非常同意",
+          "scores": {
+            "adaptability": 3
+          }
+        },
+        {
+          "id": "1",
+          "text": "同意",
           "scores": {
             "adaptability": 2
           }
         },
         {
-          "id": "b",
-          "text": "保留主要流程，只改最薄弱的环节",
-          "scores": {
-            "adaptability": -1
-          }
-        },
-        {
-          "id": "c",
-          "text": "同时试一种新方法，再比较结果",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "adaptability": 1
           }
         },
         {
-          "id": "d",
-          "text": "继续打磨原方法，把基本功做扎实",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "adaptability": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "adaptability": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "adaptability": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "adaptability": -3
           }
         }
       ]
@@ -157,34 +200,55 @@
     {
       "id": "q03",
       "category": "social",
-      "text": "结束了一周忙碌工作后，什么最能帮你恢复状态？",
+      "text": "你经常结交新朋友，并从与人互动中恢复精力。",
       "options": [
         {
-          "id": "a",
-          "text": "留大部分时间独处，再与熟人聊一会儿",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "social": -1
+            "social": 3
           }
         },
         {
-          "id": "b",
-          "text": "一个人安静待着，不安排社交",
-          "scores": {
-            "social": -2
-          }
-        },
-        {
-          "id": "c",
-          "text": "去一个热闹场合，在交流中重新充电",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "social": 2
           }
         },
         {
-          "id": "d",
-          "text": "约几位朋友一起做点轻松的事",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "social": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "social": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "social": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
+          "scores": {
+            "social": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "social": -3
           }
         }
       ]
@@ -192,34 +256,55 @@
     {
       "id": "q04",
       "category": "trust",
-      "text": "和能力相当的新伙伴做一个小项目，你更舒服的分工是：",
+      "text": "做重要事情时，你更愿意把关键环节放心交给同伴。",
       "options": [
         {
-          "id": "a",
-          "text": "共享进度，把不同环节交给擅长的人",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "trust": 1
+            "trust": 3
           }
         },
         {
-          "id": "b",
-          "text": "共同决策、轮流接手，让彼此能随时补位",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "trust": 2
           }
         },
         {
-          "id": "c",
-          "text": "各自负责完整模块，尽量不相互依赖",
+          "id": "2",
+          "text": "有点同意",
+          "scores": {
+            "trust": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "trust": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "trust": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "trust": -2
           }
         },
         {
-          "id": "d",
-          "text": "分工合作，但关键接口由自己复核",
+          "id": "6",
+          "text": "非常不认同",
           "scores": {
-            "trust": -1
+            "trust": -3
           }
         }
       ]
@@ -227,34 +312,55 @@
     {
       "id": "q05",
       "category": "values",
-      "text": "社团有一条大家默认遵守、但并不强制的流程。新办法更省时，你倾向：",
+      "text": "即便更麻烦，你也更倾向坚持自己认定的原则。",
       "options": [
         {
-          "id": "a",
-          "text": "只要达到目标且没有伤害，就换成新办法",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "values": -2
+            "values": 3
           }
         },
         {
-          "id": "b",
-          "text": "先征求大家同意，再考虑改变约定",
+          "id": "1",
+          "text": "同意",
+          "scores": {
+            "values": 2
+          }
+        },
+        {
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "values": 1
           }
         },
         {
-          "id": "c",
-          "text": "先看实际收益，值得的话再解释调整",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "values": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
           "scores": {
             "values": -1
           }
         },
         {
-          "id": "d",
-          "text": "即使效率低一点，也先兑现已经形成的约定",
+          "id": "5",
+          "text": "不认同",
           "scores": {
-            "values": 2
+            "values": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "values": -3
           }
         }
       ]
@@ -262,34 +368,55 @@
     {
       "id": "q06",
       "category": "ambition",
-      "text": "如果生活已经足够舒适，你最想把额外精力用在：",
+      "text": "你总想拓展更大的可能，而不是满足于安稳舒适的现状。",
       "options": [
         {
-          "id": "a",
-          "text": "开辟一条新道路，让生活的可能性明显变大",
+          "id": "0",
+          "text": "非常同意",
+          "scores": {
+            "ambition": 3
+          }
+        },
+        {
+          "id": "1",
+          "text": "同意",
           "scores": {
             "ambition": 2
           }
         },
         {
-          "id": "b",
-          "text": "在熟悉领域慢慢精进，不必扩大规模",
-          "scores": {
-            "ambition": -1
-          }
-        },
-        {
-          "id": "c",
-          "text": "争取一个更有挑战的目标，看看自己的上限",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "ambition": 1
           }
         },
         {
-          "id": "d",
-          "text": "维护喜欢的日常，让生活一直合适",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "ambition": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "ambition": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "ambition": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "ambition": -3
           }
         }
       ]
@@ -297,34 +424,55 @@
     {
       "id": "q07",
       "category": "emotion",
-      "text": "好朋友做了一件让你非常开心的事，你通常会：",
+      "text": "开心或不满时，你通常会立刻让身边的人察觉到。",
       "options": [
         {
-          "id": "a",
-          "text": "认真说声谢谢，但表达不会太夸张",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "emotion": -1
+            "emotion": 3
           }
         },
         {
-          "id": "b",
-          "text": "记在心里，之后通过行动回报",
-          "scores": {
-            "emotion": -2
-          }
-        },
-        {
-          "id": "c",
-          "text": "热情地分享喜悦，让周围的人也感受到",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "emotion": 2
           }
         },
         {
-          "id": "d",
-          "text": "当场告诉对方我有多开心",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "emotion": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "emotion": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "emotion": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
+          "scores": {
+            "emotion": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "emotion": -3
           }
         }
       ]
@@ -332,34 +480,55 @@
     {
       "id": "q08",
       "category": "focus",
-      "text": "初次接触一个复杂的桌游，你最想先知道：",
+      "text": "面对复杂事物，你最先钻进具体细节，而不是先搭整体框架。",
       "options": [
         {
-          "id": "a",
-          "text": "每种行动具体怎么执行，再拼出策略",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "focus": 1
+            "focus": 3
           }
         },
         {
-          "id": "b",
-          "text": "规则里的例外和细节，先弄清楚再推演",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "focus": 2
           }
         },
         {
-          "id": "c",
-          "text": "整个游戏怎样运转、什么决定胜负",
+          "id": "2",
+          "text": "有点同意",
+          "scores": {
+            "focus": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "focus": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "focus": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "focus": -2
           }
         },
         {
-          "id": "d",
-          "text": "主要阶段和几种典型策略",
+          "id": "6",
+          "text": "非常不认同",
           "scores": {
-            "focus": -1
+            "focus": -3
           }
         }
       ]
@@ -367,34 +536,55 @@
     {
       "id": "q09",
       "category": "risk",
-      "text": "你有机会参加一项从未尝试过、但安全措施合格的户外体验。你会：",
+      "text": "你喜欢探索未知体验，即使结果还不确定。",
       "options": [
         {
-          "id": "a",
-          "text": "选择熟悉项目，把新体验留到准备更充分时",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "risk": -2
+            "risk": 3
           }
         },
         {
-          "id": "b",
-          "text": "确认基本条件后愿意报名，边做边适应",
+          "id": "1",
+          "text": "同意",
+          "scores": {
+            "risk": 2
+          }
+        },
+        {
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "risk": 1
           }
         },
         {
-          "id": "c",
-          "text": "先了解保障与退出方式，再决定是否参加",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "risk": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
           "scores": {
             "risk": -1
           }
         },
         {
-          "id": "d",
-          "text": "新鲜感本身就很吸引我，愿意挑战陌生体验",
+          "id": "5",
+          "text": "不认同",
           "scores": {
-            "risk": 2
+            "risk": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "risk": -3
           }
         }
       ]
@@ -402,34 +592,55 @@
     {
       "id": "q10",
       "category": "initiative",
-      "text": "群聊里大家讨论很久，却迟迟没定下聚会地点。你更可能：",
+      "text": "讨论拖得太久时，你会主动拍板推动下一步。",
       "options": [
         {
-          "id": "a",
-          "text": "直接先订一个可取消的位置，让事情动起来",
+          "id": "0",
+          "text": "非常同意",
+          "scores": {
+            "initiative": 3
+          }
+        },
+        {
+          "id": "1",
+          "text": "同意",
           "scores": {
             "initiative": 2
           }
         },
         {
-          "id": "b",
-          "text": "整理两三个可行选择，等大家确认",
-          "scores": {
-            "initiative": -1
-          }
-        },
-        {
-          "id": "c",
-          "text": "先提出一个明确方案，请大家快速反馈",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "initiative": 1
           }
         },
         {
-          "id": "d",
-          "text": "把候选条件和大家的需求再核对一轮",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "initiative": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "initiative": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "initiative": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "initiative": -3
           }
         }
       ]
@@ -437,34 +648,55 @@
     {
       "id": "q11",
       "category": "adaptability",
-      "text": "你精心准备的展示突然不能用投影。你会更自然地：",
+      "text": "原计划突然失效时，你能很快临场变通。",
       "options": [
         {
-          "id": "a",
-          "text": "把原内容改成口头讲述，保留既定结构",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "adaptability": -1
+            "adaptability": 3
           }
         },
         {
-          "id": "b",
-          "text": "尽量恢复设备，让原方案继续发挥作用",
-          "scores": {
-            "adaptability": -2
-          }
-        },
-        {
-          "id": "c",
-          "text": "把这当成机会，现场设计一个全新的互动版本",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "adaptability": 2
           }
         },
         {
-          "id": "d",
-          "text": "根据现场反应重排内容，换一种呈现方式",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "adaptability": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "adaptability": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "adaptability": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
+          "scores": {
+            "adaptability": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "adaptability": -3
           }
         }
       ]
@@ -472,34 +704,55 @@
     {
       "id": "q12",
       "category": "social",
-      "text": "在一个只有少数熟人的小型活动里，你往往：",
+      "text": "在不太熟的场合，你也会主动找人聊天。",
       "options": [
         {
-          "id": "a",
-          "text": "主动加入几个话题，寻找聊得来的人",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "social": 1
+            "social": 3
           }
         },
         {
-          "id": "b",
-          "text": "自然地四处交流，也乐于把陌生人介绍给彼此",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "social": 2
           }
         },
         {
-          "id": "c",
-          "text": "找个舒服的位置观察，等有兴趣的话题出现",
+          "id": "2",
+          "text": "有点同意",
+          "scores": {
+            "social": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "social": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "social": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "social": -2
           }
         },
         {
-          "id": "d",
-          "text": "先和熟人聊，再慢慢认识一两个人",
+          "id": "6",
+          "text": "非常不认同",
           "scores": {
-            "social": -1
+            "social": -3
           }
         }
       ]
@@ -507,34 +760,55 @@
     {
       "id": "q13",
       "category": "trust",
-      "text": "一位可靠同伴提出替你处理重要任务的一部分，你会：",
+      "text": "你相信团队协作，胜过事事自己一手掌控。",
       "options": [
         {
-          "id": "a",
-          "text": "感谢对方，但更愿意自己完整完成",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "trust": -2
+            "trust": 3
           }
         },
         {
-          "id": "b",
-          "text": "约定标准后，把那部分放心交给对方",
+          "id": "1",
+          "text": "同意",
+          "scores": {
+            "trust": 2
+          }
+        },
+        {
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "trust": 1
           }
         },
         {
-          "id": "c",
-          "text": "请对方协助准备，最后执行仍由自己负责",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "trust": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
           "scores": {
             "trust": -1
           }
         },
         {
-          "id": "d",
-          "text": "共享目标和资源，也愿意让对方调整做法",
+          "id": "5",
+          "text": "不认同",
           "scores": {
-            "trust": 2
+            "trust": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "trust": -3
           }
         }
       ]
@@ -542,34 +816,55 @@
     {
       "id": "q14",
       "category": "values",
-      "text": "你与朋友约好按轮流原则选择活动，但这次轮到的选项明显不受欢迎。你会：",
+      "text": "短期利益与你的准则冲突时，你会优先守住准则。",
       "options": [
         {
-          "id": "a",
-          "text": "照原约定进行，因为轮流本来就包含这种情况",
+          "id": "0",
+          "text": "非常同意",
+          "scores": {
+            "values": 3
+          }
+        },
+        {
+          "id": "1",
+          "text": "同意",
           "scores": {
             "values": 2
           }
         },
         {
-          "id": "b",
-          "text": "和轮到的人商量换个方案，尽量减少损失",
-          "scores": {
-            "values": -1
-          }
-        },
-        {
-          "id": "c",
-          "text": "尽量保留对方的选择权，只调整活动细节",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "values": 1
           }
         },
         {
-          "id": "d",
-          "text": "优先选多数人能玩得开心的活动，再补偿对方",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "values": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "values": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "values": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "values": -3
           }
         }
       ]
@@ -577,34 +872,55 @@
     {
       "id": "q15",
       "category": "ambition",
-      "text": "有人称赞你现在已经做得很好。你心里更容易出现的想法是：",
+      "text": "别人说你已经做得很好时，你仍想挑战下一个目标。",
       "options": [
         {
-          "id": "a",
-          "text": "继续做好手上的事，让成果稳定下来",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "ambition": -1
+            "ambition": 3
           }
         },
         {
-          "id": "b",
-          "text": "现在的状态值得珍惜，不必总追着下一个目标",
-          "scores": {
-            "ambition": -2
-          }
-        },
-        {
-          "id": "c",
-          "text": "这只是起点，我想把能力带到更大的舞台",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "ambition": 2
           }
         },
         {
-          "id": "d",
-          "text": "或许可以试试以前觉得有点难的下一步",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "ambition": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "ambition": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "ambition": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
+          "scores": {
+            "ambition": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "ambition": -3
           }
         }
       ]
@@ -612,34 +928,55 @@
     {
       "id": "q16",
       "category": "emotion",
-      "text": "你在合作中感到不满，但事情还没严重到必须暂停。你通常：",
+      "text": "合作中感到不满时，你会及时把情绪表达出来。",
       "options": [
         {
-          "id": "a",
-          "text": "较快表达感受，避免对方完全不知道",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "emotion": 1
+            "emotion": 3
           }
         },
         {
-          "id": "b",
-          "text": "当下就让态度变得明确，再一起讨论怎么调整",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "emotion": 2
           }
         },
         {
-          "id": "c",
-          "text": "先自己消化，整理清楚后再决定要不要说",
+          "id": "2",
+          "text": "有点同意",
+          "scores": {
+            "emotion": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "emotion": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "emotion": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "emotion": -2
           }
         },
         {
-          "id": "d",
-          "text": "挑一个合适时机，平静说明具体问题",
+          "id": "6",
+          "text": "非常不认同",
           "scores": {
-            "emotion": -1
+            "emotion": -3
           }
         }
       ]
@@ -647,34 +984,55 @@
     {
       "id": "q17",
       "category": "focus",
-      "text": "朋友请你帮忙挑选一件复杂的小家电，你最先关注：",
+      "text": "挑选或决策时，你特别在意边角与细微差别。",
       "options": [
         {
-          "id": "a",
-          "text": "它在日常生活里到底解决什么问题",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "focus": -2
+            "focus": 3
           }
         },
         {
-          "id": "b",
-          "text": "关键参数、实际测评和容易忽略的限制",
+          "id": "1",
+          "text": "同意",
+          "scores": {
+            "focus": 2
+          }
+        },
+        {
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "focus": 1
           }
         },
         {
-          "id": "c",
-          "text": "总体体验、使用成本与其他方案的比较",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "focus": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
           "scores": {
             "focus": -1
           }
         },
         {
-          "id": "d",
-          "text": "逐项功能、用料和细小差别是否符合要求",
+          "id": "5",
+          "text": "不认同",
           "scores": {
-            "focus": 2
+            "focus": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "focus": -3
           }
         }
       ]
@@ -682,34 +1040,55 @@
     {
       "id": "q18",
       "category": "risk",
-      "text": "两个兴趣课程费用相同：一个口碑稳定，另一个形式新颖但评价还少。你更倾向：",
+      "text": "在稳定选项与新颖但评价尚少的选项之间，你更常选后者。",
       "options": [
         {
-          "id": "a",
-          "text": "选新课程，未知的学习方式更让我期待",
+          "id": "0",
+          "text": "非常同意",
+          "scores": {
+            "risk": 3
+          }
+        },
+        {
+          "id": "1",
+          "text": "同意",
           "scores": {
             "risk": 2
           }
         },
         {
-          "id": "b",
-          "text": "先选成熟课程，顺便关注新课程后续反馈",
-          "scores": {
-            "risk": -1
-          }
-        },
-        {
-          "id": "c",
-          "text": "选新课程，但提前确认能否试听或退出",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "risk": 1
           }
         },
         {
-          "id": "d",
-          "text": "选成熟课程，确定能获得需要的体验",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "risk": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "risk": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "risk": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "risk": -3
           }
         }
       ]
@@ -717,34 +1096,55 @@
     {
       "id": "q19",
       "category": "initiative",
-      "text": "一道生活难题没有现成答案，你手头的信息也不完整。你会：",
+      "text": "信息不完整时，你仍会先迈出一小步再边做边补。",
       "options": [
         {
-          "id": "a",
-          "text": "限定一段调查时间，然后确定行动方案",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "initiative": -1
+            "initiative": 3
           }
         },
         {
-          "id": "b",
-          "text": "先补齐关键信息，避免方向性返工",
-          "scores": {
-            "initiative": -2
-          }
-        },
-        {
-          "id": "c",
-          "text": "选一条最有可能的路马上推进，再持续修正",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "initiative": 2
           }
         },
         {
-          "id": "d",
-          "text": "先试一个成本低的小步骤，用反馈补信息",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "initiative": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "initiative": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "initiative": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
+          "scores": {
+            "initiative": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "initiative": -3
           }
         }
       ]
@@ -752,34 +1152,55 @@
     {
       "id": "q20",
       "category": "adaptability",
-      "text": "一项长期练习进入平台期，你更愿意：",
+      "text": "长期练习进入平台期后，你会主动换路径或方法。",
       "options": [
         {
-          "id": "a",
-          "text": "交叉练习其他技能，寻找新的突破点",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "adaptability": 1
+            "adaptability": 3
           }
         },
         {
-          "id": "b",
-          "text": "暂时放下原路径，用完全不同的方式重新开始",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "adaptability": 2
           }
         },
         {
-          "id": "c",
-          "text": "维持训练体系，把薄弱基础逐个补上",
+          "id": "2",
+          "text": "有点同意",
+          "scores": {
+            "adaptability": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "adaptability": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "adaptability": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "adaptability": -2
           }
         },
         {
-          "id": "d",
-          "text": "微调节奏和难度，给原方法更多时间",
+          "id": "6",
+          "text": "非常不认同",
           "scores": {
-            "adaptability": -1
+            "adaptability": -3
           }
         }
       ]
@@ -787,34 +1208,55 @@
     {
       "id": "q21",
       "category": "social",
-      "text": "你想到一个还不成熟的好点子，第一反应通常是：",
+      "text": "想到还没成型的点子，你第一反应是先找人讨论。",
       "options": [
         {
-          "id": "a",
-          "text": "先独自想透，成形后再分享",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "social": -2
+            "social": 3
           }
         },
         {
-          "id": "b",
-          "text": "尽早找几个人讨论，靠碰撞把它完善",
+          "id": "1",
+          "text": "同意",
+          "scores": {
+            "social": 2
+          }
+        },
+        {
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "social": 1
           }
         },
         {
-          "id": "c",
-          "text": "写下来理顺，然后找一个可信的人聊",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "social": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
           "scores": {
             "social": -1
           }
         },
         {
-          "id": "d",
-          "text": "立刻说出来，现场互动往往能激发更多灵感",
+          "id": "5",
+          "text": "不认同",
           "scores": {
-            "social": 2
+            "social": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "social": -3
           }
         }
       ]
@@ -822,34 +1264,55 @@
     {
       "id": "q22",
       "category": "trust",
-      "text": "一次团队活动中，有人提出与你不同但同样合理的方案。你更倾向：",
+      "text": "别人提出合理但不同的方案时，你愿意一起试。",
       "options": [
         {
-          "id": "a",
-          "text": "把主导权交给更有热情的人，自己做好配合",
+          "id": "0",
+          "text": "非常同意",
+          "scores": {
+            "trust": 3
+          }
+        },
+        {
+          "id": "1",
+          "text": "同意",
           "scores": {
             "trust": 2
           }
         },
         {
-          "id": "b",
-          "text": "让对方试做一部分，自己保留关键判断",
-          "scores": {
-            "trust": -1
-          }
-        },
-        {
-          "id": "c",
-          "text": "共同选一个方案，愿意支持对方的执行",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "trust": 1
           }
         },
         {
-          "id": "d",
-          "text": "保留自己的做法，双方分别验证效果",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "trust": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "trust": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "trust": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "trust": -3
           }
         }
       ]
@@ -857,34 +1320,55 @@
     {
       "id": "q23",
       "category": "values",
-      "text": "你曾经公开支持一个方案，现在另一个方案更容易取得短期成果。你会：",
+      "text": "你公开支持过的方案，不会只为短期成果轻易推翻。",
       "options": [
         {
-          "id": "a",
-          "text": "优先解决现实问题，再逐步兼顾原有主张",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "values": -1
+            "values": 3
           }
         },
         {
-          "id": "b",
-          "text": "选择当下效果更好的方案，并说明原因",
-          "scores": {
-            "values": -2
-          }
-        },
-        {
-          "id": "c",
-          "text": "宁愿进展慢一点，也先坚持当初认可的准则",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "values": 2
           }
         },
         {
-          "id": "d",
-          "text": "只在不冲突核心立场的范围内调整",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "values": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "values": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "values": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
+          "scores": {
+            "values": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "values": -3
           }
         }
       ]
@@ -892,34 +1376,55 @@
     {
       "id": "q24",
       "category": "ambition",
-      "text": "面对一个需要投入半年、回报不确定但成长空间很大的邀请，你最在意：",
+      "text": "面对投入大、回报不确定但成长空间大的邀请，你更想抓住。",
       "options": [
         {
-          "id": "a",
-          "text": "它是否能把我带到新的能力层次",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "ambition": 1
+            "ambition": 3
           }
         },
         {
-          "id": "b",
-          "text": "它是否足以打开我尚未接触的世界",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "ambition": 2
           }
         },
         {
-          "id": "c",
-          "text": "它会不会打乱我已经满意的生活节奏",
+          "id": "2",
+          "text": "有点同意",
+          "scores": {
+            "ambition": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "ambition": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "ambition": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "ambition": -2
           }
         },
         {
-          "id": "d",
-          "text": "它能否稳稳地积累一项实用能力",
+          "id": "6",
+          "text": "非常不认同",
           "scores": {
-            "ambition": -1
+            "ambition": -3
           }
         }
       ]
@@ -927,34 +1432,55 @@
     {
       "id": "q25",
       "category": "emotion",
-      "text": "一件重要的事情失败了，身边的人问你还好吗。你更像：",
+      "text": "遭遇挫败时，你不太掩饰自己的失落或沮丧。",
       "options": [
         {
-          "id": "a",
-          "text": "先说想独自待会儿，等理清了再谈",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "emotion": -2
+            "emotion": 3
           }
         },
         {
-          "id": "b",
-          "text": "坦白说出失落，也愿意接受安慰",
+          "id": "1",
+          "text": "同意",
+          "scores": {
+            "emotion": 2
+          }
+        },
+        {
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "emotion": 1
           }
         },
         {
-          "id": "c",
-          "text": "简单说明状况，把更多感受留给自己处理",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "emotion": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
           "scores": {
             "emotion": -1
           }
         },
         {
-          "id": "d",
-          "text": "很快把难过、懊恼都表达出来，随后再想办法",
+          "id": "5",
+          "text": "不认同",
           "scores": {
-            "emotion": 2
+            "emotion": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "emotion": -3
           }
         }
       ]
@@ -962,34 +1488,55 @@
     {
       "id": "q26",
       "category": "focus",
-      "text": "你在检查一份活动计划时，最容易先发现：",
+      "text": "检查计划时，你最先发现的是遗漏的细节。",
       "options": [
         {
-          "id": "a",
-          "text": "名单、数字、措辞与操作细节是否有遗漏",
+          "id": "0",
+          "text": "非常同意",
+          "scores": {
+            "focus": 3
+          }
+        },
+        {
+          "id": "1",
+          "text": "同意",
           "scores": {
             "focus": 2
           }
         },
         {
-          "id": "b",
-          "text": "资源配置和流程衔接有没有明显漏洞",
-          "scores": {
-            "focus": -1
-          }
-        },
-        {
-          "id": "c",
-          "text": "某个时间点或具体安排是否不合理",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "focus": 1
           }
         },
         {
-          "id": "d",
-          "text": "目标之间是否冲突，整体方向是否跑偏",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "focus": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "focus": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "focus": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "focus": -3
           }
         }
       ]
@@ -997,34 +1544,55 @@
     {
       "id": "q27",
       "category": "risk",
-      "text": "休假时，你有一天完全没有安排。你更可能：",
+      "text": "完全空白的一天，你会拿来尝试新鲜安排，而不是重复熟悉节奏。",
       "options": [
         {
-          "id": "a",
-          "text": "挑一个评价可靠的新地点，其他安排保持熟悉",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "risk": -1
+            "risk": 3
           }
         },
         {
-          "id": "b",
-          "text": "按熟悉的路线走，享受可预期的舒适",
-          "scores": {
-            "risk": -2
-          }
-        },
-        {
-          "id": "c",
-          "text": "去一个没研究过的地方，让偶遇决定这一天",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "risk": 2
           }
         },
         {
-          "id": "d",
-          "text": "只定大致方向，给临时发现留出空间",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "risk": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "risk": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "risk": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
+          "scores": {
+            "risk": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "risk": -3
           }
         }
       ]
@@ -1032,34 +1600,55 @@
     {
       "id": "q28",
       "category": "initiative",
-      "text": "你发现一个小问题，暂时不会造成严重后果。你通常：",
+      "text": "发现小问题时，你会马上动手处理，而不是先观察一阵。",
       "options": [
         {
-          "id": "a",
-          "text": "尽快做一个简单修补，再观察效果",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "initiative": 1
+            "initiative": 3
           }
         },
         {
-          "id": "b",
-          "text": "马上处理，看到问题就想让它进入解决状态",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "initiative": 2
           }
         },
         {
-          "id": "c",
-          "text": "先观察一阵，确定它不是偶发现象",
+          "id": "2",
+          "text": "有点同意",
+          "scores": {
+            "initiative": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "initiative": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "initiative": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "initiative": -2
           }
         },
         {
-          "id": "d",
-          "text": "确认原因并安排一个合适时间处理",
+          "id": "6",
+          "text": "非常不认同",
           "scores": {
-            "initiative": -1
+            "initiative": -3
           }
         }
       ]
@@ -1067,34 +1656,55 @@
     {
       "id": "q29",
       "category": "adaptability",
-      "text": "别人推荐一种与你习惯不同的工作方式，你会：",
+      "text": "别人推荐与你习惯不同的方式时，你愿意认真尝试。",
       "options": [
         {
-          "id": "a",
-          "text": "除非旧方法明显不够用，否则继续用熟悉的",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "adaptability": -2
+            "adaptability": 3
           }
         },
         {
-          "id": "b",
-          "text": "挑一段任务试用，合适就调整习惯",
+          "id": "1",
+          "text": "同意",
+          "scores": {
+            "adaptability": 2
+          }
+        },
+        {
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "adaptability": 1
           }
         },
         {
-          "id": "c",
-          "text": "先了解原理，只吸收与现有方式兼容的部分",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "adaptability": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
           "scores": {
             "adaptability": -1
           }
         },
         {
-          "id": "d",
-          "text": "乐于完整体验新方式，看看能否刷新思路",
+          "id": "5",
+          "text": "不认同",
           "scores": {
-            "adaptability": 2
+            "adaptability": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "adaptability": -3
           }
         }
       ]
@@ -1102,34 +1712,55 @@
     {
       "id": "q30",
       "category": "social",
-      "text": "如果要度过一个没有任务的下午，你更喜欢：",
+      "text": "没有任务的下午，你更喜欢跟人一起打发时间。",
       "options": [
         {
-          "id": "a",
-          "text": "临时组织一次聚会，让这个下午热闹起来",
+          "id": "0",
+          "text": "非常同意",
+          "scores": {
+            "social": 3
+          }
+        },
+        {
+          "id": "1",
+          "text": "同意",
           "scores": {
             "social": 2
           }
         },
         {
-          "id": "b",
-          "text": "独处为主，偶尔与熟悉的人交换几句话",
-          "scores": {
-            "social": -1
-          }
-        },
-        {
-          "id": "c",
-          "text": "和朋友一起做活动，在陪伴中放松",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "social": 1
           }
         },
         {
-          "id": "d",
-          "text": "一个人读书、散步或沉浸在自己的爱好里",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "social": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "social": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "social": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "social": -3
           }
         }
       ]
@@ -1137,34 +1768,55 @@
     {
       "id": "q31",
       "category": "trust",
-      "text": "共同完成的作品进入最后阶段，你最自然的角色是：",
+      "text": "作品收尾阶段，你更自然地做协调与托付，而不是独自包办。",
       "options": [
         {
-          "id": "a",
-          "text": "负责关键检查，确保每个接口都能衔接",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "trust": -1
+            "trust": 3
           }
         },
         {
-          "id": "b",
-          "text": "独立把自己的部分做到位，边界清楚",
-          "scores": {
-            "trust": -2
-          }
-        },
-        {
-          "id": "c",
-          "text": "主动协调资源，把每个人的长处连接起来",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "trust": 2
           }
         },
         {
-          "id": "d",
-          "text": "与大家互相补位，让整体一起完成",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "trust": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "trust": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "trust": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
+          "scores": {
+            "trust": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "trust": -3
           }
         }
       ]
@@ -1172,34 +1824,55 @@
     {
       "id": "q32",
       "category": "values",
-      "text": "你为自己定下一条习惯规则，但执行几周后发现成本比预期高。你会：",
+      "text": "即使执行成本变高，你也不轻易放弃自己定下的习惯规则。",
       "options": [
         {
-          "id": "a",
-          "text": "降低执行强度，但尽量不改变原本的原则",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "values": 1
+            "values": 3
           }
         },
         {
-          "id": "b",
-          "text": "先坚持到约定的复盘时间，再考虑是否修改",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "values": 2
           }
         },
         {
-          "id": "c",
-          "text": "只要目的能达成，就直接换更轻松的做法",
+          "id": "2",
+          "text": "有点同意",
+          "scores": {
+            "values": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "values": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "values": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "values": -2
           }
         },
         {
-          "id": "d",
-          "text": "根据实际效果调整规则，保留最有用的部分",
+          "id": "6",
+          "text": "非常不认同",
           "scores": {
-            "values": -1
+            "values": -3
           }
         }
       ]
@@ -1207,34 +1880,55 @@
     {
       "id": "q33",
       "category": "ambition",
-      "text": "想象五年后的自己，哪种画面最让你满足？",
+      "text": "想象五年后，你最满足的画面是仍在开拓新领域。",
       "options": [
         {
-          "id": "a",
-          "text": "拥有适合自己的稳定节奏，不必向别人证明什么",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "ambition": -2
+            "ambition": 3
           }
         },
         {
-          "id": "b",
-          "text": "不断做成更有难度的事，持续拓宽能力边界",
+          "id": "1",
+          "text": "同意",
+          "scores": {
+            "ambition": 2
+          }
+        },
+        {
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "ambition": 1
           }
         },
         {
-          "id": "c",
-          "text": "有一门拿得出手的本领，身边生活安稳",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "ambition": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
           "scores": {
             "ambition": -1
           }
         },
         {
-          "id": "d",
-          "text": "建立一项有自己印记的事业或作品，影响更大的范围",
+          "id": "5",
+          "text": "不认同",
           "scores": {
-            "ambition": 2
+            "ambition": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "ambition": -3
           }
         }
       ]
@@ -1242,34 +1936,55 @@
     {
       "id": "q34",
       "category": "emotion",
-      "text": "别人第一次和你合作，通常多久能读懂你的心情？",
+      "text": "第一次合作的人，通常很快就能读懂你的心情。",
       "options": [
         {
-          "id": "a",
-          "text": "通常很快，我开心或不快都比较明显",
+          "id": "0",
+          "text": "非常同意",
+          "scores": {
+            "emotion": 3
+          }
+        },
+        {
+          "id": "1",
+          "text": "同意",
           "scores": {
             "emotion": 2
           }
         },
         {
-          "id": "b",
-          "text": "相处一段时间后，才会发现我的细微信号",
-          "scores": {
-            "emotion": -1
-          }
-        },
-        {
-          "id": "c",
-          "text": "从语气和表达里，大致能知道我的状态",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "emotion": 1
           }
         },
         {
-          "id": "d",
-          "text": "比较难，我习惯把表情和感受分开",
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "emotion": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "emotion": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "emotion": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "emotion": -3
           }
         }
       ]
@@ -1277,34 +1992,55 @@
     {
       "id": "q35",
       "category": "focus",
-      "text": "看完一部信息量很大的电影，你最想与朋友聊：",
+      "text": "看完信息量大的作品后，你更想聊具体桥段与细节。",
       "options": [
         {
-          "id": "a",
-          "text": "人物关系与主要主题如何互相影响",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "focus": -1
+            "focus": 3
           }
         },
         {
-          "id": "b",
-          "text": "它在表达什么，以及整体结构怎样成立",
-          "scores": {
-            "focus": -2
-          }
-        },
-        {
-          "id": "c",
-          "text": "细节之间能否对上，有哪些隐藏线索值得重看",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "focus": 2
           }
         },
         {
-          "id": "d",
-          "text": "某个镜头、对话或伏笔为什么这样安排",
+          "id": "2",
+          "text": "有点同意",
           "scores": {
             "focus": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "focus": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "focus": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
+          "scores": {
+            "focus": -2
+          }
+        },
+        {
+          "id": "6",
+          "text": "非常不认同",
+          "scores": {
+            "focus": -3
           }
         }
       ]
@@ -1312,34 +2048,55 @@
     {
       "id": "q36",
       "category": "risk",
-      "text": "你想尝试一个难度较高的新爱好，失败只会损失一些闲暇时间。你会：",
+      "text": "尝试高难度新爱好时，你不太怕失败，更在意探索本身。",
       "options": [
         {
-          "id": "a",
-          "text": "允许自己先失败几次，从实际尝试里学习",
+          "id": "0",
+          "text": "非常同意",
           "scores": {
-            "risk": 1
+            "risk": 3
           }
         },
         {
-          "id": "b",
-          "text": "直接挑一个有挑战的目标，未知难度反而有吸引力",
+          "id": "1",
+          "text": "同意",
           "scores": {
             "risk": 2
           }
         },
         {
-          "id": "c",
-          "text": "先练好基础，等把握更大再挑战难的部分",
+          "id": "2",
+          "text": "有点同意",
+          "scores": {
+            "risk": 1
+          }
+        },
+        {
+          "id": "3",
+          "text": "中立",
+          "scores": {
+            "risk": 0
+          }
+        },
+        {
+          "id": "4",
+          "text": "有点不认同",
+          "scores": {
+            "risk": -1
+          }
+        },
+        {
+          "id": "5",
+          "text": "不认同",
           "scores": {
             "risk": -2
           }
         },
         {
-          "id": "d",
-          "text": "设置明确上限，按较稳妥的步骤逐步尝试",
+          "id": "6",
+          "text": "非常不认同",
           "scores": {
-            "risk": -1
+            "risk": -3
           }
         }
       ]
@@ -1368,9 +2125,9 @@
       "growth": "过度承担，容易把别人的需要放在自己之前",
       "vector": {
         "initiative": 62.5,
-        "adaptability": 25.0,
+        "adaptability": 25,
         "social": 62.5,
-        "trust": 75.0,
+        "trust": 75,
         "values": 87.5,
         "ambition": 62.5,
         "emotion": 62.5,
@@ -1404,14 +2161,14 @@
       "growth": "对掌控的执念可能挤压他人的边界",
       "vector": {
         "initiative": 62.5,
-        "adaptability": 75.0,
+        "adaptability": 75,
         "social": 62.5,
         "trust": 12.5,
-        "values": 25.0,
+        "values": 25,
         "ambition": 87.5,
         "emotion": 62.5,
         "focus": 37.5,
-        "risk": 75.0
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/pb/"
@@ -1439,15 +2196,15 @@
       ],
       "growth": "认定一个人后，可能忽略重新评估关系",
       "vector": {
-        "initiative": 50.0,
+        "initiative": 50,
         "adaptability": 62.5,
-        "social": 75.0,
+        "social": 75,
         "trust": 87.5,
-        "values": 75.0,
+        "values": 75,
         "ambition": 62.5,
-        "emotion": 75.0,
+        "emotion": 75,
         "focus": 37.5,
-        "risk": 50.0
+        "risk": 50
       },
       "sources": [
         "https://jojo-portal.com/about/pb/"
@@ -1476,10 +2233,10 @@
       "vector": {
         "initiative": 37.5,
         "adaptability": 37.5,
-        "social": 50.0,
+        "social": 50,
         "trust": 62.5,
-        "values": 75.0,
-        "ambition": 50.0,
+        "values": 75,
+        "ambition": 50,
         "emotion": 37.5,
         "focus": 62.5,
         "risk": 62.5
@@ -1511,14 +2268,14 @@
       "growth": "习惯默默承担时，自己的需要容易不被看见",
       "vector": {
         "initiative": 37.5,
-        "adaptability": 25.0,
+        "adaptability": 25,
         "social": 37.5,
-        "trust": 75.0,
+        "trust": 75,
         "values": 87.5,
-        "ambition": 25.0,
+        "ambition": 25,
         "emotion": 37.5,
         "focus": 62.5,
-        "risk": 25.0
+        "risk": 25
       },
       "sources": [
         "https://jojo-portal.com/about/pb/",
@@ -1548,13 +2305,13 @@
       ],
       "growth": "临场自信过强时，容易低估准备与承诺",
       "vector": {
-        "initiative": 75.0,
+        "initiative": 75,
         "adaptability": 87.5,
-        "social": 75.0,
-        "trust": 50.0,
-        "values": 50.0,
+        "social": 75,
+        "trust": 50,
+        "values": 50,
         "ambition": 62.5,
-        "emotion": 75.0,
+        "emotion": 75,
         "focus": 37.5,
         "risk": 87.5
       },
@@ -1583,15 +2340,15 @@
       ],
       "growth": "自尊受触动时，可能难以听进不同意见",
       "vector": {
-        "initiative": 75.0,
+        "initiative": 75,
         "adaptability": 37.5,
-        "social": 75.0,
+        "social": 75,
         "trust": 62.5,
-        "values": 75.0,
-        "ambition": 75.0,
-        "emotion": 75.0,
+        "values": 75,
+        "ambition": 75,
+        "emotion": 75,
         "focus": 62.5,
-        "risk": 75.0
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/bt/"
@@ -1618,15 +2375,15 @@
       ],
       "growth": "过于克制或严格，可能让关心显得难以接近",
       "vector": {
-        "initiative": 25.0,
+        "initiative": 25,
         "adaptability": 37.5,
         "social": 37.5,
         "trust": 37.5,
-        "values": 75.0,
+        "values": 75,
         "ambition": 62.5,
         "emotion": 12.5,
-        "focus": 75.0,
-        "risk": 50.0
+        "focus": 75,
+        "risk": 50
       },
       "sources": [
         "https://jojo-portal.com/about/bt/"
@@ -1654,14 +2411,14 @@
       "growth": "过分依赖一套准则，可能看不见情境中的其他价值",
       "vector": {
         "initiative": 62.5,
-        "adaptability": 25.0,
-        "social": 25.0,
+        "adaptability": 25,
+        "social": 25,
         "trust": 37.5,
         "values": 87.5,
         "ambition": 62.5,
-        "emotion": 25.0,
+        "emotion": 25,
         "focus": 62.5,
-        "risk": 75.0
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/bt/"
@@ -1689,14 +2446,49 @@
       "growth": "把目标绝对化时，容易忽略伦理与他人的主体性",
       "vector": {
         "initiative": 37.5,
-        "adaptability": 75.0,
+        "adaptability": 75,
         "social": 37.5,
-        "trust": 25.0,
+        "trust": 25,
         "values": 12.5,
         "ambition": 87.5,
         "emotion": 37.5,
-        "focus": 75.0,
-        "risk": 75.0
+        "focus": 75,
+        "risk": 75
+      },
+      "sources": [
+        "https://jojo-portal.com/about/bt/"
+      ]
+    },
+    {
+      "id": "stroheim",
+      "name": "鲁道夫·冯·史特雷海姆",
+      "en": "Rudol von Stroheim",
+      "part": 2,
+      "parts": [
+        2
+      ],
+      "role": "强硬的技术狂",
+      "summary": "自信、果断，相信纪律与技术能扭转局面。说话直来直去，行动效率极高，对同伴也有意外的信用。",
+      "traits": [
+        "强硬",
+        "效率",
+        "技术信仰"
+      ],
+      "coreValue": "用实力与纪律拿下结果",
+      "strengths": [
+        "决断快，执行力强，关键时刻敢站到最前面"
+      ],
+      "growth": "自信过了头时，容易忽略他人的节奏与感受",
+      "vector": {
+        "initiative": 88,
+        "adaptability": 55,
+        "social": 62,
+        "trust": 48,
+        "values": 40,
+        "ambition": 82,
+        "emotion": 70,
+        "focus": 58,
+        "risk": 78
       },
       "sources": [
         "https://jojo-portal.com/about/bt/"
@@ -1726,14 +2518,14 @@
       "growth": "不解释自己的关心，容易被误读成疏离",
       "vector": {
         "initiative": 62.5,
-        "adaptability": 50.0,
+        "adaptability": 50,
         "social": 12.5,
         "trust": 37.5,
-        "values": 75.0,
-        "ambition": 50.0,
+        "values": 75,
+        "ambition": 50,
         "emotion": 12.5,
-        "focus": 75.0,
-        "risk": 50.0
+        "focus": 75,
+        "risk": 50
       },
       "sources": [
         "https://jojo-portal.com/about/sc/"
@@ -1760,13 +2552,13 @@
       ],
       "growth": "独自思考过久，可能错过表达需要的时机",
       "vector": {
-        "initiative": 25.0,
+        "initiative": 25,
         "adaptability": 62.5,
-        "social": 25.0,
+        "social": 25,
         "trust": 62.5,
         "values": 62.5,
-        "ambition": 50.0,
-        "emotion": 25.0,
+        "ambition": 50,
+        "emotion": 25,
         "focus": 87.5,
         "risk": 37.5
       },
@@ -1796,14 +2588,14 @@
       "growth": "情绪高涨时，容易先行动再确认信息",
       "vector": {
         "initiative": 87.5,
-        "adaptability": 50.0,
+        "adaptability": 50,
         "social": 87.5,
         "trust": 62.5,
         "values": 62.5,
-        "ambition": 50.0,
+        "ambition": 50,
         "emotion": 87.5,
-        "focus": 50.0,
-        "risk": 75.0
+        "focus": 50,
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/sc/"
@@ -1830,15 +2622,15 @@
       ],
       "growth": "过度替别人考虑风险，可能压住探索空间",
       "vector": {
-        "initiative": 25.0,
+        "initiative": 25,
         "adaptability": 37.5,
-        "social": 50.0,
-        "trust": 75.0,
-        "values": 75.0,
+        "social": 50,
+        "trust": 75,
+        "values": 75,
         "ambition": 37.5,
         "emotion": 37.5,
         "focus": 62.5,
-        "risk": 25.0
+        "risk": 25
       },
       "sources": [
         "https://jojo-portal.com/about/sc/"
@@ -1865,15 +2657,50 @@
       ],
       "growth": "防备与不配合可能让真正的善意难以靠近",
       "vector": {
-        "initiative": 50.0,
-        "adaptability": 75.0,
+        "initiative": 50,
+        "adaptability": 75,
         "social": 12.5,
         "trust": 12.5,
         "values": 37.5,
-        "ambition": 25.0,
+        "ambition": 25,
         "emotion": 37.5,
         "focus": 62.5,
-        "risk": 50.0
+        "risk": 50
+      },
+      "sources": [
+        "https://jojo-portal.com/about/sc/"
+      ]
+    },
+    {
+      "id": "hol_horse",
+      "name": "霍尔·荷斯",
+      "en": "Hol Horse",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "圆滑的骑枪手",
+      "summary": "外表随性、善于察言观色，关键时刻仍有自己的底线。比起硬刚，他更擅长找活路与谈条件。",
+      "traits": [
+        "圆滑",
+        "务实",
+        "自保"
+      ],
+      "coreValue": "先活下来，再谈理想",
+      "strengths": [
+        "灵活应变，识时务，必要时能做出务实选择"
+      ],
+      "growth": "过度自保时，可能错过需要挺身而出的瞬间",
+      "vector": {
+        "initiative": 55,
+        "adaptability": 82,
+        "social": 70,
+        "trust": 35,
+        "values": 32,
+        "ambition": 58,
+        "emotion": 48,
+        "focus": 55,
+        "risk": 62
       },
       "sources": [
         "https://jojo-portal.com/about/sc/"
@@ -1901,13 +2728,13 @@
       "growth": "在意的事被冒犯时，容易被情绪带走",
       "vector": {
         "initiative": 62.5,
-        "adaptability": 75.0,
-        "social": 75.0,
-        "trust": 75.0,
+        "adaptability": 75,
+        "social": 75,
+        "trust": 75,
         "values": 62.5,
         "ambition": 37.5,
-        "emotion": 75.0,
-        "focus": 50.0,
+        "emotion": 75,
+        "focus": 50,
         "risk": 62.5
       },
       "sources": [
@@ -1936,13 +2763,13 @@
       "growth": "先顾虑他人的反应，可能低估自己的判断",
       "vector": {
         "initiative": 37.5,
-        "adaptability": 50.0,
-        "social": 50.0,
+        "adaptability": 50,
+        "social": 50,
         "trust": 87.5,
-        "values": 75.0,
-        "ambition": 50.0,
-        "emotion": 50.0,
-        "focus": 75.0,
+        "values": 75,
+        "ambition": 50,
+        "emotion": 50,
+        "focus": 75,
         "risk": 37.5
       },
       "sources": [
@@ -1972,12 +2799,12 @@
       "vector": {
         "initiative": 87.5,
         "adaptability": 37.5,
-        "social": 75.0,
+        "social": 75,
         "trust": 87.5,
-        "values": 50.0,
+        "values": 50,
         "ambition": 37.5,
         "emotion": 87.5,
-        "focus": 25.0,
+        "focus": 25,
         "risk": 62.5
       },
       "sources": [
@@ -2006,15 +2833,15 @@
       ],
       "growth": "好奇与自信过盛时，容易忽略他人的意愿",
       "vector": {
-        "initiative": 50.0,
-        "adaptability": 75.0,
-        "social": 25.0,
+        "initiative": 50,
+        "adaptability": 75,
+        "social": 25,
         "trust": 12.5,
         "values": 62.5,
-        "ambition": 75.0,
+        "ambition": 75,
         "emotion": 37.5,
         "focus": 87.5,
-        "risk": 75.0
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/du/"
@@ -2041,15 +2868,85 @@
       ],
       "growth": "把个人安稳凌驾于他人之上，会造成严重伤害",
       "vector": {
-        "initiative": 25.0,
+        "initiative": 25,
         "adaptability": 12.5,
         "social": 12.5,
         "trust": 12.5,
-        "values": 25.0,
+        "values": 25,
         "ambition": 12.5,
         "emotion": 12.5,
         "focus": 87.5,
         "risk": 12.5
+      },
+      "sources": [
+        "https://jojo-portal.com/about/du/"
+      ]
+    },
+    {
+      "id": "yukako",
+      "name": "山岸由花子",
+      "en": "Yukako Yamagishi",
+      "part": 4,
+      "parts": [
+        4
+      ],
+      "role": "炽烈的偏执者",
+      "summary": "一旦认定某人某事，投入就会非常彻底。情感外放、行动果断，世界在她眼里常分成「在意」与「无关」。",
+      "traits": [
+        "炽烈",
+        "执着",
+        "外放"
+      ],
+      "coreValue": "为在意的人做到极致",
+      "strengths": [
+        "行动力强，情感真挚，敢于表达心意"
+      ],
+      "growth": "执着过了头，容易忽略对方的边界",
+      "vector": {
+        "initiative": 80,
+        "adaptability": 45,
+        "social": 55,
+        "trust": 30,
+        "values": 55,
+        "ambition": 70,
+        "emotion": 92,
+        "focus": 68,
+        "risk": 75
+      },
+      "sources": [
+        "https://jojo-portal.com/about/du/"
+      ]
+    },
+    {
+      "id": "hayato",
+      "name": "川尻早人",
+      "en": "Hayato Kawajiri",
+      "part": 4,
+      "parts": [
+        4
+      ],
+      "role": "冷静的少年观察者",
+      "summary": "年纪不大却异常冷静，善于从细节拼出真相。不爱张扬，但关键时刻会用清晰判断推动局面。",
+      "traits": [
+        "冷静",
+        "观察",
+        "缜密"
+      ],
+      "coreValue": "看清事实再行动",
+      "strengths": [
+        "观察力强，情绪稳定，能在压力下保持清晰"
+      ],
+      "growth": "过度克制时，可能把本该求助的事独自扛着",
+      "vector": {
+        "initiative": 58,
+        "adaptability": 62,
+        "social": 35,
+        "trust": 42,
+        "values": 72,
+        "ambition": 48,
+        "emotion": 28,
+        "focus": 90,
+        "risk": 45
       },
       "sources": [
         "https://jojo-portal.com/about/du/"
@@ -2077,12 +2974,12 @@
       "growth": "过度专注目标时，可能把自己的负担藏得太深",
       "vector": {
         "initiative": 37.5,
-        "adaptability": 75.0,
+        "adaptability": 75,
         "social": 37.5,
         "trust": 62.5,
         "values": 87.5,
         "ambition": 87.5,
-        "emotion": 25.0,
+        "emotion": 25,
         "focus": 62.5,
         "risk": 62.5
       },
@@ -2118,7 +3015,7 @@
         "values": 87.5,
         "ambition": 62.5,
         "emotion": 37.5,
-        "focus": 50.0,
+        "focus": 50,
         "risk": 62.5
       },
       "sources": [
@@ -2146,15 +3043,15 @@
       ],
       "growth": "把问题简化过头时，可能漏掉重要例外",
       "vector": {
-        "initiative": 75.0,
+        "initiative": 75,
         "adaptability": 62.5,
-        "social": 75.0,
-        "trust": 75.0,
+        "social": 75,
+        "trust": 75,
         "values": 37.5,
         "ambition": 37.5,
         "emotion": 62.5,
         "focus": 37.5,
-        "risk": 75.0
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/gw/"
@@ -2183,13 +3080,13 @@
       "vector": {
         "initiative": 87.5,
         "adaptability": 62.5,
-        "social": 75.0,
+        "social": 75,
         "trust": 87.5,
         "values": 62.5,
-        "ambition": 50.0,
+        "ambition": 50,
         "emotion": 87.5,
         "focus": 37.5,
-        "risk": 75.0
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/gw/"
@@ -2216,15 +3113,85 @@
       ],
       "growth": "过去的失望可能让他过早关闭新的可能",
       "vector": {
-        "initiative": 25.0,
-        "adaptability": 25.0,
+        "initiative": 25,
+        "adaptability": 25,
         "social": 12.5,
         "trust": 37.5,
-        "values": 50.0,
+        "values": 50,
         "ambition": 37.5,
-        "emotion": 25.0,
+        "emotion": 25,
         "focus": 87.5,
-        "risk": 25.0
+        "risk": 25
+      },
+      "sources": [
+        "https://jojo-portal.com/about/gw/"
+      ]
+    },
+    {
+      "id": "fugo",
+      "name": "潘纳科达·福葛",
+      "en": "Pannacotta Fugo",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "才气与怒火并存者",
+      "summary": "聪慧、敏感，标准很高。平时能理性分析，一旦触及底线就会爆发强烈情绪；对同伴的义理并不轻。",
+      "traits": [
+        "聪慧",
+        "易怒",
+        "高标准"
+      ],
+      "coreValue": "用才智守住自己的底线",
+      "strengths": [
+        "分析力强，原则感清晰，关键时敢表达反对"
+      ],
+      "growth": "情绪冲过头时，可能伤到自己也想保护的人",
+      "vector": {
+        "initiative": 65,
+        "adaptability": 58,
+        "social": 42,
+        "trust": 48,
+        "values": 68,
+        "ambition": 72,
+        "emotion": 85,
+        "focus": 78,
+        "risk": 55
+      },
+      "sources": [
+        "https://jojo-portal.com/about/gw/"
+      ]
+    },
+    {
+      "id": "trish",
+      "name": "特里休·乌纳",
+      "en": "Trish Una",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "成长中的自觉者",
+      "summary": "从被动保护到主动选择，她逐渐学会表达需求、承担责任。外表柔和，内里有清晰的自我边界。",
+      "traits": [
+        "自觉",
+        "柔软",
+        "成长"
+      ],
+      "coreValue": "成为能自己做决定的人",
+      "strengths": [
+        "善于倾听自我感受，愿意成长，关键时刻不退缩"
+      ],
+      "growth": "仍在学习如何在依赖与独立之间取得平衡",
+      "vector": {
+        "initiative": 52,
+        "adaptability": 68,
+        "social": 58,
+        "trust": 62,
+        "values": 70,
+        "ambition": 55,
+        "emotion": 65,
+        "focus": 55,
+        "risk": 48
       },
       "sources": [
         "https://jojo-portal.com/about/gw/"
@@ -2251,14 +3218,14 @@
       ],
       "growth": "撑得太久时，容易把求助误认为不够坚强",
       "vector": {
-        "initiative": 75.0,
-        "adaptability": 75.0,
+        "initiative": 75,
+        "adaptability": 75,
         "social": 62.5,
-        "trust": 75.0,
-        "values": 75.0,
-        "ambition": 75.0,
-        "emotion": 75.0,
-        "focus": 50.0,
+        "trust": 75,
+        "values": 75,
+        "ambition": 75,
+        "emotion": 75,
+        "focus": 50,
         "risk": 87.5
       },
       "sources": [
@@ -2286,13 +3253,13 @@
       ],
       "growth": "执着于单一目标时，可能压缩自己的其他选择",
       "vector": {
-        "initiative": 75.0,
+        "initiative": 75,
         "adaptability": 62.5,
         "social": 62.5,
         "trust": 62.5,
         "values": 62.5,
-        "ambition": 50.0,
-        "emotion": 75.0,
+        "ambition": 50,
+        "emotion": 75,
         "focus": 62.5,
         "risk": 62.5
       },
@@ -2323,13 +3290,13 @@
       "vector": {
         "initiative": 62.5,
         "adaptability": 87.5,
-        "social": 75.0,
+        "social": 75,
         "trust": 87.5,
         "values": 62.5,
         "ambition": 62.5,
-        "emotion": 75.0,
-        "focus": 75.0,
-        "risk": 75.0
+        "emotion": 75,
+        "focus": 75,
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/so/"
@@ -2359,12 +3326,12 @@
         "initiative": 37.5,
         "adaptability": 62.5,
         "social": 12.5,
-        "trust": 50.0,
-        "values": 50.0,
+        "trust": 50,
+        "values": 50,
         "ambition": 37.5,
         "emotion": 12.5,
-        "focus": 75.0,
-        "risk": 50.0
+        "focus": 75,
+        "risk": 50
       },
       "sources": [
         "https://jojo-portal.com/about/so/"
@@ -2391,15 +3358,85 @@
       ],
       "growth": "把个人信念普遍化，容易剥夺别人的自主权",
       "vector": {
-        "initiative": 25.0,
+        "initiative": 25,
         "adaptability": 37.5,
-        "social": 25.0,
-        "trust": 25.0,
+        "social": 25,
+        "trust": 25,
         "values": 87.5,
         "ambition": 87.5,
-        "emotion": 25.0,
+        "emotion": 25,
         "focus": 12.5,
         "risk": 62.5
+      },
+      "sources": [
+        "https://jojo-portal.com/about/so/"
+      ]
+    },
+    {
+      "id": "anasui",
+      "name": "纳西索·阿纳苏",
+      "en": "Narciso Anasui",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "偏执的守护者",
+      "summary": "目标一旦锁定就极难动摇，手段可以非常极端。对在意的人有强烈保护欲，情绪表达直白而浓烈。",
+      "traits": [
+        "偏执",
+        "忠诚",
+        "极端"
+      ],
+      "coreValue": "用一切手段守护认定的人",
+      "strengths": [
+        "执行力极强，目标清晰，关键时不计代价"
+      ],
+      "growth": "手段与目标容易失衡，需要外力提醒边界",
+      "vector": {
+        "initiative": 78,
+        "adaptability": 50,
+        "social": 38,
+        "trust": 25,
+        "values": 45,
+        "ambition": 68,
+        "emotion": 88,
+        "focus": 72,
+        "risk": 82
+      },
+      "sources": [
+        "https://jojo-portal.com/about/so/"
+      ]
+    },
+    {
+      "id": "emporio",
+      "name": "恩波里欧·阿尔尼诺",
+      "en": "Emporio Alniño",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "机敏的幸存者",
+      "summary": "在艰难环境中长大，养成了观察、收集情报与互助的习惯。外表稚嫩，判断却常常冷静而实用。",
+      "traits": [
+        "机敏",
+        "互助",
+        "务实"
+      ],
+      "coreValue": "用智慧帮大家一起活下去",
+      "strengths": [
+        "情报意识强，懂得借助环境与同伴，冷静判断"
+      ],
+      "growth": "习惯自给自足后，有时会把压力独自消化得太久",
+      "vector": {
+        "initiative": 60,
+        "adaptability": 78,
+        "social": 55,
+        "trust": 70,
+        "values": 75,
+        "ambition": 50,
+        "emotion": 45,
+        "focus": 82,
+        "risk": 55
       },
       "sources": [
         "https://jojo-portal.com/about/so/"
@@ -2426,15 +3463,15 @@
       ],
       "growth": "急于抓住希望时，可能把视野收得过窄",
       "vector": {
-        "initiative": 50.0,
+        "initiative": 50,
         "adaptability": 62.5,
-        "social": 25.0,
+        "social": 25,
         "trust": 37.5,
-        "values": 50.0,
+        "values": 50,
         "ambition": 87.5,
-        "emotion": 50.0,
-        "focus": 75.0,
-        "risk": 75.0
+        "emotion": 50,
+        "focus": 75,
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/sbr/"
@@ -2461,15 +3498,15 @@
       ],
       "growth": "轻松的外表有时会让人低估他的认真，也可能掩住自己的压力",
       "vector": {
-        "initiative": 75.0,
-        "adaptability": 75.0,
-        "social": 75.0,
+        "initiative": 75,
+        "adaptability": 75,
+        "social": 75,
         "trust": 62.5,
-        "values": 75.0,
+        "values": 75,
         "ambition": 62.5,
         "emotion": 62.5,
         "focus": 62.5,
-        "risk": 75.0
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/sbr/"
@@ -2496,14 +3533,14 @@
       ],
       "growth": "把关系过度看成竞争，可能错过真诚的支持",
       "vector": {
-        "initiative": 75.0,
-        "adaptability": 75.0,
-        "social": 50.0,
+        "initiative": 75,
+        "adaptability": 75,
+        "social": 50,
         "trust": 12.5,
-        "values": 25.0,
+        "values": 25,
         "ambition": 87.5,
-        "emotion": 50.0,
-        "focus": 75.0,
+        "emotion": 50,
+        "focus": 75,
         "risk": 87.5
       },
       "sources": [
@@ -2532,14 +3569,14 @@
       "growth": "将使命凌驾于个体之上，容易合理化伤害",
       "vector": {
         "initiative": 37.5,
-        "adaptability": 50.0,
+        "adaptability": 50,
         "social": 62.5,
-        "trust": 25.0,
-        "values": 75.0,
+        "trust": 25,
+        "values": 75,
         "ambition": 87.5,
-        "emotion": 25.0,
+        "emotion": 25,
         "focus": 12.5,
-        "risk": 75.0
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/sbr/"
@@ -2568,11 +3605,11 @@
       "vector": {
         "initiative": 62.5,
         "adaptability": 62.5,
-        "social": 25.0,
-        "trust": 25.0,
+        "social": 25,
+        "trust": 25,
         "values": 62.5,
         "ambition": 62.5,
-        "emotion": 25.0,
+        "emotion": 25,
         "focus": 62.5,
         "risk": 62.5
       },
@@ -2603,9 +3640,9 @@
       "growth": "追索答案时，可能对不确定的关系与自身位置感到急切",
       "vector": {
         "initiative": 62.5,
-        "adaptability": 75.0,
+        "adaptability": 75,
         "social": 37.5,
-        "trust": 50.0,
+        "trust": 50,
         "values": 62.5,
         "ambition": 62.5,
         "emotion": 37.5,
@@ -2638,14 +3675,14 @@
       "growth": "过度关心他人时，需要及时确认自己的需要与安全边界",
       "vector": {
         "initiative": 37.5,
-        "adaptability": 75.0,
+        "adaptability": 75,
         "social": 62.5,
         "trust": 87.5,
-        "values": 75.0,
-        "ambition": 50.0,
-        "emotion": 50.0,
+        "values": 75,
+        "ambition": 50,
+        "emotion": 50,
         "focus": 87.5,
-        "risk": 50.0
+        "risk": 50
       },
       "sources": [
         "https://jojo-portal.com/about/jl/"
@@ -2672,15 +3709,15 @@
       ],
       "growth": "效率优先的表达，容易让他人的感受被忽略",
       "vector": {
-        "initiative": 25.0,
+        "initiative": 25,
         "adaptability": 62.5,
         "social": 12.5,
-        "trust": 25.0,
+        "trust": 25,
         "values": 37.5,
         "ambition": 62.5,
-        "emotion": 25.0,
+        "emotion": 25,
         "focus": 87.5,
-        "risk": 50.0
+        "risk": 50
       },
       "sources": [
         "https://jojo-portal.com/about/jl/",
@@ -2710,12 +3747,12 @@
       "vector": {
         "initiative": 62.5,
         "adaptability": 62.5,
-        "social": 50.0,
-        "trust": 25.0,
-        "values": 50.0,
-        "ambition": 75.0,
+        "social": 50,
+        "trust": 25,
+        "values": 50,
+        "ambition": 75,
         "emotion": 37.5,
-        "focus": 75.0,
+        "focus": 75,
         "risk": 62.5
       },
       "sources": [
@@ -2745,11 +3782,11 @@
       "vector": {
         "initiative": 12.5,
         "adaptability": 62.5,
-        "social": 25.0,
+        "social": 25,
         "trust": 12.5,
-        "values": 25.0,
-        "ambition": 75.0,
-        "emotion": 25.0,
+        "values": 25,
+        "ambition": 75,
+        "emotion": 25,
         "focus": 37.5,
         "risk": 37.5
       },
@@ -2780,14 +3817,14 @@
       "growth": "只关注机制与收益时，可能忽略关系中的感受与代价",
       "vector": {
         "initiative": 62.5,
-        "adaptability": 75.0,
-        "social": 25.0,
+        "adaptability": 75,
+        "social": 25,
         "trust": 37.5,
-        "values": 25.0,
+        "values": 25,
         "ambition": 87.5,
         "emotion": 37.5,
-        "focus": 25.0,
-        "risk": 75.0
+        "focus": 25,
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/tjl/",
@@ -2818,11 +3855,11 @@
         "initiative": 37.5,
         "adaptability": 62.5,
         "social": 62.5,
-        "trust": 75.0,
+        "trust": 75,
         "values": 62.5,
-        "ambition": 50.0,
-        "emotion": 50.0,
-        "focus": 75.0,
+        "ambition": 50,
+        "emotion": 50,
+        "focus": 75,
         "risk": 37.5
       },
       "sources": [
@@ -2853,13 +3890,13 @@
       "vector": {
         "initiative": 87.5,
         "adaptability": 62.5,
-        "social": 50.0,
-        "trust": 50.0,
+        "social": 50,
+        "trust": 50,
         "values": 37.5,
         "ambition": 62.5,
         "emotion": 62.5,
         "focus": 62.5,
-        "risk": 75.0
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/tjl/",
@@ -2890,12 +3927,12 @@
         "initiative": 62.5,
         "adaptability": 87.5,
         "social": 87.5,
-        "trust": 75.0,
-        "values": 50.0,
+        "trust": 75,
+        "values": 50,
         "ambition": 62.5,
         "emotion": 87.5,
-        "focus": 75.0,
-        "risk": 75.0
+        "focus": 75,
+        "risk": 75
       },
       "sources": [
         "https://jojo-portal.com/about/tjl/",
@@ -2927,11 +3964,11 @@
         "adaptability": 62.5,
         "social": 62.5,
         "trust": 37.5,
-        "values": 25.0,
-        "ambition": 75.0,
+        "values": 25,
+        "ambition": 75,
         "emotion": 37.5,
-        "focus": 25.0,
-        "risk": 50.0
+        "focus": 25,
+        "risk": 50
       },
       "sources": [
         "https://jojo-portal.com/about/tjl/",
@@ -2998,19 +4035,101 @@
   "scoring": {
     "method": "equal_weight_rms_distance",
     "choiceValues": [
+      -3,
       -2,
       -1,
+      0,
       1,
-      2
+      2,
+      3
     ],
     "itemsPerDimension": 4,
-    "normalization": "50 + 6.25 * sum(scores for dimension)",
+    "normalization": "50 + 50 * sum(scores) / capacity; capacity = sum of max|score| per item (Likert ±3 × 4 items/dim)",
     "distance": "sqrt(mean((userDimension - characterDimension)^2))",
     "displayScore": "round(100 - distance)",
     "scoreLabel": "风格接近度",
     "scoreIsProbability": false,
     "tieBreak": "character id ascending",
     "requiredAnswers": 36,
-    "randomness": false
-  }
+    "randomness": false,
+    "worksBoost": "If user selected part-N works, subtract a fixed distance boost for characters whose primary part is N (skipped when only「几乎没看过」). Full ranking still shown; boost only reorders close matches.",
+    "scale": "likert7",
+    "agreePole": "high"
+  },
+  "works": [
+    {
+      "id": "part-1",
+      "label": "第 1 部 · 幻影之血",
+      "kind": "part",
+      "part": 1
+    },
+    {
+      "id": "part-2",
+      "label": "第 2 部 · 战斗潮流",
+      "kind": "part",
+      "part": 2
+    },
+    {
+      "id": "part-3",
+      "label": "第 3 部 · 星尘斗士",
+      "kind": "part",
+      "part": 3
+    },
+    {
+      "id": "part-4",
+      "label": "第 4 部 · 不灭钻石",
+      "kind": "part",
+      "part": 4
+    },
+    {
+      "id": "part-5",
+      "label": "第 5 部 · 黄金之风",
+      "kind": "part",
+      "part": 5
+    },
+    {
+      "id": "part-6",
+      "label": "第 6 部 · 石之海",
+      "kind": "part",
+      "part": 6
+    },
+    {
+      "id": "part-7",
+      "label": "第 7 部 · 飙马野郎",
+      "kind": "part",
+      "part": 7
+    },
+    {
+      "id": "part-8",
+      "label": "第 8 部 · JOJO福音",
+      "kind": "part",
+      "part": 8
+    },
+    {
+      "id": "part-9",
+      "label": "第 9 部 · The JOJOLands",
+      "kind": "part",
+      "part": 9
+    },
+    {
+      "id": "ova",
+      "label": "动画映画／OVA",
+      "kind": "extra"
+    },
+    {
+      "id": "games",
+      "label": "游戏（天堂之门等）",
+      "kind": "extra"
+    },
+    {
+      "id": "extras",
+      "label": "番外／短篇",
+      "kind": "extra"
+    },
+    {
+      "id": "none",
+      "label": "我几乎没看过／只知道梗",
+      "kind": "none"
+    }
+  ]
 }
