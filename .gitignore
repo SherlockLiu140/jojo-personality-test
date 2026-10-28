@@ -1,0 +1,27 @@
+# Credentials and private local state
+.env
+.env.*
+!.env.example
+.openai/
+.codex/
+.agents/
+.aws/
+*.pem
+*.key
+credentials*
+cookies*
+storage-state*.json
+
+# Local tools, generated archives and QA output
+node_modules/
+coverage/
+playwright-report/
+test-results/
+screenshots/
+qa-output/
+*.log
+*.zip
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
