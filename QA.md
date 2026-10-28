@@ -6,7 +6,7 @@
 
 - Node 语法检查：app.js、engine.js、art.js、data.js。
 - npm test：7 个自动测试组全部通过；每个版本包含 2,000 组固定种子的评分回归。
-- 36 道题、45 位角色、9 个维度；输入校验、确定性、范围、排序及平分规则。
+- 36 道程度题、53 位角色、9 个维度；输入校验、确定性、范围、排序及平分规则。
 - 浏览器数据与 JSON 数据一致，全部运行时图片引用均指向包内存在的本地文件。
 - 未发现运行时 fetch／XHR／WebSocket／sendBeacon、远程脚本、CSS 导入或远程图片加载。
 - 完整版的 app.js、engine.js、index.html、styles.css、data.json 与原预览版字节一致；90 张 WebP 图片也全部字节一致。
