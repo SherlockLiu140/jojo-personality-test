@@ -1,5 +1,7 @@
 # 奇妙人格档案 · JOJO Personality Archive
 
+> **非官方粉丝企划，仅供趣味测试，非商用。** Unofficial fan project for entertainment only — not affiliated with JoJo rights holders; not for commercial use.
+
 一个无需后端、无需构建的中文 JOJO 同人人格趣味测试。使用原生 HTML、CSS、JavaScript；完整解压后即可在桌面浏览器中打开 `index.html`。
 
 > **当前为完整配图预览包。** 保留原设计、45 张角色配图和 45 张缩略图。项目原创代码采用 MIT；官方／漫画图片、角色及其他第三方权利不受 MIT 授权。现有记录未验证这些图片的再分发许可。公开仓库、公开部署或商业使用前，应先确认素材权利，或采用不含第三方图片的独立开源版。署名与非商业用途不等于授权。
