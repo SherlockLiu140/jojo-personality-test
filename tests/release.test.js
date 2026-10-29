@@ -141,6 +141,13 @@ test('runtime has no remote asset loading or network submission APIs', () => {
   for (const file of ['styles.css', 'data.js', 'art.js', 'engine.js', 'app.js']) assert.ok(fs.statSync(path.join(root, file)).isFile());
   assert.match(read('app.js'), /likert/);
   assert.match(read('app.js'), /works/);
+  assert.match(read('app.js'), /GROUP_SIZE\s*=\s*3/);
+  assert.match(read('app.js'), /group-next/);
+  assert.match(read('app.js'), /scrollToNextUnanswered|scrollIntoView/);
+  assert.match(read('app.js'), /查看结果/);
+  assert.doesNotMatch(read('app.js'), /id="previous-question"|下一题/);
+  assert.match(read('styles.css'), /button-group-next/);
+  assert.match(read('styles.css'), /quiz-divider/);
 });
 
 test('release tree contains no credential files or private workspace metadata', () => {
