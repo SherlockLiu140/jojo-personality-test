@@ -31,7 +31,7 @@ test('36 Likert questions, expanded cast and 9 dimensions are valid', () => {
   assert.equal(data.parts.length, 9);
   assert.equal(new Set(data.characters.map(c => c.id)).size, CHAR_COUNT);
   assert.equal(new Set(data.questions.map(q => q.id)).size, Q_COUNT);
-  assert.equal(raw.meta.version, '1.1.0');
+  assert.equal(raw.meta.version, '1.2.0');
   assert.equal(raw.meta.characterCount, CHAR_COUNT);
   assert.deepEqual(raw.scoring.choiceValues, [-3, -2, -1, 0, 1, 2, 3]);
   assert.ok(Array.isArray(raw.works) && raw.works.length >= 10);
@@ -165,4 +165,47 @@ test('release tree contains no credential files or private workspace metadata', 
     }
   }
   visit(root);
+});
+
+test('all 73 profiles, including 20 new additions, can rank first on valid answer paths', () => {
+  const added = ['diavolo', 'doppio', 'risotto', 'prosciutto', 'ghiaccio', 'gwess', 'versus', 'rikiel',
+    'lucy_steel', 'ringo', 'wekapipo', 'mountain_tim', 'sandman', 'norisuke4', 'joshu', 'kei', 'kaato',
+    'charming_man', 'lulu', 'bobby_jean'];
+  assert.equal(data.characters.length, 73);
+  const ids = new Set(data.characters.map(c => c.id));
+  assert.equal(new Set(data.characters.map(c => JSON.stringify(c.vector))).size, ids.size);
+  for (const id of added) {
+    assert.ok(ids.has(id), `missing ${id}`);
+    const image = art.find(a => a.id === id);
+    assert.equal(image.placeholder, true);
+    assert.equal(image.image, null);
+    assert.equal(image.thumbnail, null);
+  }
+  let seed = 20261121;
+  const random = () => { seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0; return seed / 4294967296; };
+  const winners = new Set();
+  for (let run = 0; run < 10000; run++) {
+    const bias = Object.fromEntries(data.dimensions.map(d => [d.id, random() * 6]));
+    const answers = raw.questions.map(q => Math.round(Math.max(0, Math.min(6, bias[q.category] + (random() - 0.5) * 2))));
+    winners.add(engine.score(answers, data).ranking[0].id);
+  }
+  assert.deepEqual([...ids].filter(id => !winners.has(id)), [], 'unreachable result profiles');
+});
+
+test('v1.1 completed answers survive the roster update and new profiles render', () => {
+  const answers = Array(Q_COUNT).fill(3);
+  const stored = JSON.stringify({version:'1.1.0', answers, complete:true, works:['part-7'], worksDone:true});
+  const main = {innerHTML:''};
+  const document = {body:{dataset:{}}, querySelectorAll:() => [], getElementById:id => id==='main' ? main : null};
+  const location = {hash:'#/result'};
+  const window = {JOJO_DATA:raw, JOJO_ART:art, JOJO_NORMALIZE:engine.normalize, JOJO_ENGINE:engine, addEventListener:() => {}};
+  const localStorage = {getItem:() => stored};
+  vm.runInNewContext(read('app.js'), {document, location, window, localStorage});
+  assert.doesNotMatch(main.innerHTML, /你的冒险，还差几页/);
+  assert.match(main.innerHTML, /<svg/);
+
+  location.hash = '#/character/lucy_steel';
+  vm.runInNewContext(read('app.js'), {document, location, window, localStorage});
+  assert.match(main.innerHTML, /露西·史提尔/);
+  assert.match(main.innerHTML, /fallback-art/);
 });

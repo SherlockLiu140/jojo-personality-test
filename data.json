@@ -1,15 +1,15 @@
 {
   "meta": {
     "id": "jojo-personality-36-likert",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "language": "zh-CN",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-11-21",
     "questionCount": 36,
-    "characterCount": 53,
+    "characterCount": 73,
     "estimatedMinutes": "8–12",
     "title": "你的奇妙人格",
     "subtitle": "先勾选看过的作品，再回答 36 道程度题，找到与你共鸣的 JOJO 角色",
-    "scope": "覆盖漫画主线第 1–9 部的 53 位代表角色（含新增主力队员／关键配角），不含全部角色、外传与游戏原创人物。新增角色暂无官方立绘，以首字母占位呈现。",
+    "scope": "覆盖漫画主线第 1–9 部的 73 位代表角色，本次重点补充第 5–9 部。新增角色可作为匹配结果，并收入角色图鉴；暂无配图的角色沿用姓名占位。并非穷尽全角色。",
     "disclaimer": "这是基于角色解读制作的娱乐性风格匹配，不是心理诊断或经科学验证的人格量表。结果不评价能力、道德或心理健康。",
     "villainDisclaimer": "与反派角色相似，只表示某些做事风格接近，不代表认同其行为，也不意味着你具有相同的道德倾向。",
     "interpretationNote": "角色标签、文字解读与数值原型为本测验的原创解读，并非官方人格设定。",
@@ -3198,6 +3198,182 @@
       ]
     },
     {
+      "id": "diavolo",
+      "name": "迪亚波罗",
+      "en": "Diavolo",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "拒绝失控的掌局者",
+      "summary": "你习惯把信息握在自己手里，直到有把握才现身行动。你追求的不是喝彩，而是无论局势如何变化，自己都能决定下一步。",
+      "traits": [
+        "隐蔽",
+        "控局",
+        "预判"
+      ],
+      "coreValue": "把失控的可能性压到最低",
+      "strengths": [
+        "擅长识别会影响大局的风险，能在时机成熟时果断拍板"
+      ],
+      "growth": "并不是每个信息差都值得维持。给可信的人一点知情权，局面有时反而更稳。",
+      "vector": {
+        "initiative": 33,
+        "adaptability": 67,
+        "social": 17,
+        "trust": 8,
+        "values": 8,
+        "ambition": 92,
+        "emotion": 25,
+        "focus": 25,
+        "risk": 17
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/"
+      ]
+    },
+    {
+      "id": "doppio",
+      "name": "维内加·多比欧",
+      "en": "Vinegar Doppio",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "紧张却机灵的执行者",
+      "summary": "你对意外格外敏感，平时看起来有些局促；真接到一个明确任务时，却能靠眼前的小线索想出路来。",
+      "traits": [
+        "应变",
+        "投入",
+        "细察"
+      ],
+      "coreValue": "把托付给自己的事做完",
+      "strengths": [
+        "在手头资源很少时仍能抓住细节，把任务往前推"
+      ],
+      "growth": "别人给的任务未必适合你。先问一句为什么，比埋头服从更能保护自己。",
+      "vector": {
+        "initiative": 58,
+        "adaptability": 92,
+        "social": 42,
+        "trust": 67,
+        "values": 42,
+        "ambition": 33,
+        "emotion": 75,
+        "focus": 92,
+        "risk": 42
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/story/",
+        "https://jojo-portal.com/anime/gw/character/"
+      ]
+    },
+    {
+      "id": "risotto",
+      "name": "里苏特·涅罗",
+      "en": "Risotto Nero",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "沉默的伏线队长",
+      "summary": "你不靠高声指挥让人服气，更擅长等待、观察和核查细节。队伍利益受损时，你往往先弄明白原因，再决定是否冒险追下去。",
+      "traits": [
+        "隐忍",
+        "追查",
+        "护队"
+      ],
+      "coreValue": "先把证据找全，再为队伍争取主动",
+      "strengths": [
+        "能在噪声里发现异常并持续追查，也愿意为队友承担压力"
+      ],
+      "growth": "长期埋头搜证容易让队友猜不透你；适时同步，让他们知道何时接手。",
+      "vector": {
+        "initiative": 17,
+        "adaptability": 58,
+        "social": 8,
+        "trust": 58,
+        "values": 58,
+        "ambition": 67,
+        "emotion": 8,
+        "focus": 100,
+        "risk": 58
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/"
+      ]
+    },
+    {
+      "id": "prosciutto",
+      "name": "普罗修特",
+      "en": "Prosciutto",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "言行一致的严师",
+      "summary": "你不喜欢用空话掩饰犹豫，自己肯顶在前面，也希望搭档在关键时刻表现得同样可靠。",
+      "traits": [
+        "果决",
+        "带教",
+        "兑现"
+      ],
+      "coreValue": "行动兑现承诺",
+      "strengths": [
+        "标准清楚，能在高压下给同伴明确的方向"
+      ],
+      "growth": "要求严格不等于手把手支持。给新手留出试错时间，比反复催促有效。",
+      "vector": {
+        "initiative": 92,
+        "adaptability": 33,
+        "social": 67,
+        "trust": 67,
+        "values": 83,
+        "ambition": 50,
+        "emotion": 58,
+        "focus": 58,
+        "risk": 75
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/"
+      ]
+    },
+    {
+      "id": "ghiaccio",
+      "name": "加丘",
+      "en": "Ghiaccio",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "咬住漏洞的争论者",
+      "summary": "别人可能早就翻篇了，你却还能追着一个不合理的说法问到底。你在意措辞，也很难对不严谨装作没看见。",
+      "traits": [
+        "较真",
+        "锋利",
+        "直率"
+      ],
+      "coreValue": "发现逻辑漏洞就指出来",
+      "strengths": [
+        "擅长拆穿模糊说辞，在细节上不容易被糊弄"
+      ],
+      "growth": "尖锐的问题不必配上尖锐的语气。先分清是事实错误还是表达习惯。",
+      "vector": {
+        "initiative": 83,
+        "adaptability": 33,
+        "social": 50,
+        "trust": 25,
+        "values": 58,
+        "ambition": 50,
+        "emotion": 100,
+        "focus": 100,
+        "risk": 50
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/"
+      ]
+    },
+    {
       "id": "jolyne",
       "name": "空条徐伦",
       "en": "Jolyne Cujoh",
@@ -3443,6 +3619,113 @@
       ]
     },
     {
+      "id": "gwess",
+      "name": "古艾丝",
+      "en": "Gwess",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "忽冷忽热的试探者",
+      "summary": "你很快能察觉谁掌握主动权，也会主动靠近别人试探底线。只要关系不对等，你就很难真正放松下来。",
+      "traits": [
+        "试探",
+        "察言观色",
+        "掌控"
+      ],
+      "coreValue": "在陌生关系里先找到自己的筹码",
+      "strengths": [
+        "对人际气氛和地位变化很敏锐，发现不对劲时转得快"
+      ],
+      "growth": "让别人害怕和让别人信任是两件事；用清楚的规则代替反复试探。",
+      "vector": {
+        "initiative": 75,
+        "adaptability": 83,
+        "social": 83,
+        "trust": 17,
+        "values": 17,
+        "ambition": 25,
+        "emotion": 92,
+        "focus": 67,
+        "risk": 42
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/so/character/09/",
+        "https://jojo-portal.com/anime/so/character/"
+      ]
+    },
+    {
+      "id": "versus",
+      "name": "多纳泰罗·凡苏斯",
+      "en": "Donatello Versus",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "不肯认领坏运气的人",
+      "summary": "你不愿被不公平的起点定义，也不甘心只做别人的棋子。看到翻盘机会时，你宁愿接手决定，也不喜欢坐等安排。",
+      "traits": [
+        "自立",
+        "不甘",
+        "反击"
+      ],
+      "coreValue": "别让别人替我写完结局",
+      "strengths": [
+        "在被动局面里仍有争回选择权的冲劲"
+      ],
+      "growth": "先分清是在改善处境，还是单纯想赢回一口气。后者容易让你错估代价。",
+      "vector": {
+        "initiative": 83,
+        "adaptability": 75,
+        "social": 33,
+        "trust": 8,
+        "values": 25,
+        "ambition": 92,
+        "emotion": 67,
+        "focus": 42,
+        "risk": 92
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/so/character/23/",
+        "https://jojo-portal.com/anime/so/character/"
+      ]
+    },
+    {
+      "id": "rikiel",
+      "name": "里奇艾尔",
+      "en": "Rikiel",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "从慌乱里找到节奏的人",
+      "summary": "你不是一开始就不怕，但越明白问题是怎么发生的，就越能在紧张中稳住自己。一个能讲得通的原理，有时比一句打气更管用。",
+      "traits": [
+        "自省",
+        "观察",
+        "突破"
+      ],
+      "coreValue": "理解恐惧，才能带着它前进",
+      "strengths": [
+        "擅长把不安拆成具体问题，再一点点找回行动感"
+      ],
+      "growth": "不必靠一次极限表现证明勇气。允许自己用更小、更可重复的步骤练习。",
+      "vector": {
+        "initiative": 42,
+        "adaptability": 75,
+        "social": 25,
+        "trust": 42,
+        "values": 67,
+        "ambition": 75,
+        "emotion": 67,
+        "focus": 83,
+        "risk": 67
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/so/character/"
+      ]
+    },
+    {
       "id": "johnny",
       "name": "乔尼·乔斯达",
       "en": "Johnny Joestar",
@@ -3616,6 +3899,185 @@
       "sources": [
         "https://jojo-portal.com/about/sbr/",
         "https://jojowiki.com/Hot_Pants"
+      ]
+    },
+    {
+      "id": "lucy_steel",
+      "name": "露西·史提尔",
+      "en": "Lucy Steel",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "柔声却不退让的守护者",
+      "summary": "你不急着争主导权，却会为想保护的人主动承担风险。别人以为你只是旁观时，你可能已经想好怎样避开正面冲突。",
+      "traits": [
+        "机敏",
+        "守护",
+        "静定"
+      ],
+      "coreValue": "不让重要的人独自扛下风险",
+      "strengths": [
+        "在力量悬殊的情境里能保持清醒，找出对方忽略的办法"
+      ],
+      "growth": "习惯替亲近的人把风险挡下来时，也要让对方参与决定。",
+      "vector": {
+        "initiative": 58,
+        "adaptability": 92,
+        "social": 25,
+        "trust": 75,
+        "values": 92,
+        "ambition": 42,
+        "emotion": 25,
+        "focus": 83,
+        "risk": 83
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sbr/character/04/",
+        "https://jojo-portal.com/anime/sbr/character/"
+      ]
+    },
+    {
+      "id": "ringo",
+      "name": "林可·罗德艾根",
+      "en": "Ringo Roadagain",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "按原则迎战的严苛者",
+      "summary": "你把成长看成一场不能糊弄过去的较量，讨厌占便宜，更看重双方是否在同样的条件下做选择。",
+      "traits": [
+        "原则",
+        "对等",
+        "自律"
+      ],
+      "coreValue": "让胜负建立在清楚且对等的规则上",
+      "strengths": [
+        "压力越大，越能按自己认同的标准做事"
+      ],
+      "growth": "公平不只一种形式。别人不接受你的规则，不代表他们不敢承担。",
+      "vector": {
+        "initiative": 58,
+        "adaptability": 17,
+        "social": 17,
+        "trust": 17,
+        "values": 100,
+        "ambition": 83,
+        "emotion": 17,
+        "focus": 67,
+        "risk": 83
+      },
+      "sources": [
+        "https://jojo-portal.com/about/sbr/",
+        "https://jojo-portal.com/anime/sbr/character/"
+      ]
+    },
+    {
+      "id": "wekapipo",
+      "name": "威卡毕博",
+      "en": "Wekapipo",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "有分寸的孤身护卫",
+      "summary": "你不擅长说漂亮话，但承诺过的事会跟到底。必要时你能和立场不同的人做短暂的同路人，不会把合作误当成全盘认同。",
+      "traits": [
+        "克制",
+        "守约",
+        "务实"
+      ],
+      "coreValue": "不把应负的责任推给别人",
+      "strengths": [
+        "在立场复杂的环境中依然能拎清该护谁、该做什么"
+      ],
+      "growth": "独自承担并不总是可靠。让伙伴提前知道你的界线，比临场默契更稳。",
+      "vector": {
+        "initiative": 50,
+        "adaptability": 58,
+        "social": 17,
+        "trust": 42,
+        "values": 83,
+        "ambition": 42,
+        "emotion": 8,
+        "focus": 75,
+        "risk": 58
+      },
+      "sources": [
+        "https://books.shueisha.co.jp/items/contents.html?isbn=978-4-08-619667-3",
+        "https://jojo-portal.com/anime/sbr/character/"
+      ]
+    },
+    {
+      "id": "mountain_tim",
+      "name": "曼登·提姆",
+      "en": "Mountain Tim",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "愿意伸手的行路人",
+      "summary": "独行让你自在，却不妨碍你在别人困难时伸手。你擅长在陌生环境中观察路径，也愿意承担没人分配给你的责任。",
+      "traits": [
+        "独立",
+        "援手",
+        "从容"
+      ],
+      "coreValue": "有余力时，不对眼前的困境袖手旁观",
+      "strengths": [
+        "环境感强，兼具独立处理问题与临时支援队友的能力"
+      ],
+      "growth": "主动帮忙之前，先确认对方需要怎样的帮助，也给自己的安全留一道退路。",
+      "vector": {
+        "initiative": 67,
+        "adaptability": 83,
+        "social": 42,
+        "trust": 58,
+        "values": 83,
+        "ambition": 42,
+        "emotion": 42,
+        "focus": 67,
+        "risk": 83
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sbr/story/",
+        "https://jojo-portal.com/anime/sbr/character/"
+      ]
+    },
+    {
+      "id": "sandman",
+      "name": "砂男",
+      "en": "Sand Man",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "走自己路线的实干者",
+      "summary": "你很少因为大家都采用一种方法，就放弃自己的长处。目标对你有真实分量，先用适合自己的方式跑起来，比解释给所有人听更重要。",
+      "traits": [
+        "自持",
+        "独行",
+        "实干"
+      ],
+      "coreValue": "选择能实际守住所重视事物的路线",
+      "strengths": [
+        "不容易被惯例绑住，能把长期目标落实成自己的节奏"
+      ],
+      "growth": "单打独斗能保持自主，但遇到边界问题时，主动了解别人的方案并不等于让步。",
+      "vector": {
+        "initiative": 75,
+        "adaptability": 67,
+        "social": 8,
+        "trust": 25,
+        "values": 50,
+        "ambition": 83,
+        "emotion": 17,
+        "focus": 50,
+        "risk": 92
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sbr/character/"
       ]
     },
     {
@@ -3796,6 +4258,147 @@
       ]
     },
     {
+      "id": "norisuke4",
+      "name": "东方宪助（四代目）",
+      "en": "Norisuke Higashikata IV",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "维系家业的务实长辈",
+      "summary": "你善于把复杂的人和事放回日常秩序里处理。对自己认定该照顾的人，你多半愿意留出余地，也希望他们尊重共同的边界。",
+      "traits": [
+        "持家",
+        "照拂",
+        "周全"
+      ],
+      "coreValue": "让共同生活和长期承诺都能维持下去",
+      "strengths": [
+        "会协调关系、分担责任，擅长在争执时把事情拉回现实"
+      ],
+      "growth": "顾全家里人的感受时，不妨把难听但必要的话说得更早些。",
+      "vector": {
+        "initiative": 33,
+        "adaptability": 58,
+        "social": 75,
+        "trust": 83,
+        "values": 67,
+        "ambition": 33,
+        "emotion": 50,
+        "focus": 33,
+        "risk": 17
+      },
+      "sources": [
+        "https://jojo-portal.com/about/jjl/"
+      ]
+    },
+    {
+      "id": "joshu",
+      "name": "东方常秀",
+      "en": "Joshu Higashikata",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "渴望被看见的争先者",
+      "summary": "你很在意自己有没有被当回事，别人越轻视，你越想赶紧做点什么证明自己。你的真心话通常藏不久，闹起来也很难装得若无其事。",
+      "traits": [
+        "好胜",
+        "直接",
+        "求认可"
+      ],
+      "coreValue": "让别人看见自己的存在感",
+      "strengths": [
+        "不怕表达意见，在一群人都迟疑时敢出声"
+      ],
+      "growth": "得到关注不等于赢得信任。给对方留出拒绝的空间，你的真诚才更容易被听见。",
+      "vector": {
+        "initiative": 92,
+        "adaptability": 50,
+        "social": 83,
+        "trust": 25,
+        "values": 25,
+        "ambition": 67,
+        "emotion": 100,
+        "focus": 42,
+        "risk": 75
+      },
+      "sources": [
+        "https://jojo-portal.com/about/jjl/"
+      ]
+    },
+    {
+      "id": "kei",
+      "name": "虹村京",
+      "en": "Kei Nijimura",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "把秘密和责任分开的人",
+      "summary": "你习惯先观察，再决定让谁知道多少。一旦认定一件事是自己的责任，旁人很难说服你只拿表面解释敷衍过去。",
+      "traits": [
+        "寡言",
+        "防备",
+        "查验"
+      ],
+      "coreValue": "保护重要信息，同时查清事实",
+      "strengths": [
+        "能持续留意别人忽略的不一致之处，又不易被气氛带偏"
+      ],
+      "growth": "警觉有价值，但谁都不可信会让调查停在你一个人的视角里。",
+      "vector": {
+        "initiative": 25,
+        "adaptability": 58,
+        "social": 17,
+        "trust": 17,
+        "values": 75,
+        "ambition": 42,
+        "emotion": 8,
+        "focus": 100,
+        "risk": 42
+      },
+      "sources": [
+        "https://jojo-portal.com/about/jjl/"
+      ]
+    },
+    {
+      "id": "kaato",
+      "name": "东方花都",
+      "en": "Kaato Higashikata",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "把亲疏分得很清的守门人",
+      "summary": "你对外界的评判没那么在意，对自己认定要保护的人却极其坚定。你习惯默默看清局势，等到觉得非做不可，才会出手。",
+      "traits": [
+        "护短",
+        "隐忍",
+        "决断"
+      ],
+      "coreValue": "守住自己认定的那条亲情边界",
+      "strengths": [
+        "压力下能稳住情绪，愿意为自己认定的责任承担后果"
+      ],
+      "growth": "只听关系亲近的一方，很容易错过事实的另一面。把保护和纵容分开。",
+      "vector": {
+        "initiative": 42,
+        "adaptability": 50,
+        "social": 25,
+        "trust": 42,
+        "values": 83,
+        "ambition": 58,
+        "emotion": 17,
+        "focus": 42,
+        "risk": 67
+      },
+      "sources": [
+        "https://books.shueisha.co.jp/items/contents.html?jdcn=08X10000000025782700",
+        "https://jojo-portal.com/about/jjl/"
+      ]
+    },
+    {
       "id": "jodio",
       "name": "乔迪奥·乔斯达",
       "en": "Jodio Joestar",
@@ -3973,6 +4576,113 @@
       "sources": [
         "https://jojo-portal.com/about/tjl/",
         "https://jojo-portal.com/en/about/tjl/"
+      ]
+    },
+    {
+      "id": "charming_man",
+      "name": "魅力男",
+      "en": "Charming Man",
+      "part": 9,
+      "parts": [
+        9
+      ],
+      "role": "靠观察换主动的追踪者",
+      "summary": "你不喜欢只凭别人给的答案作判断，更习惯亲自追到线索源头。必要时你会改变接近问题的方式，但不会轻易放下最初的追问。",
+      "traits": [
+        "追踪",
+        "伪装",
+        "应变"
+      ],
+      "coreValue": "得找出那件事到底是怎么回事",
+      "strengths": [
+        "善于换视角、观察环境，在形势不明时仍能逼近目标"
+      ],
+      "growth": "独自查找会漏掉只有别人能看到的信息；及时建立能互相核实的合作。",
+      "vector": {
+        "initiative": 50,
+        "adaptability": 100,
+        "social": 17,
+        "trust": 33,
+        "values": 67,
+        "ambition": 75,
+        "emotion": 25,
+        "focus": 92,
+        "risk": 83
+      },
+      "sources": [
+        "https://jojo-portal.com/about/tjl/"
+      ]
+    },
+    {
+      "id": "lulu",
+      "name": "露露",
+      "en": "Lulu",
+      "part": 9,
+      "parts": [
+        9
+      ],
+      "role": "用敏锐守住安全感的人",
+      "summary": "你会很快看出人与人之间谁靠得住，也更愿意把信任留给少数确定的对象。熟悉感一旦被打断，你往往先观察对方会怎么做。",
+      "traits": [
+        "机警",
+        "依恋",
+        "直接"
+      ],
+      "coreValue": "先确认身边的人是否可靠",
+      "strengths": [
+        "对细小的态度变化很敏感，能及时意识到互动变了味"
+      ],
+      "growth": "熟悉未必等于安全，陌生也不一定危险。试着用实际行为而不是第一印象来判断。",
+      "vector": {
+        "initiative": 58,
+        "adaptability": 67,
+        "social": 67,
+        "trust": 42,
+        "values": 33,
+        "ambition": 25,
+        "emotion": 92,
+        "focus": 83,
+        "risk": 58
+      },
+      "sources": [
+        "https://books.shueisha.co.jp/items/contents.html?jdcn=08X10000000063700500",
+        "https://jojo-portal.com/about/tjl/"
+      ]
+    },
+    {
+      "id": "bobby_jean",
+      "name": "鲍比·吉恩",
+      "en": "Bobby Jean",
+      "part": 9,
+      "parts": [
+        9
+      ],
+      "role": "讲究流程的老手",
+      "summary": "你不急着把能力挂在嘴上，更在意现场有没有被交代清楚、搭档能不能接上。比起争论谁正确，你常先检查有哪些事情仍在可控范围内。",
+      "traits": [
+        "冷静",
+        "实务",
+        "配合"
+      ],
+      "coreValue": "把复杂局面拆成可交接的步骤",
+      "strengths": [
+        "在时间紧时仍能留意执行顺序与配合细节"
+      ],
+      "growth": "经验多不代表每次都能沿用同一套流程；给异常线索留一个复盘出口。",
+      "vector": {
+        "initiative": 33,
+        "adaptability": 42,
+        "social": 42,
+        "trust": 75,
+        "values": 25,
+        "ambition": 25,
+        "emotion": 17,
+        "focus": 75,
+        "risk": 25
+      },
+      "sources": [
+        "https://books.shueisha.co.jp/items/contents.html?jdcn=08X10000000063700500",
+        "https://jojo-portal.com/about/tjl/"
       ]
     }
   ],
