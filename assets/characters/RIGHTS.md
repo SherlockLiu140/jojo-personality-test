@@ -16,6 +16,6 @@ Official All-Star Battle R source copyright notices:
 
 See `manifest.json` for each character's exact source page, original image URL, local optimized file, format, and fallback status. Transparent art is best shown with `object-fit: contain`. Some official game renders depict the character together with their Stand. Do not relabel manga portraits as full-body standing art.
 
-## Placeholder characters (v1.1)
+## Placeholder characters
 
-The following character IDs ship without packaged artwork to avoid scraping copyrighted images. The UI shows a CSS initial avatar instead: `stroheim`, `hol_horse`, `yukako`, `hayato`, `fugo`, `trish`, `anasui`, `emporio`. Manifest entries set `placeholder: true` and `rightsUnknown: true`.
+All 20 v1.2 additions ship without packaged artwork, as do these eight v1.1 characters. The UI shows a CSS initial avatar instead. v1.1 IDs: `stroheim`, `hol_horse`, `yukako`, `hayato`, `fugo`, `trish`, `anasui`, `emporio`. Manifest entries set `placeholder: true` and `rightsUnknown: true`.
