@@ -39,5 +39,11 @@ function score(answers,data,context){
 }
 function reasons(character,values,data){return data.dimensions.map(d=>{const value=values[d.id],target=character.vector[d.id];return {d,value,target,difference:Math.abs(target-value),salience:Math.abs(target-50)};}).sort((a,b)=>a.difference-b.difference||b.salience-a.salience||(a.d.id<b.d.id?-1:1)).slice(0,3).map(({d,value,target,difference})=>{const tendency=value>56?d.high:value<44?d.low:'情境间的弹性';return {title:`${d.label}：${tendency}`,text:value>56?`你的选择更接近「${d.high}」。这是你与${character.name}的角色画像较为接近的性格维度之一。`:value<44?`你的选择更接近「${d.low}」。在这一维度上，你的作答与${character.name}的角色画像较为接近。`:`你的选择处于「${d.low}」与「${d.high}」之间，倾向随情境调整。这与该角色画像在这一维度上的位置较为接近。`};});}
 
-return {normalize,score,reasons,familiarPartsFromWorks,WORKS_DISTANCE_BOOST};
+// One practical item per dimension. The full questionnaire and scores stay untouched.
+const QUICK_IDS=Object.freeze(['q10','q12','q14','q11','q04','q33','q34','q26','q18']);
+function quickQuestions(data){
+ const byId=new Map(data.questions.map(q=>[q.id,q]));
+ return QUICK_IDS.map(id=>{const q=byId.get(id);if(!q)throw new Error('Missing quick item '+id);return q;});
+}
+return {normalize,score,reasons,familiarPartsFromWorks,WORKS_DISTANCE_BOOST,quickQuestions};
 });

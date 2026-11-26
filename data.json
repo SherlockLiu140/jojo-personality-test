@@ -1,15 +1,15 @@
 {
   "meta": {
     "id": "jojo-personality-36-likert",
-    "version": "1.1.0",
+    "version": "1.3.0",
     "language": "zh-CN",
-    "verifiedAt": "2026-10-28",
+    "verifiedAt": "2026-11-22",
     "questionCount": 36,
-    "characterCount": 53,
+    "characterCount": 126,
     "estimatedMinutes": "8–12",
     "title": "你的奇妙人格",
     "subtitle": "先勾选看过的作品，再回答 36 道程度题，找到与你共鸣的 JOJO 角色",
-    "scope": "覆盖漫画主线第 1–9 部的 53 位代表角色（含新增主力队员／关键配角），不含全部角色、外传与游戏原创人物。新增角色暂无官方立绘，以首字母占位呈现。",
+    "scope": "主线第 1–9 部 126 个角色／形态档案；第三部 22 张塔罗牌完整对照，两款镇魂曲作为同人形态结果。不是逐部全人物全集。",
     "disclaimer": "这是基于角色解读制作的娱乐性风格匹配，不是心理诊断或经科学验证的人格量表。结果不评价能力、道德或心理健康。",
     "villainDisclaimer": "与反派角色相似，只表示某些做事风格接近，不代表认同其行为，也不意味着你具有相同的道德倾向。",
     "interpretationNote": "角色标签、文字解读与数值原型为本测验的原创解读，并非官方人格设定。",
@@ -2135,20 +2135,22 @@
         "risk": 62.5
       },
       "sources": [
-        "https://jojo-portal.com/about/pb/"
-      ]
+        "https://jojo-portal.com/about/pb/",
+        "https://jojo-portal.com/anime/pb-bt/story/pb/"
+      ],
+      "stand": "无替身",
+      "canonNote": "本档案是第一部乔纳森，运用波纹。"
     },
     {
       "id": "dio",
-      "name": "迪奥·布兰度 / DIO",
-      "en": "Dio Brando / DIO",
+      "name": "迪奥·布兰度（第一部）",
+      "en": "Dio Brando",
       "part": 1,
       "parts": [
-        1,
-        3
+        1
       ],
-      "role": "强势的破局者",
-      "summary": "目光始终投向更高的位置，擅长观察人心与机会。鲜明的自我意志带来强大推进力，也容易把关系变成控制与较量。",
+      "role": "锋芒外露的夺势者",
+      "summary": "在《幻影之血》中，迪奥借石鬼面变为吸血鬼。他善于观察人的弱点，敢为改变自己的处境孤注一掷；越把胜负看得重要，就越容易把身边的人当成障碍。",
       "traits": [
         "野心",
         "掌控",
@@ -2171,8 +2173,18 @@
         "risk": 75
       },
       "sources": [
-        "https://jojo-portal.com/about/pb/"
-      ]
+        "https://jojo-portal.com/about/pb/",
+        "https://jojo-portal.com/anime/pb-bt/story/pb/"
+      ],
+      "stand": "无替身",
+      "aliases": [
+        "第一部迪奥",
+        "吸血鬼迪奥",
+        "Dio Brando",
+        "幻影之血"
+      ],
+      "canonNote": "本页只对应第一部；吸血鬼能力不属于替身。第三部的 DIO（世界）另列。",
+      "relatedId": "dio3"
     },
     {
       "id": "speedwagon",
@@ -2208,7 +2220,8 @@
       },
       "sources": [
         "https://jojo-portal.com/about/pb/"
-      ]
+      ],
+      "stand": "无替身"
     },
     {
       "id": "will_zeppeli",
@@ -2243,7 +2256,9 @@
       },
       "sources": [
         "https://jojo-portal.com/about/pb/"
-      ]
+      ],
+      "stand": "无替身",
+      "canonNote": "运用波纹。"
     },
     {
       "id": "erina",
@@ -2280,7 +2295,8 @@
       "sources": [
         "https://jojo-portal.com/about/pb/",
         "https://jojowiki.com/Erina"
-      ]
+      ],
+      "stand": "无替身"
     },
     {
       "id": "joseph",
@@ -2288,9 +2304,7 @@
       "en": "Joseph Joestar",
       "part": 2,
       "parts": [
-        2,
-        3,
-        4
+        2
       ],
       "role": "机敏的即兴家",
       "summary": "思路跳脱，擅长在变化中找到别人没有想到的解法。玩笑与自信是他的外壳，关键时刻的判断和行动同样迅速。",
@@ -2317,6 +2331,13 @@
       },
       "sources": [
         "https://jojo-portal.com/about/bt/"
+      ],
+      "stand": "无替身",
+      "canonNote": "本页是第二部青年乔瑟夫，运用波纹；第三部的隐者之紫不计入本页。",
+      "aliases": [
+        "约瑟夫",
+        "小乔瑟夫",
+        "青年乔瑟夫"
       ]
     },
     {
@@ -2352,7 +2373,9 @@
       },
       "sources": [
         "https://jojo-portal.com/about/bt/"
-      ]
+      ],
+      "stand": "无替身",
+      "canonNote": "运用波纹。"
     },
     {
       "id": "lisa_lisa",
@@ -2387,7 +2410,9 @@
       },
       "sources": [
         "https://jojo-portal.com/about/bt/"
-      ]
+      ],
+      "stand": "无替身",
+      "canonNote": "运用波纹。"
     },
     {
       "id": "wamuu",
@@ -2422,7 +2447,9 @@
       },
       "sources": [
         "https://jojo-portal.com/about/bt/"
-      ]
+      ],
+      "stand": "无替身",
+      "canonNote": "柱之男，使用风之流法。"
     },
     {
       "id": "kars",
@@ -2457,7 +2484,9 @@
       },
       "sources": [
         "https://jojo-portal.com/about/bt/"
-      ]
+      ],
+      "stand": "无替身",
+      "canonNote": "柱之男，使用光之流法。"
     },
     {
       "id": "stroheim",
@@ -2467,18 +2496,18 @@
       "parts": [
         2
       ],
-      "role": "强硬的技术狂",
-      "summary": "自信、果断，相信纪律与技术能扭转局面。说话直来直去，行动效率极高，对同伴也有意外的信用。",
+      "role": "强硬的技术执行者",
+      "summary": "第二部登场的纳粹德国军官，参与柱之男的军事研究，后来接受机械改造。做事大张旗鼓，习惯靠纪律和设备抢回主动权，不擅长听取不同声音。",
       "traits": [
-        "强硬",
-        "效率",
-        "技术信仰"
+        "高压",
+        "果断",
+        "技术取向"
       ],
-      "coreValue": "用实力与纪律拿下结果",
+      "coreValue": "以制度、装备和执行力控制局面",
       "strengths": [
-        "决断快，执行力强，关键时刻敢站到最前面"
+        "限时下能迅速明确行动优先次序"
       ],
-      "growth": "自信过了头时，容易忽略他人的节奏与感受",
+      "growth": "干劲和效率不能代替对手段后果的反省。",
       "vector": {
         "initiative": 88,
         "adaptability": 55,
@@ -2491,8 +2520,150 @@
         "risk": 78
       },
       "sources": [
-        "https://jojo-portal.com/about/bt/"
-      ]
+        "https://jojo-portal.com/about/bt/",
+        "https://jojo-portal.com/anime/pb-bt/story/bt/"
+      ],
+      "stand": "无替身",
+      "aliases": [
+        "修特罗海姆",
+        "施特罗海姆",
+        "斯特罗海姆",
+        "修特洛海姆",
+        "Stroheim"
+      ],
+      "canonNote": "角色所属政权为作品中的历史背景；此结果仅对应行事特征，不认同纳粹主义或其行为。其机械改造不是替身。"
+    },
+    {
+      "id": "esidisi",
+      "name": "艾西迪西",
+      "en": "Esidisi",
+      "part": 2,
+      "parts": [
+        2
+      ],
+      "role": "变脸极快的应变者",
+      "summary": "他能大哭释放情绪，下一刻就切回冷静谋算。遇到预料之外的变化，他往往先换手法，不急着放弃原来的目的。",
+      "traits": [
+        "应变",
+        "直显",
+        "执着"
+      ],
+      "coreValue": "把挫折变成继续推进的机会",
+      "strengths": [
+        "情绪外露不妨碍他灵活调整，能在失势时换想法。"
+      ],
+      "growth": "如果只把情绪和关系当工具，很容易失去真正的互信。",
+      "vector": {
+        "initiative": 70,
+        "adaptability": 90,
+        "social": 65,
+        "trust": 41,
+        "values": 28,
+        "ambition": 69,
+        "emotion": 91,
+        "focus": 52,
+        "risk": 73
+      },
+      "sources": [
+        "https://jojo-portal.com/about/bt/",
+        "https://jojo-portal.com/anime/pb-bt/story/bt/"
+      ],
+      "stand": "无替身",
+      "aliases": [
+        "ACDC",
+        "艾斯迪斯",
+        "艾西迪斯",
+        "艾斯迪西",
+        "炎之流法"
+      ],
+      "canonNote": "柱之男，炎之流法不是替身。"
+    },
+    {
+      "id": "suzi_q",
+      "name": "丝吉 Q",
+      "en": "Suzi Q",
+      "part": 2,
+      "parts": [
+        2
+      ],
+      "role": "轻快的照料者",
+      "summary": "待人亲近，常常靠一句话、一点闲聊让气氛松下来。与紧绷的计划相比，她更擅长直接照料眼前的人。",
+      "traits": [
+        "热情",
+        "亲近",
+        "随性"
+      ],
+      "coreValue": "让身边的人感到被照顾",
+      "strengths": [
+        "容易与人建立交情，能让紧张的气氛回到日常。"
+      ],
+      "growth": "别让一时忙活挤掉重要的传达、日期和确认。",
+      "vector": {
+        "initiative": 50,
+        "adaptability": 62,
+        "social": 94,
+        "trust": 88,
+        "values": 56,
+        "ambition": 20,
+        "emotion": 83,
+        "focus": 22,
+        "risk": 42
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/pb-bt/story/bt/",
+        "https://jojo-portal.com/anime/sc/story/"
+      ],
+      "stand": "无替身",
+      "aliases": [
+        "丝吉Q",
+        "苏茜Q",
+        "苏茜 Q",
+        "苏西Q",
+        "苏茜·Q",
+        "苏西·Q"
+      ],
+      "canonNote": "第二部为莉莎莉莎身边的助手，后来与乔瑟夫结婚。本页是第二部的丝吉 Q。"
+    },
+    {
+      "id": "santana",
+      "name": "桑塔纳",
+      "en": "Santana",
+      "part": 2,
+      "parts": [
+        2
+      ],
+      "role": "沉默的适应者",
+      "summary": "他很少解释自己，先观察空间、身体和环境的限制，然后迅速找到行动余地。别人的规则不会自然变成他的规则。",
+      "traits": [
+        "静观",
+        "自立",
+        "适应"
+      ],
+      "coreValue": "先弄清身处何处，再找到适合自己的活法",
+      "strengths": [
+        "不依赖熟悉条件，对意外环境适应很快。"
+      ],
+      "growth": "单靠自己摸索，有时会错过可以交换的信息。",
+      "vector": {
+        "initiative": 46,
+        "adaptability": 93,
+        "social": 8,
+        "trust": 12,
+        "values": 31,
+        "ambition": 32,
+        "emotion": 11,
+        "focus": 64,
+        "risk": 69
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/pb-bt/story/bt/"
+      ],
+      "stand": "无替身",
+      "aliases": [
+        "桑塔那",
+        "Santviento"
+      ],
+      "canonNote": "被发掘的柱之男；身体变化能力不是替身。"
     },
     {
       "id": "jotaro",
@@ -2528,8 +2699,12 @@
         "risk": 50
       },
       "sources": [
-        "https://jojo-portal.com/about/sc/"
-      ]
+        "https://jojo-portal.com/anime/sc/character/01/"
+      ],
+      "stand": "白金之星",
+      "tarot": "星星",
+      "tarotEn": "The Star",
+      "tarotNumber": 20
     },
     {
       "id": "kakyoin",
@@ -2563,8 +2738,12 @@
         "risk": 37.5
       },
       "sources": [
-        "https://jojo-portal.com/about/sc/"
-      ]
+        "https://jojo-portal.com/anime/sc/character/02/"
+      ],
+      "stand": "绿色法皇",
+      "tarot": "法皇",
+      "tarotEn": "The Hierophant",
+      "tarotNumber": 5
     },
     {
       "id": "polnareff",
@@ -2598,8 +2777,12 @@
         "risk": 75
       },
       "sources": [
-        "https://jojo-portal.com/about/sc/"
-      ]
+        "https://jojo-portal.com/anime/sc/character/03/"
+      ],
+      "stand": "银色战车",
+      "tarot": "战车",
+      "tarotEn": "The Chariot",
+      "tarotNumber": 7
     },
     {
       "id": "avdol",
@@ -2633,8 +2816,12 @@
         "risk": 25
       },
       "sources": [
-        "https://jojo-portal.com/about/sc/"
-      ]
+        "https://jojo-portal.com/anime/sc/character/05/"
+      ],
+      "stand": "魔术师之红",
+      "tarot": "魔术师",
+      "tarotEn": "The Magician",
+      "tarotNumber": 1
     },
     {
       "id": "iggy",
@@ -2668,8 +2855,12 @@
         "risk": 50
       },
       "sources": [
-        "https://jojo-portal.com/about/sc/"
-      ]
+        "https://jojo-portal.com/anime/sc/character/06/"
+      ],
+      "stand": "愚者",
+      "tarot": "愚者",
+      "tarotEn": "The Fool",
+      "tarotNumber": 0
     },
     {
       "id": "hol_horse",
@@ -2703,8 +2894,1005 @@
         "risk": 62
       },
       "sources": [
-        "https://jojo-portal.com/about/sc/"
-      ]
+        "https://jojo-portal.com/anime/sc/character/20/"
+      ],
+      "stand": "皇帝",
+      "tarot": "皇帝",
+      "tarotEn": "The Emperor",
+      "tarotNumber": 4
+    },
+    {
+      "id": "midler",
+      "name": "蜜特拉",
+      "en": "Midler",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "读懂环境的变形者",
+      "summary": "你喜欢从环境里借力，把不起眼的物件或场景变成自己的优势。你可以很善变，却不喜欢把底牌亮给别人看。",
+      "traits": [
+        "环境感",
+        "伪装",
+        "时机"
+      ],
+      "coreValue": "主动权来自比别人更早看懂环境",
+      "strengths": [
+        "能把零散资源变成新的处理方式"
+      ],
+      "growth": "不要让有效的伪装代替必要的沟通。",
+      "vector": {
+        "initiative": 53,
+        "adaptability": 95,
+        "social": 36,
+        "trust": 19,
+        "values": 32,
+        "ambition": 56,
+        "emotion": 34,
+        "focus": 80,
+        "risk": 66
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/18/"
+      ],
+      "stand": "女教皇",
+      "tarot": "女教皇",
+      "tarotEn": "The High Priestess",
+      "tarotNumber": 2
+    },
+    {
+      "id": "nena",
+      "name": "妮娜",
+      "en": "Nena",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "外柔内韧的潜伏者",
+      "summary": "你常先让别人放下戒心，再选择最适合自己的发力时间。你重视能逐步长大的优势，不一定看重起跑时占先。",
+      "traits": [
+        "耐心",
+        "隐藏",
+        "积累"
+      ],
+      "coreValue": "小优势也可以慢慢积成选择权",
+      "strengths": [
+        "愿意花时间从细小变化中累积成果"
+      ],
+      "growth": "若把亲近一律当策略，最后也很难获得真正支持。",
+      "vector": {
+        "initiative": 23,
+        "adaptability": 72,
+        "social": 64,
+        "trust": 24,
+        "values": 21,
+        "ambition": 61,
+        "emotion": 55,
+        "focus": 74,
+        "risk": 42
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/19/"
+      ],
+      "stand": "女帝",
+      "tarot": "女帝",
+      "tarotEn": "The Empress",
+      "tarotNumber": 3
+    },
+    {
+      "id": "steely_dan",
+      "name": "钢铁阿丹",
+      "en": "Steely Dan",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "寻找杠杆的投机者",
+      "summary": "你先找一处能牵动全局的弱点，不爱靠正面硬碰硬。确认自己占优时，你又很容易高估这个优势能维持多久。",
+      "traits": [
+        "杠杆",
+        "投机",
+        "虚张声势"
+      ],
+      "coreValue": "用少量筹码换来最大主动",
+      "strengths": [
+        "擅长迅速找到约束局面的关键环节"
+      ],
+      "growth": "知道什么能迫使别人让步，不等于拿它施压一定划算。",
+      "vector": {
+        "initiative": 61,
+        "adaptability": 83,
+        "social": 69,
+        "trust": 12,
+        "values": 16,
+        "ambition": 72,
+        "emotion": 69,
+        "focus": 78,
+        "risk": 29
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/21/"
+      ],
+      "stand": "恋人",
+      "tarot": "恋人",
+      "tarotEn": "The Lovers",
+      "tarotNumber": 6
+    },
+    {
+      "id": "forever",
+      "name": "弗雷弗（猩猩）",
+      "en": "Forever",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "守着地盘的独行者",
+      "summary": "你更愿意独自掌握一套熟悉系统，而不是靠临时协商。对自己的领域有很强的控制欲，也容易低估外人能看出多少。",
+      "traits": [
+        "领地",
+        "隐蔽",
+        "独立"
+      ],
+      "coreValue": "自己定义自己领域的规则",
+      "strengths": [
+        "在熟悉的环境里擅长隐蔽布局与快速反应"
+      ],
+      "growth": "区分个人边界与你试图替别人做的决定。",
+      "vector": {
+        "initiative": 49,
+        "adaptability": 70,
+        "social": 8,
+        "trust": 8,
+        "values": 24,
+        "ambition": 53,
+        "emotion": 35,
+        "focus": 48,
+        "risk": 55
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/22/"
+      ],
+      "stand": "力量",
+      "tarot": "力量",
+      "tarotEn": "Strength",
+      "tarotNumber": 8
+    },
+    {
+      "id": "joseph3",
+      "name": "乔瑟夫·乔斯达（第三部）",
+      "en": "Joseph Joestar · Part 3",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "会把人召集起来的老江湖",
+      "summary": "比起年轻时独自赌一把，你现在更先问谁看见了什么、谁能补哪个位置。能安排时先安排，计划失灵时也还能见招拆招。",
+      "traits": [
+        "老练",
+        "串联",
+        "应变"
+      ],
+      "coreValue": "用经验把一群人带到下一站",
+      "strengths": [
+        "能整合线索和人手，又保留随机应变的空间"
+      ],
+      "growth": "熟人也需要听清你的依据；别用一句“相信我”代替交代。",
+      "vector": {
+        "initiative": 62,
+        "adaptability": 90,
+        "social": 89,
+        "trust": 80,
+        "values": 70,
+        "ambition": 54,
+        "emotion": 74,
+        "focus": 39,
+        "risk": 64
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/04/"
+      ],
+      "stand": "隐者之紫",
+      "tarot": "隐者",
+      "tarotEn": "The Hermit",
+      "tarotNumber": 9
+    },
+    {
+      "id": "zz",
+      "name": "ZZ",
+      "en": "ZZ",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "逆风加速的好胜者",
+      "summary": "节奏越快，你越容易被拉进对抗。你喜欢靠连续行动制造优势，却也可能在被激将以后忘了自己原来要去哪里。",
+      "traits": [
+        "追赶",
+        "加压",
+        "好胜"
+      ],
+      "coreValue": "不愿在较量中先让出节奏",
+      "strengths": [
+        "擅长跟住变化，发现对手迟疑就能加速推进"
+      ],
+      "growth": "把“我能追上”与“这值得追”分开想。",
+      "vector": {
+        "initiative": 94,
+        "adaptability": 64,
+        "social": 56,
+        "trust": 20,
+        "values": 33,
+        "ambition": 61,
+        "emotion": 85,
+        "focus": 34,
+        "risk": 85
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/23/"
+      ],
+      "stand": "命运之轮",
+      "tarot": "命运之轮",
+      "tarotEn": "Wheel of Fortune",
+      "tarotNumber": 10
+    },
+    {
+      "id": "enya",
+      "name": "恩雅婆婆",
+      "en": "Enya the Hag",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "把忠诚写进棋局的人",
+      "summary": "你看重长期关系，善用身份和场合安排复杂局面。一旦私人情感被卷进去，你可能不再愿意重审原先的判断。",
+      "traits": [
+        "布局",
+        "忠诚",
+        "隐忍"
+      ],
+      "coreValue": "守住自己选定的人与承诺",
+      "strengths": [
+        "擅长看清群体中的位置与相互牵动"
+      ],
+      "growth": "忠诚不妨碍查证；不要让旧恩和旧怨替你判断事实。",
+      "vector": {
+        "initiative": 16,
+        "adaptability": 58,
+        "social": 60,
+        "trust": 41,
+        "values": 80,
+        "ambition": 73,
+        "emotion": 45,
+        "focus": 31,
+        "risk": 35
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/24/"
+      ],
+      "stand": "正义",
+      "tarot": "正义",
+      "tarotEn": "Justice",
+      "tarotNumber": 11
+    },
+    {
+      "id": "j_geil",
+      "name": "J·凯尔",
+      "en": "J. Geil",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "擅找间接入口的人",
+      "summary": "你更愿意避开别人盯得最紧的正面，从他们不注意的侧面找入口。你对短暂空当尤其敏感，行动时通常不肯把自己放在显眼位置。",
+      "traits": [
+        "侧入",
+        "隐蔽",
+        "机会"
+      ],
+      "coreValue": "用最小暴露换到最大的机会",
+      "strengths": [
+        "能观察不同角度的空当，果断利用非常短的时间窗口"
+      ],
+      "growth": "把绕路当作唯一办法，会让本可合作的人也对你关上门。",
+      "vector": {
+        "initiative": 72,
+        "adaptability": 85,
+        "social": 16,
+        "trust": 13,
+        "values": 18,
+        "ambition": 48,
+        "emotion": 20,
+        "focus": 91,
+        "risk": 73
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/25/"
+      ],
+      "stand": "倒吊人",
+      "tarot": "倒吊人",
+      "tarotEn": "The Hanged Man",
+      "tarotNumber": 12
+    },
+    {
+      "id": "mannish_boy",
+      "name": "曼尼什男孩",
+      "en": "Mannish Boy",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "用想象重写场景的人",
+      "summary": "你脑海里的世界鲜明而完整，往往能在别人接受现状之前，想象出另一套规则。被低估时，你尤其想按自己的规则证明自己。",
+      "traits": [
+        "想象",
+        "隐蔽",
+        "反差"
+      ],
+      "coreValue": "不由别人的第一印象决定自己能做什么",
+      "strengths": [
+        "擅长在既有规则之外重新组织问题"
+      ],
+      "growth": "只有自己知道的游戏规则不算共识；让别人能读懂你的想法。",
+      "vector": {
+        "initiative": 52,
+        "adaptability": 94,
+        "social": 25,
+        "trust": 10,
+        "values": 22,
+        "ambition": 69,
+        "emotion": 56,
+        "focus": 51,
+        "risk": 70
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/26/"
+      ],
+      "stand": "死神13",
+      "tarot": "死神",
+      "tarotEn": "Death",
+      "tarotNumber": 13
+    },
+    {
+      "id": "rubber_soul",
+      "name": "拉巴索尔",
+      "en": "Rubber Soul",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "善于模仿的即兴派",
+      "summary": "你会快速读懂别人的语气与习惯，再调整自己以融入场面。一旦感觉能掌控局面，有时就太快从观察切换成炫耀。",
+      "traits": [
+        "模仿",
+        "即兴",
+        "张扬"
+      ],
+      "coreValue": "能伪装成环境的一部分，才有主动调整的空间",
+      "strengths": [
+        "学得快，能在不同对象面前变化表达策略"
+      ],
+      "growth": "让别人看见真实立场，比每次都完美扮演更能建立长期信任。",
+      "vector": {
+        "initiative": 78,
+        "adaptability": 92,
+        "social": 79,
+        "trust": 16,
+        "values": 19,
+        "ambition": 54,
+        "emotion": 91,
+        "focus": 63,
+        "risk": 75
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/27/"
+      ],
+      "stand": "黄色节制",
+      "tarot": "节制",
+      "tarotEn": "Temperance",
+      "tarotNumber": 14
+    },
+    {
+      "id": "devo",
+      "name": "诅咒的迪波",
+      "en": "Devo the Cursed",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "把受挫变成燃料的人",
+      "summary": "你不容易忘掉一次挫败，甚至能靠这份不服为自己撑过难关。你的坚持往往来自和自己过不去，而不只是事情本身。",
+      "traits": [
+        "积蓄",
+        "反扑",
+        "执念"
+      ],
+      "coreValue": "不让一次失利定义最后结果",
+      "strengths": [
+        "高压下仍有耐力重新找到发力点"
+      ],
+      "growth": "能翻篇也是一种能力。并非每个旧账都值得和未来绑定。",
+      "vector": {
+        "initiative": 27,
+        "adaptability": 36,
+        "social": 17,
+        "trust": 11,
+        "values": 55,
+        "ambition": 58,
+        "emotion": 64,
+        "focus": 71,
+        "risk": 93
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/28/"
+      ],
+      "stand": "黑檀木恶魔",
+      "tarot": "恶魔",
+      "tarotEn": "The Devil",
+      "tarotNumber": 15
+    },
+    {
+      "id": "gray_fly",
+      "name": "格雷·弗莱",
+      "en": "Gray Fly",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "专挑薄弱环节的急先锋",
+      "summary": "你对暴露出来的漏洞非常敏锐，喜欢在对方来不及调整以前行动。在局势变快时，你有时会把领先误当成稳妥。",
+      "traits": [
+        "快攻",
+        "揪错",
+        "施压"
+      ],
+      "coreValue": "趁变化还没被所有人发现时先采取行动",
+      "strengths": [
+        "擅长发现脆弱连接并以很快的节奏验证判断"
+      ],
+      "growth": "行动前留一套撤退方案，避免把速度当成保护。",
+      "vector": {
+        "initiative": 97,
+        "adaptability": 55,
+        "social": 26,
+        "trust": 12,
+        "values": 23,
+        "ambition": 52,
+        "emotion": 51,
+        "focus": 86,
+        "risk": 91
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/29/"
+      ],
+      "stand": "灰塔",
+      "tarot": "塔",
+      "tarotEn": "The Tower",
+      "tarotNumber": 16
+    },
+    {
+      "id": "captain_tennille",
+      "name": "冒牌提尼尔船长",
+      "en": "Impostor Captain Tennille",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "把主场握在手里的人",
+      "summary": "你善用专业条件，把谈判或行动带进自己熟悉的环境。你通常不会公开所有准备，也很清楚离开主场之后优势会缩水。",
+      "traits": [
+        "借势",
+        "准备",
+        "藏锋"
+      ],
+      "coreValue": "只在真正熟悉的条件下承担大风险",
+      "strengths": [
+        "会识别手头资源的边界，并设计有利的对局环境"
+      ],
+      "growth": "别只在有优势的场合练习；日常反馈可以暴露换环境后的短板。",
+      "vector": {
+        "initiative": 35,
+        "adaptability": 49,
+        "social": 36,
+        "trust": 22,
+        "values": 24,
+        "ambition": 69,
+        "emotion": 15,
+        "focus": 85,
+        "risk": 24
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/30/"
+      ],
+      "stand": "暗蓝之月",
+      "tarot": "月亮",
+      "tarotEn": "The Moon",
+      "tarotNumber": 17
+    },
+    {
+      "id": "arabia_fats",
+      "name": "阿拉比亚·法茨",
+      "en": "Arabia Fats",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "喜欢省力控场的人",
+      "summary": "你倾向先搭好一个持续起作用的位置，再安静等待，不爱反复出面催促。对着看似可靠的方案，你有时忘了回头检查容易露馅的细节。",
+      "traits": [
+        "布置",
+        "等待",
+        "控场"
+      ],
+      "coreValue": "用一次布局影响持续发生的变化",
+      "strengths": [
+        "考虑长期条件与持续成本，不急着每一步都手动干预"
+      ],
+      "growth": "越觉得万无一失，越应请人检查你没想到的一处细节。",
+      "vector": {
+        "initiative": 9,
+        "adaptability": 37,
+        "social": 9,
+        "trust": 8,
+        "values": 28,
+        "ambition": 57,
+        "emotion": 8,
+        "focus": 17,
+        "risk": 21
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/31/"
+      ],
+      "stand": "太阳",
+      "tarot": "太阳",
+      "tarotEn": "The Sun",
+      "tarotNumber": 18
+    },
+    {
+      "id": "cameo",
+      "name": "卡梅欧",
+      "en": "Cameo",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "善于看懂愿望的设局者",
+      "summary": "你对别人真正想要什么很敏感，往往能听出请求背后的遗憾。问题在于发现一个愿望之后，你很容易替对方判定哪种答案才最有效。",
+      "traits": [
+        "洞察",
+        "引导",
+        "控场"
+      ],
+      "coreValue": "理解愿望，才能理解选择背后的动力",
+      "strengths": [
+        "会听出表面问题下面真正卡住人的情绪"
+      ],
+      "growth": "给建议之前先问清对方的期待，不把自己的推演包装成承诺。",
+      "vector": {
+        "initiative": 30,
+        "adaptability": 65,
+        "social": 55,
+        "trust": 18,
+        "values": 22,
+        "ambition": 47,
+        "emotion": 32,
+        "focus": 69,
+        "risk": 42
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/32/"
+      ],
+      "stand": "审判",
+      "tarot": "审判",
+      "tarotEn": "Judgement",
+      "tarotNumber": 19
+    },
+    {
+      "id": "dio3",
+      "name": "DIO（第三部）",
+      "en": "DIO · Part 3",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "以影响力统领局面的人",
+      "summary": "你擅长用说服力和掌控感组织一群人，但习惯把关键决定留给自己。你需要的是制定局面，而不只是赢下一轮冲突。",
+      "traits": [
+        "威势",
+        "掌局",
+        "野心"
+      ],
+      "coreValue": "让局面按照自己设定的秩序运转",
+      "strengths": [
+        "能在关键节点集中注意力、资源与追随者"
+      ],
+      "growth": "让反对意见安全地抵达你，才不至于只听到顺耳的话。",
+      "vector": {
+        "initiative": 46,
+        "adaptability": 77,
+        "social": 86,
+        "trust": 12,
+        "values": 21,
+        "ambition": 100,
+        "emotion": 35,
+        "focus": 23,
+        "risk": 75
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/07/"
+      ],
+      "stand": "世界",
+      "tarot": "世界",
+      "tarotEn": "The World",
+      "tarotNumber": 21
+    },
+    {
+      "id": "ndoul",
+      "name": "恩多尔",
+      "en": "N’Doul",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "在静默中辨认方向的人",
+      "summary": "你愿意等线索从杂音里变得清楚，再把全部注意力放到一个判断上。你只对极少数承诺认真，但一旦认定就很难动摇。",
+      "traits": [
+        "凝神",
+        "专注",
+        "忠诚"
+      ],
+      "coreValue": "在认定之前仔细听，认定之后认真做",
+      "strengths": [
+        "能长时间在信息稀少时保持观察和专注"
+      ],
+      "growth": "追随值得信任的人，也要保留独立衡量的权利。",
+      "vector": {
+        "initiative": 20,
+        "adaptability": 69,
+        "social": 9,
+        "trust": 23,
+        "values": 89,
+        "ambition": 54,
+        "emotion": 16,
+        "focus": 98,
+        "risk": 68
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/10/"
+      ],
+      "stand": "盖布神",
+      "egyptianGod": "盖布"
+    },
+    {
+      "id": "oingo",
+      "name": "欧因哥",
+      "en": "Oingo",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "靠临场变通补漏洞的人",
+      "summary": "你常常边行动边修正，能迅速换一种说辞或做法应付突然的问题。你照顾身边少数亲近的人，但不爱和太多人一起定计划。",
+      "traits": [
+        "护伴",
+        "变通",
+        "急智"
+      ],
+      "coreValue": "先带亲近的人安全过关",
+      "strengths": [
+        "善用环境和表达去补救没有预料到的变化"
+      ],
+      "growth": "遇事先核对目标，再让急智派上用场；不是每个坑都要当场跳过去。",
+      "vector": {
+        "initiative": 85,
+        "adaptability": 99,
+        "social": 58,
+        "trust": 42,
+        "values": 35,
+        "ambition": 47,
+        "emotion": 76,
+        "focus": 68,
+        "risk": 71
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/13/"
+      ],
+      "stand": "克努姆神",
+      "egyptianGod": "克努姆"
+    },
+    {
+      "id": "boingo",
+      "name": "波因哥",
+      "en": "Boingo",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "相信线索胜过吆喝的人",
+      "summary": "你不爱抢话，遇到变化更想先看看手头线索。你偏好有可依循的提示，也需要一点时间才能适应事情偏离预期。",
+      "traits": [
+        "安静",
+        "读线索",
+        "谨慎"
+      ],
+      "coreValue": "先明确下一步，再承担不确定性",
+      "strengths": [
+        "擅长关注容易被忽略的细节和预兆"
+      ],
+      "growth": "既有提示不是完整答案；碰到不合预期的事情，主动找第二种解释。",
+      "vector": {
+        "initiative": 15,
+        "adaptability": 32,
+        "social": 10,
+        "trust": 67,
+        "values": 46,
+        "ambition": 37,
+        "emotion": 23,
+        "focus": 95,
+        "risk": 12
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/14/"
+      ],
+      "stand": "托托神",
+      "egyptianGod": "托托"
+    },
+    {
+      "id": "anubis",
+      "name": "阿努比斯神（妖刀本身）",
+      "en": "Anubis",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "越交手越会学习的执着派",
+      "summary": "这个档案对应具有自主意志的替身妖刀，不是被附身者。你一旦遇见强对手，就会记住有效的方法并立刻调整，恨不得每次都比上次更难被击败。",
+      "traits": [
+        "复盘",
+        "适应",
+        "执着"
+      ],
+      "coreValue": "从每次较量中学到一项新本领",
+      "strengths": [
+        "对重复出现的失误反应很快，愿意当场改方法"
+      ],
+      "growth": "学习可以让你更强，也可以让你不必一直证明自己。",
+      "vector": {
+        "initiative": 83,
+        "adaptability": 100,
+        "social": 14,
+        "trust": 9,
+        "values": 43,
+        "ambition": 89,
+        "emotion": 42,
+        "focus": 86,
+        "risk": 89
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/15/"
+      ],
+      "stand": "阿努比斯神",
+      "egyptianGod": "阿努比斯"
+    },
+    {
+      "id": "mariah",
+      "name": "玛莱雅",
+      "en": "Mariah",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "把小线索串成困局的人",
+      "summary": "你不喜欢一开始就把自己变成焦点，更常先放下一个不引人注意的小变化，再利用它后续造成的连锁反应。",
+      "traits": [
+        "轻巧",
+        "连锁",
+        "调度"
+      ],
+      "coreValue": "最小的变化也能把局势推向另一个方向",
+      "strengths": [
+        "善于想到几步以后，一个选择会带来什么连锁后果"
+      ],
+      "growth": "连锁反应难以完全控制；开始前先想好如何终止。",
+      "vector": {
+        "initiative": 37,
+        "adaptability": 83,
+        "social": 56,
+        "trust": 21,
+        "values": 26,
+        "ambition": 64,
+        "emotion": 40,
+        "focus": 52,
+        "risk": 56
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/11/"
+      ],
+      "stand": "巴斯特女神",
+      "egyptianGod": "巴斯特"
+    },
+    {
+      "id": "alessi",
+      "name": "阿雷西",
+      "en": "Alessi",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "对强弱信号敏感的人",
+      "summary": "你很快就会评估谁手里握着优势，从而决定主动还是回避。在别人要求公平较量时，你可能仍在寻找绕开的路。",
+      "traits": [
+        "避锋",
+        "判断",
+        "机动"
+      ],
+      "coreValue": "先确定自己不处于明显下风",
+      "strengths": [
+        "对情境中的力量差格外敏锐"
+      ],
+      "growth": "避开风险不等于只挑弱者。把对别人有无伤害也放进判断。",
+      "vector": {
+        "initiative": 64,
+        "adaptability": 65,
+        "social": 36,
+        "trust": 11,
+        "values": 12,
+        "ambition": 35,
+        "emotion": 72,
+        "focus": 51,
+        "risk": 16
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/12/"
+      ],
+      "stand": "赛特神",
+      "egyptianGod": "赛特"
+    },
+    {
+      "id": "daniel_darby",
+      "name": "丹尼尔·J·达比",
+      "en": "Daniel J. D’Arby",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "靠读人拿捏节奏的赌徒",
+      "summary": "你的强项是看对手何时犹豫，何时在勉强镇定。规则和筹码都是你的工作台，但当对手不按预期行动时，你也得承受看不清底牌的不安。",
+      "traits": [
+        "读人",
+        "博弈",
+        "从容"
+      ],
+      "coreValue": "在信息不足的较量中守住自己的节奏",
+      "strengths": [
+        "善于观察微小反应、设定清楚的交换条件"
+      ],
+      "growth": "把冷静带到拒绝下注的时刻，别为了面子提高赌注。",
+      "vector": {
+        "initiative": 38,
+        "adaptability": 74,
+        "social": 85,
+        "trust": 17,
+        "values": 31,
+        "ambition": 76,
+        "emotion": 23,
+        "focus": 91,
+        "risk": 64
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/08/"
+      ],
+      "stand": "欧西里斯神",
+      "egyptianGod": "欧西里斯"
+    },
+    {
+      "id": "pet_shop",
+      "name": "宠物店（猎鹰）",
+      "en": "Pet Shop",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "不放过异常的哨兵",
+      "summary": "这个档案对应作品中的猎鹰。你习惯早一步发现边界上的变化，独自巡检时尤其专心；认定一个目标后不太容易被别的动静分散。",
+      "traits": [
+        "巡检",
+        "警觉",
+        "专注"
+      ],
+      "coreValue": "让没有人留意的区域也不失守",
+      "strengths": [
+        "面对大量背景动静，仍能持续盯紧关键异常"
+      ],
+      "growth": "标清哪些情况只需观察，哪些才需行动；不要把所有变化都当作入侵。",
+      "vector": {
+        "initiative": 89,
+        "adaptability": 50,
+        "social": 4,
+        "trust": 10,
+        "values": 66,
+        "ambition": 31,
+        "emotion": 12,
+        "focus": 96,
+        "risk": 76
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/09/"
+      ],
+      "stand": "荷鲁斯神",
+      "egyptianGod": "荷鲁斯"
+    },
+    {
+      "id": "telence_darby",
+      "name": "泰伦斯·T·达比",
+      "en": "Telence T. D’Arby",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "用系统预测对方的人",
+      "summary": "你更喜欢可复盘的规则和明确反馈，希望搞清别人到底会怎么选。越有把握时，你越容易高估模型能看透的东西。",
+      "traits": [
+        "分析",
+        "规则",
+        "反馈"
+      ],
+      "coreValue": "先找到规律，再自信判断对方的选择",
+      "strengths": [
+        "会把较量拆成环节，用反馈不断修正判断"
+      ],
+      "growth": "人的行动不一定等于当下所想。给未被模型解释的情况留位置。",
+      "vector": {
+        "initiative": 33,
+        "adaptability": 50,
+        "social": 31,
+        "trust": 13,
+        "values": 38,
+        "ambition": 69,
+        "emotion": 19,
+        "focus": 96,
+        "risk": 43
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/16/"
+      ],
+      "stand": "阿图姆神",
+      "egyptianGod": "阿图姆"
+    },
+    {
+      "id": "vanilla_ice",
+      "name": "瓦尼拉·艾斯",
+      "en": "Vanilla Ice",
+      "part": 3,
+      "parts": [
+        3
+      ],
+      "role": "为承诺走到极限的执行者",
+      "summary": "你对自己选定的承诺十分认真，面对阻力也不轻易改变方向。有时你越想把目标执行到底，越容易忽略周围已经发生的变化。",
+      "traits": [
+        "忠诚",
+        "贯彻",
+        "强硬"
+      ],
+      "coreValue": "既然认定了值得承担的事，就把它做到底",
+      "strengths": [
+        "面对压力不容易退缩，能够集中精力贯彻决定"
+      ],
+      "growth": "留一个中途核对点：忠诚不意味着跳过判断，改做法也不等于违背承诺。",
+      "vector": {
+        "initiative": 91,
+        "adaptability": 19,
+        "social": 12,
+        "trust": 27,
+        "values": 92,
+        "ambition": 48,
+        "emotion": 49,
+        "focus": 29,
+        "risk": 98
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sc/character/17/"
+      ],
+      "stand": "亚空瘴气（Cream）"
     },
     {
       "id": "josuke4",
@@ -2739,7 +3927,8 @@
       },
       "sources": [
         "https://jojo-portal.com/about/du/"
-      ]
+      ],
+      "stand": "疯狂钻石（Crazy Diamond）"
     },
     {
       "id": "koichi",
@@ -2774,7 +3963,8 @@
       },
       "sources": [
         "https://jojo-portal.com/about/du/"
-      ]
+      ],
+      "stand": "回音（Echoes ACT 1–3）"
     },
     {
       "id": "okuyasu",
@@ -2809,7 +3999,8 @@
       },
       "sources": [
         "https://jojo-portal.com/about/du/"
-      ]
+      ],
+      "stand": "轰炸空间（The Hand）"
     },
     {
       "id": "rohan",
@@ -2845,7 +4036,8 @@
       },
       "sources": [
         "https://jojo-portal.com/about/du/"
-      ]
+      ],
+      "stand": "天堂之门（Heaven’s Door）"
     },
     {
       "id": "kira",
@@ -2880,7 +4072,8 @@
       },
       "sources": [
         "https://jojo-portal.com/about/du/"
-      ]
+      ],
+      "stand": "杀手皇后（Killer Queen）"
     },
     {
       "id": "yukako",
@@ -2915,6 +4108,10 @@
       },
       "sources": [
         "https://jojo-portal.com/about/du/"
+      ],
+      "stand": "紫色恋人（Love Deluxe）",
+      "aliases": [
+        "爱情豪华"
       ]
     },
     {
@@ -2950,6 +4147,301 @@
       },
       "sources": [
         "https://jojo-portal.com/about/du/"
+      ],
+      "stand": "无替身"
+    },
+    {
+      "id": "reimi",
+      "name": "杉本铃美",
+      "en": "Reimi Sugimoto",
+      "part": 4,
+      "parts": [
+        4
+      ],
+      "role": "温柔而坚定的见证者",
+      "summary": "她不靠声量赢得注意，而是温和、耐心地把重要的事告诉愿意听的人。即使自己没法独自解决，也愿意相信他人能接住这份托付。",
+      "traits": [
+        "守护",
+        "耐心",
+        "信任"
+      ],
+      "coreValue": "让被忽视的危险真正有人看见",
+      "strengths": [
+        "讲清关键线索，又不把焦虑转嫁给别人。"
+      ],
+      "growth": "把守护责任交给别人，不等于背弃自己的承诺。",
+      "vector": {
+        "initiative": 29,
+        "adaptability": 57,
+        "social": 52,
+        "trust": 88,
+        "values": 91,
+        "ambition": 24,
+        "emotion": 53,
+        "focus": 77,
+        "risk": 43
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/du/character/19/"
+      ],
+      "stand": "无替身",
+      "aliases": [
+        "杉本鈴美",
+        "幽灵少女",
+        "玲美"
+      ],
+      "canonNote": "杜王町幽灵小巷的少女。本身并非替身使者。"
+    },
+    {
+      "id": "keicho",
+      "name": "虹村形兆",
+      "en": "Keicho Nijimura",
+      "part": 4,
+      "parts": [
+        4
+      ],
+      "role": "把责任攥在手里的指挥官",
+      "summary": "他擅长把复杂问题分成零件、步骤和责任，把阵势安排到一眼可见。对家庭难题又太执拗，容易把帮助变成指令。",
+      "traits": [
+        "编排",
+        "责任",
+        "控局"
+      ],
+      "coreValue": "用精确分工解决长期拖着的问题",
+      "strengths": [
+        "能把繁杂工作安排出清晰部署和相互配合。"
+      ],
+      "growth": "别把关心表达成命令，更别替别人决定能承受多少。",
+      "vector": {
+        "initiative": 48,
+        "adaptability": 24,
+        "social": 31,
+        "trust": 24,
+        "values": 43,
+        "ambition": 65,
+        "emotion": 35,
+        "focus": 88,
+        "risk": 32
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/du/character/21/"
+      ],
+      "stand": "极恶中队（Bad Company）",
+      "aliases": [
+        "亿泰哥哥",
+        "虹村億泰的哥哥",
+        "坏公司",
+        "恶劣公司"
+      ],
+      "canonNote": "虹村亿泰的哥哥。"
+    },
+    {
+      "id": "angelo",
+      "name": "片桐安十郎（安杰罗）",
+      "en": "Anjuro Katagiri / Angelo",
+      "part": 4,
+      "parts": [
+        4
+      ],
+      "role": "伺机变换入口的对手",
+      "summary": "在正面较量不占优势时，他会耐心等机会出现，再换一个旁人想不到的入口。敏锐在缺少约束时也会成为对他人的伤害。",
+      "traits": [
+        "隐蔽",
+        "机会",
+        "变通"
+      ],
+      "coreValue": "看透环境的漏洞并等待时机",
+      "strengths": [
+        "观察细微变化，能意识到原路径之外的可能。"
+      ],
+      "growth": "发现可乘之隙不等于有权利用它；给行动留一条清楚的底线。",
+      "vector": {
+        "initiative": 34,
+        "adaptability": 90,
+        "social": 12,
+        "trust": 9,
+        "values": 14,
+        "ambition": 46,
+        "emotion": 37,
+        "focus": 83,
+        "risk": 65
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/du/character/20/"
+      ],
+      "stand": "水项链（Aqua Necklace）",
+      "aliases": [
+        "安杰罗",
+        "安杰洛",
+        "安哲罗",
+        "Aqua Necklace"
+      ],
+      "canonNote": "安杰罗是片桐安十郎的绰号；替身为 Aqua Necklace。"
+    },
+    {
+      "id": "mikitaka",
+      "name": "支仓未起隆",
+      "en": "Mikitaka Hazekura",
+      "part": 4,
+      "parts": [
+        4
+      ],
+      "role": "不按常理的好奇访客",
+      "summary": "他自称来自外星，看习以为常的事总带着第一次见的眼光。愿意认真配合朋友的办法，却不一定能读懂习惯背后的暗示。",
+      "traits": [
+        "好奇",
+        "坦诚",
+        "变形思路"
+      ],
+      "coreValue": "用陌生人的眼光看熟悉的世界",
+      "strengths": [
+        "不被习惯束缚，面对新点子时接受度高。"
+      ],
+      "growth": "在参与别人的计划之前，不妨先问清有哪些隐含规则。",
+      "vector": {
+        "initiative": 49,
+        "adaptability": 92,
+        "social": 60,
+        "trust": 77,
+        "values": 61,
+        "ambition": 36,
+        "emotion": 39,
+        "focus": 31,
+        "risk": 89
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/du/character/12/"
+      ],
+      "stand": "地风火（Earth Wind and Fire）",
+      "aliases": [
+        "支倉未起隆",
+        "努·未起隆佐·恩西",
+        "地球风火"
+      ],
+      "canonNote": "官方动画角色页将变形能力标为替身；他的外星人身份在故事中并未明确证实。"
+    },
+    {
+      "id": "tonio",
+      "name": "托尼欧·托拉萨迪",
+      "en": "Tonio Trussardi",
+      "part": 4,
+      "parts": [
+        4
+      ],
+      "role": "用作品照顾人的手艺人",
+      "summary": "比起炫耀自己懂多少诀窍，他更在意来客走进门时需要什么。标准、卫生和手艺细节，在他眼里都是照顾人的一部分。",
+      "traits": [
+        "手艺",
+        "细致",
+        "照料"
+      ],
+      "coreValue": "把日常的事做到能实在地照顾人",
+      "strengths": [
+        "能精准发现需求，并用稳定、可反复的工序回应。"
+      ],
+      "growth": "标准要守住，讲明白标准的来由也同样重要。",
+      "vector": {
+        "initiative": 32,
+        "adaptability": 44,
+        "social": 51,
+        "trust": 71,
+        "values": 77,
+        "ambition": 29,
+        "emotion": 31,
+        "focus": 96,
+        "risk": 19
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/du/character/15/"
+      ],
+      "stand": "珍珠果酱（Pearl Jam）",
+      "aliases": [
+        "托尼奥",
+        "托尼欧",
+        "东尼欧",
+        "珍珠果醬"
+      ]
+    },
+    {
+      "id": "yuya",
+      "name": "喷上裕也",
+      "en": "Yuya Fungami",
+      "part": 4,
+      "parts": [
+        4
+      ],
+      "role": "在意形象的识迹者",
+      "summary": "他不掩饰要面子的那一面，但对他们的承诺同样认真。快速捕捉小线索是他的长处，真正答应帮忙时也能顶住麻烦。",
+      "traits": [
+        "敏锐",
+        "要强",
+        "有情义"
+      ],
+      "coreValue": "对愿意信任自己的人把事做好",
+      "strengths": [
+        "能在看似混乱的信息里找出关键线索。"
+      ],
+      "growth": "想证明自己时，先把任务重要性和面子分开。",
+      "vector": {
+        "initiative": 72,
+        "adaptability": 76,
+        "social": 72,
+        "trust": 61,
+        "values": 49,
+        "ambition": 55,
+        "emotion": 61,
+        "focus": 88,
+        "risk": 56
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/du/character/26/"
+      ],
+      "stand": "公路之星（Highway Star）",
+      "aliases": [
+        "噴上裕也",
+        "高速之星"
+      ]
+    },
+    {
+      "id": "shigechi",
+      "name": "矢安宫重清（重仔）",
+      "en": "Shigekiyo Yangu / Shigechi",
+      "part": 4,
+      "parts": [
+        4
+      ],
+      "role": "把零碎攒成成果的搜集者",
+      "summary": "别人不留意的碎小机会，他能看到、收起来，再一点点攒成一件值得付出的大事。利益分配一旦模糊，好奇和兴奋也会盖过商量。",
+      "traits": [
+        "搜集",
+        "好奇",
+        "直白"
+      ],
+      "coreValue": "让不起眼的积累产生看得到的成果",
+      "strengths": [
+        "肯花力气收集别人漏掉的小东西。"
+      ],
+      "growth": "合作前把钱怎么分、决定怎么做先说清。",
+      "vector": {
+        "initiative": 65,
+        "adaptability": 51,
+        "social": 75,
+        "trust": 51,
+        "values": 29,
+        "ambition": 67,
+        "emotion": 87,
+        "focus": 96,
+        "risk": 48
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/du/character/11/"
+      ],
+      "stand": "收成者（Harvest）",
+      "aliases": [
+        "矢安宮重清",
+        "重清",
+        "重仔",
+        "胖重"
       ]
     },
     {
@@ -2984,8 +4476,12 @@
         "risk": 62.5
       },
       "sources": [
-        "https://jojo-portal.com/about/gw/"
-      ]
+        "https://jojo-portal.com/about/gw/",
+        "https://jojo-portal.com/anime/gw/story/"
+      ],
+      "stand": "黄金体验（Gold Experience）",
+      "relatedId": "gold_experience_requiem",
+      "canonNote": "本页为乔鲁诺本人的匹配；黄金体验镇魂曲单列为替身形态。"
     },
     {
       "id": "bucciarati",
@@ -3020,7 +4516,8 @@
       },
       "sources": [
         "https://jojo-portal.com/about/gw/"
-      ]
+      ],
+      "stand": "钢链手指（Sticky Fingers）"
     },
     {
       "id": "mista",
@@ -3055,6 +4552,11 @@
       },
       "sources": [
         "https://jojo-portal.com/about/gw/"
+      ],
+      "stand": "性感手枪（Sex Pistols）",
+      "aliases": [
+        "性手枪",
+        "Sex Pistols"
       ]
     },
     {
@@ -3090,7 +4592,8 @@
       },
       "sources": [
         "https://jojo-portal.com/about/gw/"
-      ]
+      ],
+      "stand": "航空史密斯（Aerosmith）"
     },
     {
       "id": "abbacchio",
@@ -3125,7 +4628,8 @@
       },
       "sources": [
         "https://jojo-portal.com/about/gw/"
-      ]
+      ],
+      "stand": "忧郁蓝调（Moody Blues）"
     },
     {
       "id": "fugo",
@@ -3160,7 +4664,8 @@
       },
       "sources": [
         "https://jojo-portal.com/about/gw/"
-      ]
+      ],
+      "stand": "紫烟（Purple Haze）"
     },
     {
       "id": "trish",
@@ -3194,7 +4699,509 @@
         "risk": 48
       },
       "sources": [
+        "https://jojo-portal.com/anime/gw/story/",
         "https://jojo-portal.com/about/gw/"
+      ],
+      "stand": "辣妹（Spice Girl）"
+    },
+    {
+      "id": "diavolo",
+      "name": "迪亚波罗",
+      "en": "Diavolo",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "拒绝失控的掌局者",
+      "summary": "你习惯把信息握在自己手里，直到有把握才现身行动。你追求的不是喝彩，而是无论局势如何变化，自己都能决定下一步。",
+      "traits": [
+        "隐蔽",
+        "控局",
+        "预判"
+      ],
+      "coreValue": "把失控的可能性压到最低",
+      "strengths": [
+        "擅长识别会影响大局的风险，能在时机成熟时果断拍板"
+      ],
+      "growth": "并不是每个信息差都值得维持。给可信的人一点知情权，局面有时反而更稳。",
+      "vector": {
+        "initiative": 33,
+        "adaptability": 67,
+        "social": 17,
+        "trust": 8,
+        "values": 8,
+        "ambition": 92,
+        "emotion": 25,
+        "focus": 25,
+        "risk": 17
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/"
+      ],
+      "stand": "绯红之王（King Crimson）"
+    },
+    {
+      "id": "doppio",
+      "name": "维内加·多比欧",
+      "en": "Vinegar Doppio",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "紧张却机灵的执行者",
+      "summary": "你对意外格外敏感，平时看起来有些局促；真接到一个明确任务时，却能靠眼前的小线索想出路来。",
+      "traits": [
+        "应变",
+        "投入",
+        "细察"
+      ],
+      "coreValue": "把托付给自己的事做完",
+      "strengths": [
+        "在手头资源很少时仍能抓住细节，把任务往前推"
+      ],
+      "growth": "别人给的任务未必适合你。先问一句为什么，比埋头服从更能保护自己。",
+      "vector": {
+        "initiative": 58,
+        "adaptability": 92,
+        "social": 42,
+        "trust": 67,
+        "values": 42,
+        "ambition": 33,
+        "emotion": 75,
+        "focus": 92,
+        "risk": 42
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/09/",
+        "https://jojo-portal.com/anime/gw/story/"
+      ],
+      "stand": "绯红之王的部分能力（含墓志铭）",
+      "canonNote": "墓志铭是相关能力，不是在多比欧名下另立一个独立替身。"
+    },
+    {
+      "id": "risotto",
+      "name": "里苏特·涅罗",
+      "en": "Risotto Nero",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "沉默的伏线队长",
+      "summary": "你不靠高声指挥让人服气，更擅长等待、观察和核查细节。队伍利益受损时，你往往先弄明白原因，再决定是否冒险追下去。",
+      "traits": [
+        "隐忍",
+        "追查",
+        "护队"
+      ],
+      "coreValue": "先把证据找全，再为队伍争取主动",
+      "strengths": [
+        "能在噪声里发现异常并持续追查，也愿意为队友承担压力"
+      ],
+      "growth": "长期埋头搜证容易让队友猜不透你；适时同步，让他们知道何时接手。",
+      "vector": {
+        "initiative": 17,
+        "adaptability": 58,
+        "social": 8,
+        "trust": 58,
+        "values": 58,
+        "ambition": 67,
+        "emotion": 8,
+        "focus": 100,
+        "risk": 58
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/"
+      ],
+      "stand": "金属制品（Metallica）",
+      "aliases": [
+        "里佐特·涅罗",
+        "里苏特",
+        "Risotto Nero"
+      ]
+    },
+    {
+      "id": "prosciutto",
+      "name": "普罗修特",
+      "en": "Prosciutto",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "言行一致的严师",
+      "summary": "你不喜欢用空话掩饰犹豫，自己肯顶在前面，也希望搭档在关键时刻表现得同样可靠。",
+      "traits": [
+        "果决",
+        "带教",
+        "兑现"
+      ],
+      "coreValue": "行动兑现承诺",
+      "strengths": [
+        "标准清楚，能在高压下给同伴明确的方向"
+      ],
+      "growth": "要求严格不等于手把手支持。给新手留出试错时间，比反复催促有效。",
+      "vector": {
+        "initiative": 92,
+        "adaptability": 33,
+        "social": 67,
+        "trust": 67,
+        "values": 83,
+        "ambition": 50,
+        "emotion": 58,
+        "focus": 58,
+        "risk": 75
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/"
+      ],
+      "stand": "壮烈成仁（The Grateful Dead）",
+      "aliases": [
+        "伟大的死",
+        "伟大之死",
+        "普罗舒特"
+      ]
+    },
+    {
+      "id": "ghiaccio",
+      "name": "加丘",
+      "en": "Ghiaccio",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "咬住漏洞的争论者",
+      "summary": "别人可能早就翻篇了，你却还能追着一个不合理的说法问到底。你在意措辞，也很难对不严谨装作没看见。",
+      "traits": [
+        "较真",
+        "锋利",
+        "直率"
+      ],
+      "coreValue": "发现逻辑漏洞就指出来",
+      "strengths": [
+        "擅长拆穿模糊说辞，在细节上不容易被糊弄"
+      ],
+      "growth": "尖锐的问题不必配上尖锐的语气。先分清是事实错误还是表达习惯。",
+      "vector": {
+        "initiative": 83,
+        "adaptability": 33,
+        "social": 50,
+        "trust": 25,
+        "values": 58,
+        "ambition": 50,
+        "emotion": 100,
+        "focus": 100,
+        "risk": 50
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/"
+      ],
+      "stand": "白色相簿（White Album）"
+    },
+    {
+      "id": "polnareff5",
+      "name": "简·皮耶尔·波鲁那雷夫（第五部）",
+      "en": "Jean Pierre Polnareff (Golden Wind)",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "将经验交给后来者的调查人",
+      "summary": "在《黄金之风》中，他不再只靠冲劲向前，而是把长期调查得来的情报交给真正能接住的人。即使处于不利位置，也会留后手、守住合作机会。",
+      "traits": [
+        "谨慎",
+        "调查",
+        "托付"
+      ],
+      "coreValue": "把关键情报传到能继续行动的人手中",
+      "strengths": [
+        "善于积累线索，并在合适的时机交棒。"
+      ],
+      "growth": "别等到独力支撑不住才邀请可信的人参与。",
+      "vector": {
+        "initiative": 24,
+        "adaptability": 65,
+        "social": 37,
+        "trust": 77,
+        "values": 86,
+        "ambition": 46,
+        "emotion": 32,
+        "focus": 91,
+        "risk": 54
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/14/",
+        "https://jojo-portal.com/anime/gw/story/"
+      ],
+      "stand": "银色战车（Silver Chariot）",
+      "aliases": [
+        "第五部波波",
+        "波鲁纳雷夫",
+        "波波",
+        "黄金之风波鲁那雷夫"
+      ],
+      "canonNote": "与第三部波鲁那雷夫是同一人物的后期阶段；战车镇魂曲是其替身进化形态，另有独立档案。",
+      "relatedId": "silver_chariot_requiem"
+    },
+    {
+      "id": "gold_experience_requiem",
+      "name": "黄金体验镇魂曲",
+      "en": "Gold Experience Requiem",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "重设局面的守门人",
+      "summary": "当一条路径注定导向不可接受的结果，你会选择在因果链上更早的位置让它停下。这个形态用“归零”比喻主动守住底线，而不是比别人更用力。",
+      "traits": [
+        "重置",
+        "边界",
+        "准则"
+      ],
+      "coreValue": "不让不正当的行为跨过自己的底线",
+      "strengths": [
+        "能迅速认出不该继续的路径，并从结构上阻止它。"
+      ],
+      "growth": "想完全消除风险时，分辨哪些局面真的需要推翻重来。",
+      "vector": {
+        "initiative": 75,
+        "adaptability": 87,
+        "social": 23,
+        "trust": 30,
+        "values": 86,
+        "ambition": 68,
+        "emotion": 15,
+        "focus": 24,
+        "risk": 38
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/story/"
+      ],
+      "stand": "黄金体验镇魂曲（Gold Experience Requiem）",
+      "aliases": [
+        "黄金体验·镇魂曲",
+        "黄金体验·镇魂歌",
+        "黄金体验镇魂歌",
+        "黄金经验镇魂曲",
+        "GER",
+        "Gold Experience Requiem"
+      ],
+      "profileType": "stand-form",
+      "formOf": "giorno",
+      "canonNote": "乔鲁诺的黄金体验被箭刺中后的进化形态。这里的人格是对替身特征的同人解读，不是乔鲁诺的第二人格。"
+    },
+    {
+      "id": "silver_chariot_requiem",
+      "name": "银色战车镇魂曲",
+      "en": "Chariot Requiem",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "沉默的任务守护者",
+      "summary": "外界越混乱，越会把注意力收回唯一要守住的任务。它与黄金体验镇魂曲不同：一个主动重设边界，这个形态则把资源带离危险，哪怕不被旁人理解。",
+      "traits": [
+        "自主",
+        "专注",
+        "守护"
+      ],
+      "coreValue": "在乱局里守住最后一件最重要的事",
+      "strengths": [
+        "高干扰下仍愿意执行自己的守护任务。"
+      ],
+      "growth": "如果局势已经改变，除了继续完成任务，也要确认任务本身还值得执行。",
+      "vector": {
+        "initiative": 34,
+        "adaptability": 33,
+        "social": 7,
+        "trust": 16,
+        "values": 78,
+        "ambition": 23,
+        "emotion": 9,
+        "focus": 68,
+        "risk": 46
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/story/"
+      ],
+      "stand": "银色战车镇魂曲（Chariot Requiem）",
+      "aliases": [
+        "战车镇魂曲",
+        "战车镇魂歌",
+        "银色战车·镇魂曲",
+        "银色战车镇魂歌",
+        "Silver Chariot Requiem",
+        "SCR"
+      ],
+      "profileType": "stand-form",
+      "formOf": "polnareff5",
+      "canonNote": "波鲁那雷夫的银色战车被箭刺中后进化，随后自主行动。该档案是替身形态的同人解读，不是波鲁那雷夫的第二人格。"
+    },
+    {
+      "id": "pesci",
+      "name": "贝西",
+      "en": "Pesci",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "善察细节的学徒",
+      "summary": "群体里不一定第一个开口，但得到明确指点后，能立刻专注观察细小变化。信心累积到一个点时，会展现让别人意外的判断力。",
+      "traits": [
+        "细察",
+        "学习",
+        "专注"
+      ],
+      "coreValue": "把学到的本事变成关键时刻的担当",
+      "strengths": [
+        "能听进具体反馈，并把它变成扎实判断。"
+      ],
+      "growth": "多积累独立确认的小成功，不把信心全交给领路人。",
+      "vector": {
+        "initiative": 27,
+        "adaptability": 48,
+        "social": 37,
+        "trust": 80,
+        "values": 39,
+        "ambition": 47,
+        "emotion": 71,
+        "focus": 94,
+        "risk": 28
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/19/",
+        "https://jojo-portal.com/anime/gw/story/"
+      ],
+      "stand": "沙滩男孩（Beach Boy）",
+      "aliases": [
+        "佩西",
+        "贝西",
+        "钓鱼竿"
+      ]
+    },
+    {
+      "id": "melone",
+      "name": "梅洛尼",
+      "en": "Melone",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "把问题拆成步骤的试验派",
+      "summary": "他习惯把很具体的问题拆成一连串条件，边观察边更新方法。容易被独特的样本和进展吸引，也容易忘了实验的边界。",
+      "traits": [
+        "实验",
+        "条件",
+        "迭代"
+      ],
+      "coreValue": "弄清变化来自哪一个条件",
+      "strengths": [
+        "不满足于猜测，擅长把异常放回具体条件追索。"
+      ],
+      "growth": "愿意试不等于可以试，先守住知情和同意的边界。",
+      "vector": {
+        "initiative": 54,
+        "adaptability": 80,
+        "social": 38,
+        "trust": 25,
+        "values": 16,
+        "ambition": 63,
+        "emotion": 42,
+        "focus": 97,
+        "risk": 76
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/20/",
+        "https://jojo-portal.com/anime/gw/story/"
+      ],
+      "stand": "娃娃脸（Baby Face）",
+      "aliases": [
+        "梅罗尼",
+        "梅洛涅",
+        "梅洛内",
+        "娃娃臉"
+      ]
+    },
+    {
+      "id": "formaggio",
+      "name": "霍尔马吉欧",
+      "en": "Formaggio",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "善用小优势的轻装派",
+      "summary": "他常从别人不放在眼里的差别出发，一边观察一边让小胜势累积。看上去漫不经心，实际对机会相当敏感。",
+      "traits": [
+        "轻装",
+        "小步",
+        "机会"
+      ],
+      "coreValue": "让微小优势积累到能改变局面",
+      "strengths": [
+        "能把有限条件拆成一步一步可行的小动作。"
+      ],
+      "growth": "投机见效之后，也要管住长期承诺和风险。",
+      "vector": {
+        "initiative": 66,
+        "adaptability": 86,
+        "social": 64,
+        "trust": 27,
+        "values": 21,
+        "ambition": 50,
+        "emotion": 63,
+        "focus": 76,
+        "risk": 80
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/16/",
+        "https://jojo-portal.com/anime/gw/story/"
+      ],
+      "stand": "小脚（Little Feet）",
+      "aliases": [
+        "霍尔马吉奥",
+        "荷尔马吉欧",
+        "小足"
+      ]
+    },
+    {
+      "id": "illuso",
+      "name": "伊鲁索",
+      "en": "Illuso",
+      "part": 5,
+      "parts": [
+        5
+      ],
+      "role": "靠隔离拆解难题的独行者",
+      "summary": "不擅长在乱成一团时同时处理所有变量，喜欢先把目标从其他因素里分开，再逐个对付。优势明显时，也容易误以为局面始终会照自己设计走。",
+      "traits": [
+        "隔离",
+        "布置",
+        "自信"
+      ],
+      "coreValue": "创造可控条件，再逐项处理",
+      "strengths": [
+        "能切出一个更容易看清和处理的小问题。"
+      ],
+      "growth": "隔离不是万能解法；保持对其他变量和队友反馈的敏感。",
+      "vector": {
+        "initiative": 48,
+        "adaptability": 56,
+        "social": 48,
+        "trust": 15,
+        "values": 28,
+        "ambition": 61,
+        "emotion": 69,
+        "focus": 59,
+        "risk": 30
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/gw/character/17/",
+        "https://jojo-portal.com/anime/gw/story/"
+      ],
+      "stand": "镜中人（Man in the Mirror）",
+      "aliases": [
+        "伊鲁佐",
+        "伊鲁佐欧",
+        "镜子中的男人"
       ]
     },
     {
@@ -3229,7 +5236,13 @@
         "risk": 87.5
       },
       "sources": [
-        "https://jojo-portal.com/about/so/"
+        "https://jojo-portal.com/anime/so/character/01/"
+      ],
+      "stand": "石之自由",
+      "standEn": "Stone Free",
+      "aliases": [
+        "石之海",
+        "Stone Ocean"
       ]
     },
     {
@@ -3264,7 +5277,13 @@
         "risk": 62.5
       },
       "sources": [
-        "https://jojo-portal.com/about/so/"
+        "https://jojo-portal.com/anime/so/character/02/"
+      ],
+      "stand": "亲吻",
+      "standEn": "Kiss",
+      "aliases": [
+        "艾尔梅斯",
+        "艾梅斯"
       ]
     },
     {
@@ -3299,7 +5318,14 @@
         "risk": 75
       },
       "sources": [
-        "https://jojo-portal.com/about/so/"
+        "https://jojo-portal.com/anime/so/character/03/"
+      ],
+      "stand": "斗魂骇客",
+      "standEn": "Foo Fighters",
+      "aliases": [
+        "幽浮一族",
+        "FF",
+        "F.F."
       ]
     },
     {
@@ -3334,8 +5360,16 @@
         "risk": 50
       },
       "sources": [
-        "https://jojo-portal.com/about/so/"
-      ]
+        "https://jojo-portal.com/anime/so/character/05/"
+      ],
+      "stand": "天气预报",
+      "standEn": "Weather Report",
+      "aliases": [
+        "重天气",
+        "Heavy Weather",
+        "天气报告"
+      ],
+      "canonNote": "「重天气」是天气预报的特殊能力，并非另一位替身使者。"
     },
     {
       "id": "pucci",
@@ -3369,8 +5403,16 @@
         "risk": 62.5
       },
       "sources": [
-        "https://jojo-portal.com/about/so/"
-      ]
+        "https://jojo-portal.com/anime/so/character/08/"
+      ],
+      "stand": "白蛇 → C-MOON → 天堂制造",
+      "standEn": "Whitesnake / C-Moon / Made in Heaven",
+      "aliases": [
+        "新月",
+        "白蛇",
+        "天堂制造"
+      ],
+      "canonNote": "三者是普奇在第六部的不同阶段，不是三名独立人物。"
     },
     {
       "id": "anasui",
@@ -3404,7 +5446,14 @@
         "risk": 82
       },
       "sources": [
-        "https://jojo-portal.com/about/so/"
+        "https://jojo-portal.com/anime/so/character/06/"
+      ],
+      "stand": "潜行者",
+      "standEn": "Diver Down",
+      "aliases": [
+        "潜行俯冲",
+        "潜行下潜",
+        "潜行潛水"
       ]
     },
     {
@@ -3439,7 +5488,268 @@
         "risk": 55
       },
       "sources": [
-        "https://jojo-portal.com/about/so/"
+        "https://jojo-portal.com/anime/so/character/04/",
+        "https://jojowiki.com/Burning_Down_the_House"
+      ],
+      "stand": "放火烧厝",
+      "standEn": "Burning Down the House",
+      "aliases": [
+        "燃烧殆尽",
+        "烧毁房屋",
+        "烧毁房子"
+      ],
+      "canonNote": "本条记录恩波里欧自身替身，不把借助的其他替身列为自身能力。"
+    },
+    {
+      "id": "gwess",
+      "name": "古艾丝",
+      "en": "Gwess",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "忽冷忽热的试探者",
+      "summary": "你很快能察觉谁掌握主动权，也会主动靠近别人试探底线。只要关系不对等，你就很难真正放松下来。",
+      "traits": [
+        "试探",
+        "察言观色",
+        "掌控"
+      ],
+      "coreValue": "在陌生关系里先找到自己的筹码",
+      "strengths": [
+        "对人际气氛和地位变化很敏锐，发现不对劲时转得快"
+      ],
+      "growth": "让别人害怕和让别人信任是两件事；用清楚的规则代替反复试探。",
+      "vector": {
+        "initiative": 75,
+        "adaptability": 83,
+        "social": 83,
+        "trust": 17,
+        "values": 17,
+        "ambition": 25,
+        "emotion": 92,
+        "focus": 67,
+        "risk": 42
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/so/character/09/"
+      ],
+      "stand": "咕咕玩偶",
+      "standEn": "Goo Goo Dolls",
+      "aliases": [
+        "格温丝",
+        "咕咕娃娃"
+      ]
+    },
+    {
+      "id": "versus",
+      "name": "多纳泰罗·凡苏斯",
+      "en": "Donatello Versus",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "不肯认领坏运气的人",
+      "summary": "你不愿被不公平的起点定义，也不甘心只做别人的棋子。看到翻盘机会时，你宁愿接手决定，也不喜欢坐等安排。",
+      "traits": [
+        "自立",
+        "不甘",
+        "反击"
+      ],
+      "coreValue": "别让别人替我写完结局",
+      "strengths": [
+        "在被动局面里仍有争回选择权的冲劲"
+      ],
+      "growth": "先分清是在改善处境，还是单纯想赢回一口气。后者容易让你错估代价。",
+      "vector": {
+        "initiative": 83,
+        "adaptability": 75,
+        "social": 33,
+        "trust": 8,
+        "values": 25,
+        "ambition": 92,
+        "emotion": 67,
+        "focus": 42,
+        "risk": 92
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/so/character/23/"
+      ],
+      "stand": "地下世界",
+      "standEn": "Under World",
+      "aliases": [
+        "多纳泰罗",
+        "凡苏斯"
+      ]
+    },
+    {
+      "id": "rikiel",
+      "name": "里奇艾尔",
+      "en": "Rikiel",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "从慌乱里找到节奏的人",
+      "summary": "你不是一开始就不怕，但越明白问题是怎么发生的，就越能在紧张中稳住自己。一个能讲得通的原理，有时比一句打气更管用。",
+      "traits": [
+        "自省",
+        "观察",
+        "突破"
+      ],
+      "coreValue": "理解恐惧，才能带着它前进",
+      "strengths": [
+        "擅长把不安拆成具体问题，再一点点找回行动感"
+      ],
+      "growth": "不必靠一次极限表现证明勇气。允许自己用更小、更可重复的步骤练习。",
+      "vector": {
+        "initiative": 42,
+        "adaptability": 75,
+        "social": 25,
+        "trust": 42,
+        "values": 67,
+        "ambition": 75,
+        "emotion": 67,
+        "focus": 83,
+        "risk": 67
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/so/character/22/"
+      ],
+      "stand": "高天",
+      "standEn": "Sky High",
+      "aliases": [
+        "飞天",
+        "天空之上"
+      ]
+    },
+    {
+      "id": "johngalli_a",
+      "name": "约翰·格里·A",
+      "en": "Johngalli A",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "循迹而行的谋略者",
+      "summary": "他不靠喧闹确立存在感，习惯从微小变化中找出别人忽略的路径。对效忠对象投入极深，目标确定后很少抛开原计划。",
+      "traits": [
+        "辨迹",
+        "耐心",
+        "执着"
+      ],
+      "coreValue": "先读清环境，再把有限机会用到极致",
+      "strengths": [
+        "能够凭难察觉的线索建立判断，并保持长时间专注"
+      ],
+      "growth": "如果忠诚阻断了独立判断，再精密的计划也可能失去方向",
+      "vector": {
+        "initiative": 25,
+        "adaptability": 32,
+        "social": 12,
+        "trust": 31,
+        "values": 72,
+        "ambition": 51,
+        "emotion": 19,
+        "focus": 93,
+        "risk": 37
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/so/character/10/"
+      ],
+      "stand": "曼哈顿转运站",
+      "standEn": "Manhattan Transfer",
+      "aliases": [
+        "约翰格里",
+        "约翰格利·A",
+        "约翰格里·A",
+        "乔纳利·A",
+        "约翰·G·A"
+      ]
+    },
+    {
+      "id": "miu_miu",
+      "name": "缪缪",
+      "en": "Miu Miu / Miuccia Miuller",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "精于划界的看守者",
+      "summary": "善于隐在日常秩序背后，读懂流程与限制，再用最有效的规则控制局面。她的警觉来自不愿让责任范围内的风险脱手。",
+      "traits": [
+        "警觉",
+        "程序",
+        "控场"
+      ],
+      "coreValue": "边界要明确，流程不能因疏忽而失效",
+      "strengths": [
+        "能迅速判断规则哪里最易失守，并提早准备后手"
+      ],
+      "growth": "只关注服从和可控性时，容易忽略他人的正当需求",
+      "vector": {
+        "initiative": 38,
+        "adaptability": 55,
+        "social": 33,
+        "trust": 13,
+        "values": 29,
+        "ambition": 39,
+        "emotion": 18,
+        "focus": 89,
+        "risk": 11
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/so/character/20/"
+      ],
+      "stand": "监狱摇滚",
+      "standEn": "Jail House Lock",
+      "aliases": [
+        "缪柯雅·缪拉",
+        "缪恰·缪勒",
+        "缪缪",
+        "监狱之家摇滚"
+      ]
+    },
+    {
+      "id": "ungalo",
+      "name": "盎格鲁",
+      "en": "Ungalo",
+      "part": 6,
+      "parts": [
+        6
+      ],
+      "role": "不按常理的扰动者",
+      "summary": "对安排好的人生没有耐心，被异想天开和突然出现的出口吸引。遇到压迫，他更想打破棋盘，而不是按旧规则证明自己。",
+      "traits": [
+        "想象",
+        "逃逸",
+        "冒险"
+      ],
+      "coreValue": "拒绝让眼下的现实规定所有可能",
+      "strengths": [
+        "能迅速设想常规答案之外的方向"
+      ],
+      "growth": "冲动地打碎规则之后，还需要为自己和他人承担后果",
+      "vector": {
+        "initiative": 67,
+        "adaptability": 96,
+        "social": 75,
+        "trust": 10,
+        "values": 12,
+        "ambition": 38,
+        "emotion": 92,
+        "focus": 45,
+        "risk": 95
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/so/character/21/"
+      ],
+      "stand": "波西米亚狂想曲",
+      "standEn": "Bohemian Rhapsody",
+      "aliases": [
+        "昂格鲁",
+        "温加罗",
+        "自由人的狂想曲"
       ]
     },
     {
@@ -3475,7 +5785,17 @@
       },
       "sources": [
         "https://jojo-portal.com/about/sbr/"
-      ]
+      ],
+      "stand": "牙",
+      "standEn": "Tusk",
+      "aliases": [
+        "ACT1",
+        "ACT2",
+        "ACT3",
+        "ACT4",
+        "獠牙"
+      ],
+      "canonNote": "牙可随回旋的发展进入不同 ACT 阶段。"
     },
     {
       "id": "gyro",
@@ -3510,7 +5830,16 @@
       },
       "sources": [
         "https://jojo-portal.com/about/sbr/"
-      ]
+      ],
+      "stand": "破球者",
+      "standEn": "Ball Breaker",
+      "aliases": [
+        "杰洛",
+        "杰罗",
+        "铁球回旋",
+        "球破坏者"
+      ],
+      "canonNote": "以铁球回旋为核心；破球者是黄金回旋达成时显现的替身，不等同于所有铁球技术。"
     },
     {
       "id": "diego",
@@ -3545,7 +5874,15 @@
       },
       "sources": [
         "https://jojo-portal.com/about/sbr/"
-      ]
+      ],
+      "stand": "骇人恶兽",
+      "standEn": "Scary Monsters",
+      "aliases": [
+        "可怕怪兽",
+        "迪亚哥",
+        "迪亚戈"
+      ],
+      "canonNote": "本条是本世界的迪亚哥；平行世界个体的「世界」并非他的替身。"
     },
     {
       "id": "valentine",
@@ -3580,7 +5917,15 @@
       },
       "sources": [
         "https://jojo-portal.com/about/sbr/"
-      ]
+      ],
+      "stand": "D4C",
+      "standEn": "Dirty Deeds Done Dirt Cheap",
+      "aliases": [
+        "恶行易施",
+        "Love Train",
+        "爱的列车"
+      ],
+      "canonNote": "爱的列车是特定条件下的能力变化，仍与瓦伦泰及 D4C 相连。"
     },
     {
       "id": "hot_pants",
@@ -3616,6 +5961,359 @@
       "sources": [
         "https://jojo-portal.com/about/sbr/",
         "https://jojowiki.com/Hot_Pants"
+      ],
+      "stand": "护霜旅行者",
+      "standEn": "Cream Starter",
+      "aliases": [
+        "奶油起动机",
+        "奶油启动器"
+      ]
+    },
+    {
+      "id": "lucy_steel",
+      "name": "露西·史提尔",
+      "en": "Lucy Steel",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "柔声却不退让的守护者",
+      "summary": "你不急着争主导权，却会为想保护的人主动承担风险。别人以为你只是旁观时，你可能已经想好怎样避开正面冲突。",
+      "traits": [
+        "机敏",
+        "守护",
+        "静定"
+      ],
+      "coreValue": "不让重要的人独自扛下风险",
+      "strengths": [
+        "在力量悬殊的情境里能保持清醒，找出对方忽略的办法"
+      ],
+      "growth": "习惯替亲近的人把风险挡下来时，也要让对方参与决定。",
+      "vector": {
+        "initiative": 58,
+        "adaptability": 92,
+        "social": 25,
+        "trust": 75,
+        "values": 92,
+        "ambition": 42,
+        "emotion": 25,
+        "focus": 83,
+        "risk": 83
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sbr/character/04/",
+        "https://jojowiki.com/Ticket_to_Ride"
+      ],
+      "stand": "乘车券",
+      "standEn": "Ticket to Ride",
+      "aliases": [
+        "露西",
+        "车票"
+      ],
+      "canonNote": "乘车券与圣人遗体相关，不是她从登场起就持有的常驻能力。"
+    },
+    {
+      "id": "ringo",
+      "name": "林可·罗德艾根",
+      "en": "Ringo Roadagain",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "按原则迎战的严苛者",
+      "summary": "你把成长看成一场不能糊弄过去的较量，讨厌占便宜，更看重双方是否在同样的条件下做选择。",
+      "traits": [
+        "原则",
+        "对等",
+        "自律"
+      ],
+      "coreValue": "让胜负建立在清楚且对等的规则上",
+      "strengths": [
+        "压力越大，越能按自己认同的标准做事"
+      ],
+      "growth": "公平不只一种形式。别人不接受你的规则，不代表他们不敢承担。",
+      "vector": {
+        "initiative": 58,
+        "adaptability": 17,
+        "social": 17,
+        "trust": 17,
+        "values": 100,
+        "ambition": 83,
+        "emotion": 17,
+        "focus": 67,
+        "risk": 83
+      },
+      "sources": [
+        "https://www.s-manga.net/items/contents.html?jdcn=08874119851126315501",
+        "https://jojowiki.com/Mandom"
+      ],
+      "stand": "男子汉领域",
+      "standEn": "Mandom",
+      "aliases": [
+        "曼登姆",
+        "真正的男人世界"
+      ]
+    },
+    {
+      "id": "wekapipo",
+      "name": "威卡毕博",
+      "en": "Wekapipo",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "有分寸的孤身护卫",
+      "summary": "你不擅长说漂亮话，但承诺过的事会跟到底。必要时你能和立场不同的人做短暂的同路人，不会把合作误当成全盘认同。",
+      "traits": [
+        "克制",
+        "守约",
+        "务实"
+      ],
+      "coreValue": "不把应负的责任推给别人",
+      "strengths": [
+        "在立场复杂的环境中依然能拎清该护谁、该做什么"
+      ],
+      "growth": "独自承担并不总是可靠。让伙伴提前知道你的界线，比临场默契更稳。",
+      "vector": {
+        "initiative": 50,
+        "adaptability": 58,
+        "social": 17,
+        "trust": 42,
+        "values": 83,
+        "ambition": 42,
+        "emotion": 8,
+        "focus": 75,
+        "risk": 58
+      },
+      "sources": [
+        "https://books.shueisha.co.jp/items/contents.html?isbn=978-4-08-619667-3",
+        "https://jojo-portal.com/anime/sbr/character/"
+      ],
+      "stand": null,
+      "standEn": null,
+      "aliases": [
+        "威卡毕博",
+        "韦卡毕博",
+        "莱夫特·罕·萨德"
+      ],
+      "canonNote": "未确认本人拥有替身。使用特殊铁球术，其效果并不是替身。"
+    },
+    {
+      "id": "mountain_tim",
+      "name": "曼登·提姆",
+      "en": "Mountain Tim",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "愿意伸手的行路人",
+      "summary": "独行让你自在，却不妨碍你在别人困难时伸手。你擅长在陌生环境中观察路径，也愿意承担没人分配给你的责任。",
+      "traits": [
+        "独立",
+        "援手",
+        "从容"
+      ],
+      "coreValue": "有余力时，不对眼前的困境袖手旁观",
+      "strengths": [
+        "环境感强，兼具独立处理问题与临时支援队友的能力"
+      ],
+      "growth": "主动帮忙之前，先确认对方需要怎样的帮助，也给自己的安全留一道退路。",
+      "vector": {
+        "initiative": 67,
+        "adaptability": 83,
+        "social": 42,
+        "trust": 58,
+        "values": 83,
+        "ambition": 42,
+        "emotion": 42,
+        "focus": 67,
+        "risk": 83
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sbr/character/08/",
+        "https://jojowiki.com/Oh!_Lonesome_Me"
+      ],
+      "stand": "哦！孤独的我",
+      "standEn": "Oh! Lonesome Me",
+      "aliases": [
+        "山地提姆",
+        "山上提姆"
+      ]
+    },
+    {
+      "id": "sandman",
+      "name": "砂男",
+      "en": "Sand Man",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "走自己路线的实干者",
+      "summary": "你很少因为大家都采用一种方法，就放弃自己的长处。目标对你有真实分量，先用适合自己的方式跑起来，比解释给所有人听更重要。",
+      "traits": [
+        "自持",
+        "独行",
+        "实干"
+      ],
+      "coreValue": "选择能实际守住所重视事物的路线",
+      "strengths": [
+        "不容易被惯例绑住，能把长期目标落实成自己的节奏"
+      ],
+      "growth": "单打独斗能保持自主，但遇到边界问题时，主动了解别人的方案并不等于让步。",
+      "vector": {
+        "initiative": 75,
+        "adaptability": 67,
+        "social": 8,
+        "trust": 25,
+        "values": 50,
+        "ambition": 83,
+        "emotion": 17,
+        "focus": 50,
+        "risk": 92
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sbr/character/06/",
+        "https://jojowiki.com/In_a_Silent_Way"
+      ],
+      "stand": "沉默之道",
+      "standEn": "In a Silent Way",
+      "aliases": [
+        "音男",
+        "Soundman",
+        "寂静之道"
+      ]
+    },
+    {
+      "id": "pocoloco",
+      "name": "波克洛克",
+      "en": "Pocoloco",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "乘风而上的乐观派",
+      "summary": "不像精密策士那样事事预演，他更相信临场感觉和眼前的机会。不确定性令许多人焦虑，却往往让他笑着多走几步。",
+      "traits": [
+        "乐观",
+        "临场",
+        "松弛"
+      ],
+      "coreValue": "有机会就试，别在出发前耗尽勇气",
+      "strengths": [
+        "擅长从挫折中维持轻快节奏，临场敢变招"
+      ],
+      "growth": "不要把对机会的信心当成对风险的判断",
+      "vector": {
+        "initiative": 81,
+        "adaptability": 77,
+        "social": 88,
+        "trust": 75,
+        "values": 27,
+        "ambition": 75,
+        "emotion": 80,
+        "focus": 19,
+        "risk": 96
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sbr/character/07/",
+        "https://jojowiki.com/Hey_Ya!"
+      ],
+      "stand": "嘿呀！",
+      "standEn": "Hey Ya!",
+      "aliases": [
+        "波可洛可",
+        "波可洛克",
+        "波克洛可",
+        "嘿呀",
+        "Hey Ya"
+      ],
+      "canonNote": "替身会给他鼓励与建议，作品没有把好运本身归为其替身能力。"
+    },
+    {
+      "id": "steven_steel",
+      "name": "史蒂芬·史提尔",
+      "en": "Steven Steel",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "把梦想变成赛程的组织者",
+      "summary": "他愿意为看似不可能的大计划四处奔走，也清楚独自扛不住每一项压力。比起争第一，他更在乎让原本没人相信的事真的启动。",
+      "traits": [
+        "组织",
+        "构想",
+        "互信"
+      ],
+      "coreValue": "让一个大胆想法落地，并让合作者能并肩完成",
+      "strengths": [
+        "愿意串联资源，协调不同立场背后的共同目标"
+      ],
+      "growth": "承诺范围扩大时要早点求助，不要让责任全压在少数人身上",
+      "vector": {
+        "initiative": 30,
+        "adaptability": 43,
+        "social": 85,
+        "trust": 85,
+        "values": 71,
+        "ambition": 91,
+        "emotion": 73,
+        "focus": 19,
+        "risk": 41
+      },
+      "sources": [
+        "https://jojo-portal.com/anime/sbr/character/05/"
+      ],
+      "stand": null,
+      "aliases": [
+        "史蒂文·斯提尔",
+        "史蒂文·史提尔",
+        "史蒂芬·史蒂尔",
+        "Steven Steel"
+      ],
+      "canonNote": "赛事主办人，本人没有明确的替身记录。"
+    },
+    {
+      "id": "blackmore",
+      "name": "布拉克摩亚",
+      "en": "Blackmore",
+      "part": 7,
+      "parts": [
+        7
+      ],
+      "role": "礼貌而冷静的追踪者",
+      "summary": "态度客气但不轻易退让，能在别人急着下结论时继续追索线索。依靠严谨和自我约束工作，异常局面也难以打断他的专注。",
+      "traits": [
+        "追索",
+        "克制",
+        "守序"
+      ],
+      "coreValue": "不让杂音改变自己认定的职责",
+      "strengths": [
+        "能从复杂情境捕捉碎片线索并追到源头"
+      ],
+      "growth": "尽到职责不等于放弃提问，目标也值得独立审视",
+      "vector": {
+        "initiative": 32,
+        "adaptability": 23,
+        "social": 27,
+        "trust": 39,
+        "values": 89,
+        "ambition": 18,
+        "emotion": 10,
+        "focus": 98,
+        "risk": 26
+      },
+      "sources": [
+        "https://www.s-manga.net/items/contents.html?jdcn=08874147851126315501",
+        "https://jojowiki.com/Blackmore",
+        "https://jojowiki.com/Catch_the_Rainbow"
+      ],
+      "stand": "捕捉彩虹",
+      "standEn": "Catch the Rainbow",
+      "aliases": [
+        "布莱克摩亚",
+        "布莱克莫尔",
+        "抓住彩虹"
       ]
     },
     {
@@ -3651,7 +6349,16 @@
       },
       "sources": [
         "https://jojo-portal.com/about/jl/"
-      ]
+      ],
+      "stand": "柔软且湿润",
+      "standEn": "Soft & Wet",
+      "aliases": [
+        "软且湿",
+        "柔软且潮湿",
+        "Go Beyond",
+        "超越"
+      ],
+      "canonNote": "「超越」是柔软且湿润的特殊运用，不是另一个替身使者。"
     },
     {
       "id": "yasuho",
@@ -3686,6 +6393,12 @@
       },
       "sources": [
         "https://jojo-portal.com/about/jl/"
+      ],
+      "stand": "佩斯利公园",
+      "standEn": "Paisley Park",
+      "aliases": [
+        "佩斯利乐园",
+        "佩斯利公园"
       ]
     },
     {
@@ -3722,6 +6435,12 @@
       "sources": [
         "https://jojo-portal.com/about/jl/",
         "https://jojowiki.com/Rai_Mamezuku"
+      ],
+      "stand": "狗狗风格",
+      "standEn": "Doggy Style",
+      "aliases": [
+        "狗式风格",
+        "豆铣礼"
       ]
     },
     {
@@ -3757,6 +6476,11 @@
       },
       "sources": [
         "https://jojo-portal.com/about/jl/"
+      ],
+      "stand": "极速之王",
+      "standEn": "Speed King",
+      "aliases": [
+        "速度之王"
       ]
     },
     {
@@ -3793,6 +6517,312 @@
       "sources": [
         "https://jojo-portal.com/about/jl/",
         "https://jojowiki.com/Tooru"
+      ],
+      "stand": "奇迹于你",
+      "standEn": "Wonder of U",
+      "aliases": [
+        "奇迹之于你",
+        "灾厄",
+        "透龙",
+        "透龍"
+      ]
+    },
+    {
+      "id": "norisuke4",
+      "name": "东方宪助（四代目）",
+      "en": "Norisuke Higashikata IV",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "维系家业的务实长辈",
+      "summary": "你善于把复杂的人和事放回日常秩序里处理。对自己认定该照顾的人，你多半愿意留出余地，也希望他们尊重共同的边界。",
+      "traits": [
+        "持家",
+        "照拂",
+        "周全"
+      ],
+      "coreValue": "让共同生活和长期承诺都能维持下去",
+      "strengths": [
+        "会协调关系、分担责任，擅长在争执时把事情拉回现实"
+      ],
+      "growth": "顾全家里人的感受时，不妨把难听但必要的话说得更早些。",
+      "vector": {
+        "initiative": 33,
+        "adaptability": 58,
+        "social": 75,
+        "trust": 83,
+        "values": 67,
+        "ambition": 33,
+        "emotion": 50,
+        "focus": 33,
+        "risk": 17
+      },
+      "sources": [
+        "https://jojo-portal.com/about/jjl/"
+      ],
+      "stand": "无名之王",
+      "standEn": "King Nothing",
+      "aliases": [
+        "虚无之王",
+        "东方宪助"
+      ]
+    },
+    {
+      "id": "joshu",
+      "name": "东方常秀",
+      "en": "Joshu Higashikata",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "渴望被看见的争先者",
+      "summary": "你很在意自己有没有被当回事，别人越轻视，你越想赶紧做点什么证明自己。你的真心话通常藏不久，闹起来也很难装得若无其事。",
+      "traits": [
+        "好胜",
+        "直接",
+        "求认可"
+      ],
+      "coreValue": "让别人看见自己的存在感",
+      "strengths": [
+        "不怕表达意见，在一群人都迟疑时敢出声"
+      ],
+      "growth": "得到关注不等于赢得信任。给对方留出拒绝的空间，你的真诚才更容易被听见。",
+      "vector": {
+        "initiative": 92,
+        "adaptability": 50,
+        "social": 83,
+        "trust": 25,
+        "values": 25,
+        "ambition": 67,
+        "emotion": 100,
+        "focus": 42,
+        "risk": 75
+      },
+      "sources": [
+        "https://jojo-portal.com/about/jjl/"
+      ],
+      "stand": "螺帽之王",
+      "standEn": "Nut King Call",
+      "aliases": [
+        "螺帽王",
+        "螺帽王呼唤"
+      ]
+    },
+    {
+      "id": "kei",
+      "name": "虹村京",
+      "en": "Kei Nijimura",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "把秘密和责任分开的人",
+      "summary": "你习惯先观察，再决定让谁知道多少。一旦认定一件事是自己的责任，旁人很难说服你只拿表面解释敷衍过去。",
+      "traits": [
+        "寡言",
+        "防备",
+        "查验"
+      ],
+      "coreValue": "保护重要信息，同时查清事实",
+      "strengths": [
+        "能持续留意别人忽略的不一致之处，又不易被气氛带偏"
+      ],
+      "growth": "警觉有价值，但谁都不可信会让调查停在你一个人的视角里。",
+      "vector": {
+        "initiative": 25,
+        "adaptability": 58,
+        "social": 17,
+        "trust": 17,
+        "values": 75,
+        "ambition": 42,
+        "emotion": 8,
+        "focus": 100,
+        "risk": 42
+      },
+      "sources": [
+        "https://jojo-portal.com/about/jjl/"
+      ],
+      "stand": "天生如此",
+      "standEn": "Born This Way",
+      "aliases": [
+        "虹村京",
+        "虹村庆",
+        "天生一对"
+      ]
+    },
+    {
+      "id": "kaato",
+      "name": "东方花都",
+      "en": "Kaato Higashikata",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "把亲疏分得很清的守门人",
+      "summary": "你对外界的评判没那么在意，对自己认定要保护的人却极其坚定。你习惯默默看清局势，等到觉得非做不可，才会出手。",
+      "traits": [
+        "护短",
+        "隐忍",
+        "决断"
+      ],
+      "coreValue": "守住自己认定的那条亲情边界",
+      "strengths": [
+        "压力下能稳住情绪，愿意为自己认定的责任承担后果"
+      ],
+      "growth": "只听关系亲近的一方，很容易错过事实的另一面。把保护和纵容分开。",
+      "vector": {
+        "initiative": 42,
+        "adaptability": 50,
+        "social": 25,
+        "trust": 42,
+        "values": 83,
+        "ambition": 58,
+        "emotion": 17,
+        "focus": 42,
+        "risk": 67
+      },
+      "sources": [
+        "https://books.shueisha.co.jp/items/contents.html?jdcn=08X10000000025782700",
+        "https://jojo-portal.com/about/jjl/"
+      ],
+      "stand": "空间传送",
+      "standEn": "Space Trucking",
+      "aliases": [
+        "空间货车",
+        "太空卡车",
+        "东方花都"
+      ]
+    },
+    {
+      "id": "hato",
+      "name": "东方鸠",
+      "en": "Hato Higashikata",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "坦率而敢于回击的家人",
+      "summary": "平时自然外向，重视亲近关系，很少靠试探与人相处。真遇到背信或越界时，她愿意收起惯常的柔软，直截了当地表明态度。",
+      "traits": [
+        "坦率",
+        "护亲",
+        "边界"
+      ],
+      "coreValue": "信任靠真诚维系，越界就必须说清楚",
+      "strengths": [
+        "能坦诚建立关系，也能在必要时果断维护边界"
+      ],
+      "growth": "试着让信任与核实并行，不必等到关系破裂才表达不安",
+      "vector": {
+        "initiative": 71,
+        "adaptability": 52,
+        "social": 89,
+        "trust": 89,
+        "values": 59,
+        "ambition": 39,
+        "emotion": 92,
+        "focus": 61,
+        "risk": 63
+      },
+      "sources": [
+        "https://www.s-manga.net/items/contents.html?jdcn=08880880851126315501",
+        "https://jojowiki.com/Hato_Higashikata"
+      ],
+      "stand": "步行之心",
+      "standEn": "Walking Heart",
+      "aliases": [
+        "东方鳩",
+        "步行的心脏",
+        "行走之心"
+      ]
+    },
+    {
+      "id": "mitsuba",
+      "name": "东方蜜叶",
+      "en": "Mitsuba Higashikata",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "稳住家庭的现实派",
+      "summary": "表面保持有礼体面，实际很在意家人的处境。遇到别人越过边界时，会从顾及场面变为主动给自己和家人争取余地。",
+      "traits": [
+        "照料",
+        "务实",
+        "设限"
+      ],
+      "coreValue": "先保护身边的人，再处理外界评价",
+      "strengths": [
+        "能在礼貌与自我保护之间迅速切换"
+      ],
+      "growth": "不要因为担心给人添麻烦，就把自己的困难全留到最后才说",
+      "vector": {
+        "initiative": 58,
+        "adaptability": 31,
+        "social": 78,
+        "trust": 70,
+        "values": 34,
+        "ambition": 18,
+        "emotion": 44,
+        "focus": 70,
+        "risk": 31
+      },
+      "sources": [
+        "https://www.s-manga.net/items/contents.html?isbn=978-4-08-881777-4",
+        "https://jojowiki.com/Mitsuba_Higashikata",
+        "https://jojowiki.com/Awaking_III_Leaves"
+      ],
+      "stand": "觉醒三叶",
+      "standEn": "Awaking III Leaves",
+      "aliases": [
+        "东方三叶",
+        "苏醒三叶",
+        "唤醒Ⅲ叶",
+        "东方密叶",
+        "東方密葉"
+      ]
+    },
+    {
+      "id": "yotsuyu",
+      "name": "八木山夜露",
+      "en": "Yotsuyu Yagiyama",
+      "part": 8,
+      "parts": [
+        8
+      ],
+      "role": "善设局的独行策士",
+      "summary": "把耐心用在寻找切入口，而不是抢先曝光自己的意图。看似沉着随和，实则更愿意由自己决定信息何时公开、关系推进到哪一步。",
+      "traits": [
+        "谋划",
+        "沉着",
+        "隐蔽"
+      ],
+      "coreValue": "掌握节奏，也掌握对方能看见多少",
+      "strengths": [
+        "忍得住等待，常能从旁人忽略的角度打开局面"
+      ],
+      "growth": "把所有关系都当成布置的一环，会失去别人坦诚提供的视角",
+      "vector": {
+        "initiative": 18,
+        "adaptability": 69,
+        "social": 28,
+        "trust": 12,
+        "values": 15,
+        "ambition": 71,
+        "emotion": 29,
+        "focus": 72,
+        "risk": 71
+      },
+      "sources": [
+        "https://www.s-manga.net/items/contents.html?jdcn=08880238851126315501"
+      ],
+      "stand": "我是一块岩石",
+      "standEn": "I Am a Rock",
+      "aliases": [
+        "夜露",
+        "我是一块石头",
+        "我是岩石"
       ]
     },
     {
@@ -3829,6 +6859,12 @@
       "sources": [
         "https://jojo-portal.com/about/tjl/",
         "https://jojo-portal.com/en/about/tjl/"
+      ],
+      "stand": "十一月之雨",
+      "standEn": "November Rain",
+      "aliases": [
+        "11月之雨",
+        "十一月的雨"
       ]
     },
     {
@@ -3865,6 +6901,13 @@
       "sources": [
         "https://jojo-portal.com/about/tjl/",
         "https://jojo-portal.com/en/about/tjl/"
+      ],
+      "stand": "丝滑操作者",
+      "standEn": "Smooth Operators",
+      "aliases": [
+        "平滑操作员",
+        "平滑操作者",
+        "德拉戈纳"
       ]
     },
     {
@@ -3901,6 +6944,14 @@
       "sources": [
         "https://jojo-portal.com/about/tjl/",
         "https://jojo-portal.com/en/about/tjl/"
+      ],
+      "stand": "忙碌怪兽",
+      "standEn": "The Hustle",
+      "aliases": [
+        "骚动",
+        "忙碌",
+        "帕科",
+        "帕克"
       ]
     },
     {
@@ -3937,6 +6988,13 @@
       "sources": [
         "https://jojo-portal.com/about/tjl/",
         "https://jojo-portal.com/en/about/tjl/"
+      ],
+      "stand": "请等一下",
+      "standEn": "THE MATTEKUDASAI",
+      "aliases": [
+        "请等一等",
+        "兔兔",
+        "乌萨奇"
       ]
     },
     {
@@ -3973,7 +7031,193 @@
       "sources": [
         "https://jojo-portal.com/about/tjl/",
         "https://jojo-portal.com/en/about/tjl/"
+      ],
+      "stand": null,
+      "standEn": null,
+      "aliases": [
+        "梅丽尔",
+        "梅丽尔·梅·奇"
+      ],
+      "canonNote": "尚未确认其替身。"
+    },
+    {
+      "id": "charming_man",
+      "name": "魅力男",
+      "en": "Charming Man",
+      "part": 9,
+      "parts": [
+        9
+      ],
+      "role": "靠观察换主动的追踪者",
+      "summary": "你不喜欢只凭别人给的答案作判断，更习惯亲自追到线索源头。必要时你会改变接近问题的方式，但不会轻易放下最初的追问。",
+      "traits": [
+        "追踪",
+        "伪装",
+        "应变"
+      ],
+      "coreValue": "得找出那件事到底是怎么回事",
+      "strengths": [
+        "善于换视角、观察环境，在形势不明时仍能逼近目标"
+      ],
+      "growth": "独自查找会漏掉只有别人能看到的信息；及时建立能互相核实的合作。",
+      "vector": {
+        "initiative": 50,
+        "adaptability": 100,
+        "social": 17,
+        "trust": 33,
+        "values": 67,
+        "ambition": 75,
+        "emotion": 25,
+        "focus": 92,
+        "risk": 83
+      },
+      "sources": [
+        "https://jojo-portal.com/about/tjl/"
+      ],
+      "stand": "大嘴再次出击",
+      "standEn": "Bigmouth Strikes Again",
+      "aliases": [
+        "魅力男",
+        "查明曼",
+        "恰明曼",
+        "查明·曼"
       ]
+    },
+    {
+      "id": "lulu",
+      "name": "露露",
+      "en": "Lulu",
+      "part": 9,
+      "parts": [
+        9
+      ],
+      "role": "用敏锐守住安全感的人",
+      "summary": "你会很快看出人与人之间谁靠得住，也更愿意把信任留给少数确定的对象。熟悉感一旦被打断，你往往先观察对方会怎么做。",
+      "traits": [
+        "机警",
+        "依恋",
+        "直接"
+      ],
+      "coreValue": "先确认身边的人是否可靠",
+      "strengths": [
+        "对细小的态度变化很敏感，能及时意识到互动变了味"
+      ],
+      "growth": "熟悉未必等于安全，陌生也不一定危险。试着用实际行为而不是第一印象来判断。",
+      "vector": {
+        "initiative": 58,
+        "adaptability": 67,
+        "social": 67,
+        "trust": 42,
+        "values": 33,
+        "ambition": 25,
+        "emotion": 92,
+        "focus": 83,
+        "risk": 58
+      },
+      "sources": [
+        "https://books.shueisha.co.jp/items/contents.html?jdcn=08X10000000063700500",
+        "https://jojo-portal.com/about/tjl/"
+      ],
+      "stand": "袋之律动",
+      "standEn": "Bags’ Groove",
+      "aliases": [
+        "Bags' Groove",
+        "Bags Groove",
+        "袋之沟槽",
+        "露露"
+      ]
+    },
+    {
+      "id": "bobby_jean",
+      "name": "鲍比·吉恩",
+      "en": "Bobby Jean",
+      "part": 9,
+      "parts": [
+        9
+      ],
+      "role": "讲究流程的老手",
+      "summary": "你不急着把能力挂在嘴上，更在意现场有没有被交代清楚、搭档能不能接上。比起争论谁正确，你常先检查有哪些事情仍在可控范围内。",
+      "traits": [
+        "冷静",
+        "实务",
+        "配合"
+      ],
+      "coreValue": "把复杂局面拆成可交接的步骤",
+      "strengths": [
+        "在时间紧时仍能留意执行顺序与配合细节"
+      ],
+      "growth": "经验多不代表每次都能沿用同一套流程；给异常线索留一个复盘出口。",
+      "vector": {
+        "initiative": 33,
+        "adaptability": 42,
+        "social": 42,
+        "trust": 75,
+        "values": 25,
+        "ambition": 25,
+        "emotion": 17,
+        "focus": 75,
+        "risk": 25
+      },
+      "sources": [
+        "https://books.shueisha.co.jp/items/contents.html?jdcn=08X10000000063700500",
+        "https://jojo-portal.com/about/tjl/"
+      ],
+      "stand": "光辉岁月",
+      "standEn": "Glory Days",
+      "aliases": [
+        "荣耀岁月",
+        "鲍比·吉恩"
+      ]
+    },
+    {
+      "id": "acca_howler",
+      "name": "阿卡·豪勒",
+      "en": "Hacca Howler",
+      "part": 9,
+      "parts": [
+        9
+      ],
+      "role": "对领地敏感的掌局者",
+      "summary": "习惯以资源、继承和控制权来衡量局面，对别人改变自己地盘的规则格外警惕。能快速动员身边人，却未必愿意分享完整判断。",
+      "traits": [
+        "经营",
+        "掌局",
+        "护产"
+      ],
+      "coreValue": "让自己所承接的资源仍由自己决定走向",
+      "strengths": [
+        "识别关键资源和利益冲突快，善于部署人手"
+      ],
+      "growth": "把掌控当成唯一安全来源，容易漏掉愿意真正合作的人",
+      "vector": {
+        "initiative": 74,
+        "adaptability": 24,
+        "social": 56,
+        "trust": 13,
+        "values": 32,
+        "ambition": 97,
+        "emotion": 77,
+        "focus": 20,
+        "risk": 56
+      },
+      "sources": [
+        "https://www.s-manga.net/items/contents.html?isbn=978-4-08-884476-3",
+        "https://jojowiki.com/Hacca_Howler"
+      ],
+      "stand": "蚀八",
+      "standEn": "Eclipse Eight",
+      "aliases": [
+        "Acca Howler",
+        "Hacca Howler",
+        "阿卡·豪拉",
+        "雅克·豪拉",
+        "日蚀8",
+        "Eclipse 8",
+        "蚀八",
+        "雅克豪拉",
+        "日蚀八"
+      ],
+      "canonNote": "替身已命名为 Eclipse Eight；具体能力仍未完整揭示。"
     }
   ],
   "parts": [
@@ -4131,5 +7375,645 @@
       "label": "我几乎没看过／只知道梗",
       "kind": "none"
     }
-  ]
+  ],
+  "tarotOrder": [
+    "iggy",
+    "avdol",
+    "midler",
+    "nena",
+    "hol_horse",
+    "kakyoin",
+    "steely_dan",
+    "polnareff",
+    "forever",
+    "joseph3",
+    "zz",
+    "enya",
+    "j_geil",
+    "mannish_boy",
+    "rubber_soul",
+    "devo",
+    "gray_fly",
+    "captain_tennille",
+    "arabia_fats",
+    "cameo",
+    "jotaro",
+    "dio3"
+  ],
+  "storyQuestions": [
+  {
+    "id": "q01",
+    "part": 1,
+    "scene": "乔斯达宅邸",
+    "situation": "乔纳森怀疑父亲的药被动了手脚。下一剂快端上来了，而你手上的证据还不完整。",
+    "left": "先拦下这剂药，再解释怀疑",
+    "right": "先核对药瓶和处方，再公开质疑"
+  },
+  {
+    "id": "q02",
+    "part": 2,
+    "scene": "波纹训练场",
+    "situation": "你在莉莎莉莎的训练场里试了几次，波纹一直无法在油滑的柱面上维持。还有时间再练一轮。",
+    "left": "换呼吸和发力的节奏，试一种新办法",
+    "right": "按教过的动作再练，把最不稳的一步做熟"
+  },
+  {
+    "id": "q03",
+    "part": 3,
+    "scene": "驶往埃及的夜路",
+    "situation": "承太郎一行刚躲过一次替身袭击，车里没人开口。你坐在后排，也还绷着一口气。",
+    "left": "找旁边的人聊几句，靠交谈恢复状态",
+    "right": "安静看一会儿窗外，自己缓过来"
+  },
+  {
+    "id": "q04",
+    "part": 4,
+    "scene": "杜王町的线索",
+    "situation": "康一和仗助发现同一条街上有两处可疑痕迹，时间只够分头去看。你手里有其中一处的关键线索。",
+    "left": "把一条线索交给队友，各查一处再碰头",
+    "right": "自己保管关键线索，队友负责接应"
+  },
+  {
+    "id": "q05",
+    "part": 5,
+    "scene": "布加拉提的护送任务",
+    "situation": "上级突然要求改变特莉休的交接方式。照做能保住小队的掩护，但会违背出发时答应她的保护条件。",
+    "left": "守住承诺，拒绝没有保障的交接",
+    "right": "先保住小队的掩护，争取在交接后补救"
+  },
+  {
+    "id": "q06",
+    "part": 6,
+    "scene": "绿海豚监狱",
+    "situation": "你已经摸清了自己所在楼区的规矩，可以安稳度过接下来的日子。徐伦却邀请你把几条各自为战的求生路线接起来。",
+    "left": "加入她，把局面从自保推到互相接应",
+    "right": "守住眼下的落脚点，不贸然扩大行动"
+  },
+  {
+    "id": "q07",
+    "part": 7,
+    "scene": "第一赛段终点",
+    "situation": "钢球跑过第一个检查点，你按和杰洛商量的节奏跑，却被甩到后面。补给时他问你这段跑得如何。",
+    "left": "当面说出自己的懊恼，不装作没事",
+    "right": "先把情绪放在心里，只谈下段怎么跑"
+  },
+  {
+    "id": "q08",
+    "part": 8,
+    "scene": "墙之眼",
+    "situation": "你和康穗试着查清定助的来历，手上有一张时间对不上的照片和几份含糊的目击记录。",
+    "left": "先放大照片，找可能被忽略的小差异",
+    "right": "先把人物和时间串起来，再回头核对照片"
+  },
+  {
+    "id": "q09",
+    "part": 9,
+    "scene": "夏威夷的委托",
+    "situation": "乔迪奥一行面对一颗价值不菲的钻石，旁边那块不起眼的石头似乎会让贵重物品自己靠近。你最想怎么验证？",
+    "left": "用一件不值钱的物品做个小试验，看看异常会不会重现",
+    "right": "先不碰石头，记下现象，等能控制风险再验证"
+  },
+  {
+    "id": "q10",
+    "part": 3,
+    "scene": "达比的牌桌",
+    "situation": "赌局仍在继续。你没抓到达比作弊的把柄，但下一轮只剩一个决定的空当。",
+    "left": "暂且落下一步，逼对方给出反应",
+    "right": "先观察发牌和下注的次序，再决定下一步"
+  },
+  {
+    "id": "q11",
+    "part": 4,
+    "scene": "料理店里的异常",
+    "situation": "托尼欧的料理让客人出现惊人的身体反应。你一直在检查厨房，却没找到能解释它的普通原因。",
+    "left": "改从客人和餐后变化入手，换一条路查",
+    "right": "沿用食品检查的步骤，把疑点一项项排除"
+  },
+  {
+    "id": "q12",
+    "part": 5,
+    "scene": "那不勒斯街头",
+    "situation": "刚加入布加拉提小队，任务还没公布。你和几位才见过一面的队员在桌边等消息。",
+    "left": "主动和他们聊聊，熟悉彼此的做事方式",
+    "right": "一个人整理已知消息，等正式分工再交流"
+  },
+  {
+    "id": "q13",
+    "part": 6,
+    "scene": "徐伦的丝线",
+    "situation": "你和徐伦要把一条丝线引过两道拐角。两端的人互相看不见，但都得在巡逻经过前到位。",
+    "left": "约好暗号，把另一端放心交给同伴",
+    "right": "自己控制关键段，让同伴专门观察巡逻"
+  },
+  {
+    "id": "q14",
+    "part": 7,
+    "scene": "追赶领跑者",
+    "situation": "钢球跑的下一段更难。一名车队愿意给你和杰洛提供补给，条件是你不能再给一位掉队选手留水。",
+    "left": "拒绝交换，不改变自己先前定下的底线",
+    "right": "接受补给，把留在赛道上当成眼下的首要任务"
+  },
+  {
+    "id": "q15",
+    "part": 8,
+    "scene": "东方家的住处",
+    "situation": "东方家可以先给失忆的你一个稳定身份。独立追查旧身份也许会打开另一种生活，但你得放下部分眼前安排。",
+    "left": "给追查腾出时间，主动弄清自己还能成为谁",
+    "right": "先把现在的身份和关系过稳，再决定查不查"
+  },
+  {
+    "id": "q16",
+    "part": 9,
+    "scene": "回到集合点",
+    "situation": "你和德拉戈纳撤出目标别墅。队友临时改变集合点，结果大家多绕了一段路，你一直很火大。",
+    "left": "直接说出自己哪里生气，再一起复盘",
+    "right": "先把火气放一边，只核对变更和后果"
+  },
+  {
+    "id": "q17",
+    "part": 1,
+    "scene": "石鬼面",
+    "situation": "乔斯达家的石鬼面掉在地上。你面前摆着它、几页笔记，以及早年关于这件物品的来历记录。",
+    "left": "先看面具的针和缝，找结构上的异常",
+    "right": "先串起来历和记录，画出整件事的脉络"
+  },
+  {
+    "id": "q18",
+    "part": 2,
+    "scene": "训练中的空白区域",
+    "situation": "莉莎莉莎安排了一条已练熟的波纹路线，你发现旁边还有一段没人试过的布置。今天只够完成其中一段。",
+    "left": "练那段没试过的，看看自己会遇到什么",
+    "right": "完成练熟的路线，先拿到可预期的训练结果"
+  },
+  {
+    "id": "q19",
+    "part": 5,
+    "scene": "行进中的火车",
+    "situation": "护送途中，车厢里有人迅速老去，你还没看出变化的规律。眼下有一小段换到隔壁车厢的机会。",
+    "left": "先带近处同伴迈出一步，边走边试",
+    "right": "留在当前车厢，先比对几个人的情况"
+  },
+  {
+    "id": "q20",
+    "part": 6,
+    "scene": "牢房中的讯息",
+    "situation": "一张记录似乎被白蛇的能力动过。你和徐伦照常追问，得到的说法却不断互相冲突。",
+    "left": "换条路，从巡逻、门禁和物件流向反查",
+    "right": "保留原方法，逐条核实每次问话的证词"
+  },
+  {
+    "id": "q21",
+    "part": 7,
+    "scene": "长途补给站",
+    "situation": "跑了一天，你牵马进补给站。乔尼和几位选手在火边交换路况，你还有一小会儿才能出发。",
+    "left": "坐到火边聊一轮，重新找回比赛的劲头",
+    "right": "绕开热闹处，自己看地图和马的状态"
+  },
+  {
+    "id": "q22",
+    "part": 8,
+    "scene": "果园入口",
+    "situation": "一颗被称作洛卡卡卡的果实可能带来线索。你和康穗同意只看不碰，眼下要定谁观察果树、谁看住入口。",
+    "left": "彼此分工，让康穗独立判断入口动静",
+    "right": "由自己统一观察和喊停，康穗负责记录"
+  },
+  {
+    "id": "q23",
+    "part": 9,
+    "scene": "拉瓦石的临时计划",
+    "situation": "你们发现某些物品会异常地靠近拉瓦石。为了尽快试出规律，队友提议拿一件并不属于队伍的贵重品做样本。",
+    "left": "守住不牵连外人的约定，另找样本",
+    "right": "优先确认规律，做好归还与补偿的安排"
+  },
+  {
+    "id": "q24",
+    "part": 1,
+    "scene": "齐贝林的邀请",
+    "situation": "你本可以在离开宅邸后重新开始。齐贝林却邀请你系统练习波纹，并把一种陌生的使命交到你手中。",
+    "left": "接受训练，把余下的路当成新的目标",
+    "right": "先安顿好自己的生活，只在能力范围内帮忙"
+  },
+  {
+    "id": "q25",
+    "part": 2,
+    "scene": "西撒的反对",
+    "situation": "你和西撒在出发前争执起来。你听出了他言语里的轻蔑，但两个人接下来仍要并肩做事。",
+    "left": "让他知道那句话让我不舒服",
+    "right": "把感受留到任务后，现在只谈具体安排"
+  },
+  {
+    "id": "q26",
+    "part": 3,
+    "scene": "旅馆的一场梦",
+    "situation": "小队里有人醒来后讲起同一个怪梦，谁也记不清全部内容。你们想判断是不是替身在作怪。",
+    "left": "先追问每个人梦里反复出现的一个小物件",
+    "right": "先比较几次梦发生的条件，再整理里面的细节"
+  },
+  {
+    "id": "q27",
+    "part": 4,
+    "scene": "不能回头的小巷",
+    "situation": "你随铃美来到一条地图上没有的小巷。她只说别回头，没说岔路后面是什么；另一侧有一条已经记熟的退路。",
+    "left": "守住不回头的规则，试着走一段未知岔路",
+    "right": "沿熟悉退路返回，从外围找别的证据"
+  },
+  {
+    "id": "q28",
+    "part": 7,
+    "scene": "沙漠里的岔路",
+    "situation": "钢球跑途中，前方选手忽然偏离大路。你不知道他找到了捷径还是在避开什么，岔口马上就要错过。",
+    "left": "在看得见出口的范围内先策马探一小段",
+    "right": "先停在路标边核对地形，再选方向"
+  },
+  {
+    "id": "q29",
+    "part": 8,
+    "scene": "找不到的记录",
+    "situation": "你和康穗一直靠地址和档案追定助的过去，但新找到的记录又和身份对不上。还有半天时间可用。",
+    "left": "换成从物件、记忆和见过他的人倒查",
+    "right": "沿档案追索到底，先把相互矛盾的记录理顺"
+  },
+  {
+    "id": "q30",
+    "part": 9,
+    "scene": "海边的碰头会",
+    "situation": "任务开始前，大家在瓦胡岛海边等迟到的人。你的准备已做完，离出发还有一段空白时间。",
+    "left": "跟队友聊点任务之外的事，活动一下心情",
+    "right": "一个人沿海走一段，保持自己的节奏"
+  },
+  {
+    "id": "q31",
+    "part": 1,
+    "scene": "从断崖撤出",
+    "situation": "你和乔纳森一行要把一个走散的孩子安全带回镇上。有人认路，有人熟悉波纹，没人能同时看住所有方向。",
+    "left": "按擅长的事分工，让同伴自主判断",
+    "right": "自己盯住最关键的路段，请别人按指示配合"
+  },
+  {
+    "id": "q32",
+    "part": 2,
+    "scene": "与瓦姆乌的约定",
+    "situation": "你为了争取训练时间，和瓦姆乌定下了正面对决的约定。临近期限，队友发现另一种更有胜算的安排。",
+    "left": "仍按自己定下的约定交手",
+    "right": "改用更有把握的安排，把结果放在前面"
+  },
+  {
+    "id": "q33",
+    "part": 3,
+    "scene": "埃及之旅告一段落后",
+    "situation": "替身能力并不会在这趟旅程后消失。你可以回到熟悉的日常，也可以把它用在尚未有人调查的类似事件上。",
+    "left": "主动去查下一起事件，挑战更大的目标",
+    "right": "把这段经历带回自己的生活，不另开战线"
+  },
+  {
+    "id": "q34",
+    "part": 4,
+    "scene": "仗助修复现场",
+    "situation": "仗助能用「疯狂钻石」把物件恢复原状，你刚看到有人一脚踩坏了自己记挂多年的东西。队友还在讨论要不要动用能力。",
+    "left": "让大家看见这件事对我有多重要",
+    "right": "先管好当下的决定，感受以后再说"
+  },
+  {
+    "id": "q35",
+    "part": 5,
+    "scene": "拉链留下的痕迹",
+    "situation": "布加拉提能在物体表面打开拉链。一场混乱后，房间有几处可疑开口，你们想重建发生的经过。",
+    "left": "逐处看磨痕和边缘，找最不像普通缝隙的一处",
+    "right": "先判断人从哪进、往哪走，再回头查开口"
+  },
+  {
+    "id": "q36",
+    "part": 6,
+    "scene": "牢房之外",
+    "situation": "徐伦用丝线勾住一道有些摇晃的门。那头不知道通往哪，已确认安全的旧路线却错过了这次巡逻空档。",
+    "left": "在同伴接应下试探新门，看看能不能开出一条路",
+    "right": "放掉这次空档，等旧路线下一次出现机会"
+  }
+],
+  "storyQuestionsV2": [
+  {
+    "id": "p01",
+    "axis": "courage",
+    "part": 4,
+    "scene": "虫箭",
+    "situation": "假如你拿到了「虫箭」，并知道它有觉醒替身的可能。你还没有替身，也不知道自己是否有资质；被箭刺中可能重伤，甚至死亡。眼下没有非用替身不可的危机。",
+    "left": "接受风险，尝试让箭唤醒自己的替身",
+    "right": "先把箭收好，不拿自己赌这次觉醒"
+  },
+  {
+    "id": "p02",
+    "axis": "justice",
+    "part": 5,
+    "scene": "布加拉提的护送承诺",
+    "situation": "你和布加拉提受命护送特莉休。出发前答应过她，遇到不明交接要先核实；现在上级要求你立刻交人，照做能保住小队的掩护。",
+    "left": "守住承诺，即使因此暴露小队",
+    "right": "先保住掩护，想办法在交接后继续保护她"
+  },
+  {
+    "id": "p03",
+    "axis": "thinking",
+    "part": 3,
+    "scene": "白金之星：力量之外",
+    "situation": "白金之星擅长近距离的高速攻击，却碰不到藏起来的对手。你有一小段时间，可以改用一个办法，或把已知线索再查一遍。",
+    "left": "换个角度，从对方可能操纵的物件入手",
+    "right": "把已知痕迹逐一验证，先确定对方的活动范围"
+  },
+  {
+    "id": "p04",
+    "axis": "bond",
+    "part": 3,
+    "scene": "星尘十字军的夜路",
+    "situation": "替身使者踏上去埃及的旅程。刚经历一场袭击，车里很安静，你其实还没缓过来。",
+    "left": "让队友知道自己有点后怕，聊几句再走",
+    "right": "安静一会儿，等自己缓过来再开口"
+  },
+  {
+    "id": "p05",
+    "axis": "courage",
+    "part": 7,
+    "scene": "钢球跑的险路",
+    "situation": "在一场横跨大陆的赛马里，眼前有条累人但熟悉的大路，也有一条地图欠详的峡谷路。你能在入口小范围探一探，也可能因此错过最佳出发时机。",
+    "left": "去峡谷入口试探一下，争取未知的机会",
+    "right": "走熟悉的大路，先保证自己能到达下一站"
+  },
+  {
+    "id": "p06",
+    "axis": "justice",
+    "part": 3,
+    "scene": "停止的时间",
+    "situation": "假设你拥有「世界」的时间停止能力。停下时间就能悄悄拿走对手手里一条关键线索，但你刚答应过，在这次交换中不动对方的东西。",
+    "left": "照约定行动，即便错过这次线索",
+    "right": "先拿到可能改变局面的线索，再处理承诺"
+  },
+  {
+    "id": "p07",
+    "axis": "thinking",
+    "part": 2,
+    "scene": "战斗潮流：波纹",
+    "situation": "波纹要靠呼吸维持。训练中你的动作在干燥地面有效，换到湿滑地面就频频失败。离下一次实战还有一轮练习时间。",
+    "left": "用不同的发力时机试试，寻找意外的解法",
+    "right": "保留成熟动作，把最不稳的那一步反复做扎实"
+  },
+  {
+    "id": "p08",
+    "axis": "bond",
+    "part": 6,
+    "scene": "石之自由：丝线的另一端",
+    "situation": "徐伦的替身能把身体化成丝线。你们要靠一根丝线保持联络，但拐过墙角后谁也看不见另一端。",
+    "left": "约好信号，让同伴自行决定另一端怎么应对",
+    "right": "由自己做关键判断，让同伴按明确的信号行动"
+  },
+  {
+    "id": "p09",
+    "axis": "courage",
+    "part": 1,
+    "scene": "石鬼面",
+    "situation": "石鬼面接触血液后会弹出针刺，但你手里的记录不完整。有人提议现在做一次可控的非人体观察，也可以等找到更多记录再动手。",
+    "left": "在可控边界内先观察一次，承担这次不确定性",
+    "right": "封存面具，等档案更完整再决定是否试验"
+  },
+  {
+    "id": "p10",
+    "axis": "courage",
+    "part": 3,
+    "scene": "达比的牌桌",
+    "situation": "对手能把自认输掉的人夺走灵魂。你还不清楚他的赢法，有人提议用不涉及人身代价的小赌试探他，也可以暂时离席观察。",
+    "left": "愿意先试一局，把自己暴露在未知局面里",
+    "right": "暂不入局，等掌握他惯用的手法再行动"
+  },
+  {
+    "id": "p11",
+    "axis": "courage",
+    "part": 4,
+    "scene": "疯狂钻石：先跨一步",
+    "situation": "仗助能够修复损坏的物品，却不能修复自己受的伤。你们刚发现桥另一头有线索；眼下可以带安全绳先查桥面，也可以等更稳妥的工具。",
+    "left": "趁机会还在，带安全绳先试探桥面",
+    "right": "留在原地，等有把握的工具再过去"
+  },
+  {
+    "id": "p12",
+    "axis": "courage",
+    "part": 5,
+    "scene": "箭的归处",
+    "situation": "一支替身之箭落入空房，对手也可能很快找过来。你看不见屋内全貌，但可以先去门口查；等待同伴会用掉一部分时间。",
+    "left": "先到门口试探，承担撞见对手的可能",
+    "right": "等同伴到齐，宁愿让这次机会暂时过去"
+  },
+  {
+    "id": "p13",
+    "axis": "courage",
+    "part": 6,
+    "scene": "越过监狱围墙",
+    "situation": "绿海豚监狱换了巡逻路线。有人找到一条没试过的出路，也有一条已确认安全、但要明晚才开放的路，两条路都不是最后的机会。",
+    "left": "接受新路的未知，趁今晚先去试探",
+    "right": "选已确认的旧路线，愿意多等一晚"
+  },
+  {
+    "id": "p14",
+    "axis": "courage",
+    "part": 7,
+    "scene": "铁球的未知效果",
+    "situation": "你刚看到杰洛用回旋铁球产生了意想不到的效果。他愿意给你一次试练，也允许你继续用熟悉的赛马方法准备这一段。",
+    "left": "试练新招，即使可能白花这段准备时间",
+    "right": "坚持自己擅长的练法，不临时增加变数"
+  },
+  {
+    "id": "p15",
+    "axis": "courage",
+    "part": 3,
+    "scene": "隐者之紫的模糊线索",
+    "situation": "隐者之紫拍出一张模糊的念写照片。一处地点与照片有几分相似，若它是误导，你可能浪费一天。",
+    "left": "去那里查一次，接受这一天可能白跑",
+    "right": "等念写和其他线索相互印证后再出发"
+  },
+  {
+    "id": "p16",
+    "axis": "justice",
+    "part": 1,
+    "scene": "乔斯达家的名声",
+    "situation": "乔斯达家的客人可能做了不光彩的事。真相若公开，家族名声会受损；私下解决也能阻止同类事件，但外人不会知道发生过什么。",
+    "left": "让受影响的人得知真相，接受家族难堪",
+    "right": "选择私下处置，把精力放在制止后续伤害"
+  },
+  {
+    "id": "p17",
+    "axis": "justice",
+    "part": 2,
+    "scene": "与瓦姆乌的约定",
+    "situation": "你为了争取训练时间，和瓦姆乌定下了正面对决的约定。临近期限，队友找到另一种更有胜算的安排。",
+    "left": "仍照自己承诺过的条件交手",
+    "right": "调整安排，用更有把握的办法结束威胁"
+  },
+  {
+    "id": "p18",
+    "axis": "justice",
+    "part": 4,
+    "scene": "天堂之门：能读不等于该读",
+    "situation": "「天堂之门」可以把人的经历变成可以翻阅的内容。你怀疑一位知情人漏说了一件事，直接翻阅比取得同意快，但会看见对方不愿公开的记忆。",
+    "left": "限制自己先问再读，接受线索可能来不及",
+    "right": "只读和事件有关的一页，尽快把关键线索弄清"
+  },
+  {
+    "id": "p19",
+    "axis": "justice",
+    "part": 5,
+    "scene": "小队的生意",
+    "situation": "你刚加入乔鲁诺所在的小队，发现一笔交易虽能换来关键情报，却会让原本不该牵连的人承担成本。",
+    "left": "不做这笔交易，哪怕查证变慢",
+    "right": "先用它换情报，再尽可能补偿受影响的人"
+  },
+  {
+    "id": "p20",
+    "axis": "justice",
+    "part": 6,
+    "scene": "白蛇的记忆 DISC",
+    "situation": "白蛇能抽出记忆。你拿到一张可能有用的记忆 DISC，失主明确希望它保持私密；眼下有另一条更慢的调查线。",
+    "left": "把它交还，用另一路线追查",
+    "right": "先查看必要片段，查清之后再归还"
+  },
+  {
+    "id": "p21",
+    "axis": "justice",
+    "part": 7,
+    "scene": "赛手的水",
+    "situation": "钢球跑途中，你答应把富余的水留给掉队的选手。此时有人愿意用重要的赛道消息换走这份水。",
+    "left": "拒绝交换，守住已经答应的安排",
+    "right": "交换赛道消息，再用别的办法补足水"
+  },
+  {
+    "id": "p22",
+    "axis": "justice",
+    "part": 4,
+    "scene": "疯狂钻石：破碎的证物",
+    "situation": "仗助能修复破碎的物件。有人希望立刻修复一件对他很重要的东西；你答应调查队先留原状，修复后仍可调查，只是会失去部分破碎时的细节。",
+    "left": "先履行保留证物原状的约定",
+    "right": "先修复物件，改用照片和其他线索调查"
+  },
+  {
+    "id": "p23",
+    "axis": "thinking",
+    "part": 1,
+    "scene": "石鬼面的机关",
+    "situation": "石鬼面没有按一般饰物的方式制作。桌上有构造图和一叠来历记录，你想找出它真正的用途。",
+    "left": "先跳出「装饰品」的思路，从使用环境倒推",
+    "right": "先检查面具的机关和材料，逐条排除用途"
+  },
+  {
+    "id": "p24",
+    "axis": "thinking",
+    "part": 3,
+    "scene": "能停多久的时间",
+    "situation": "你怀疑对手在短时间内停止时间。每次看起来都是物件突然换了位置，但也存在速度太快这种解释。",
+    "left": "重设一个能区分两种解释的场景",
+    "right": "用现成的痕迹和不同人的描述核对每处时间点"
+  },
+  {
+    "id": "p25",
+    "axis": "thinking",
+    "part": 5,
+    "scene": "黄金体验：让物体活过来",
+    "situation": "乔鲁诺能让无生命的物体变成生物。你们想弄清一道门后是不是有人，常用的观察角度都被挡住了。",
+    "left": "换个视角，利用黄金体验造出的生物绕过去观察",
+    "right": "继续从门缝和声音找细节，用已知现象交叉验证"
+  },
+  {
+    "id": "p26",
+    "axis": "thinking",
+    "part": 5,
+    "scene": "拉链的另一头",
+    "situation": "布加拉提能在物体表面打开拉链。你们按常规路线找出口没有结果，墙角却有一处不寻常的缝。",
+    "left": "把原路线放一边，反过来找出口可能通到哪里",
+    "right": "沿既定路线继续查，逐处确认墙上缝隙的来历"
+  },
+  {
+    "id": "p27",
+    "axis": "thinking",
+    "part": 6,
+    "scene": "没留下出口的牢房",
+    "situation": "徐伦能用丝线穿过视线受阻的地方。你们照着平面图找了几次出口都失败，只剩一个巡逻间隔。",
+    "left": "让丝线去探图上没有标出的死角",
+    "right": "按图复查门、楼梯和时刻，优先查最薄弱的环节"
+  },
+  {
+    "id": "p28",
+    "axis": "thinking",
+    "part": 7,
+    "scene": "回旋的变化",
+    "situation": "铁球的回旋遇到不同地形会有不同效果。你知道原来的投法管用过，但现在达不到预期，而剩余练习时间有限。",
+    "left": "改一个切入思路，试试触地前就改变回旋",
+    "right": "保留已有方法，比对地形和出手差异"
+  },
+  {
+    "id": "p29",
+    "axis": "thinking",
+    "part": 4,
+    "scene": "天堂之门的记录",
+    "situation": "天堂之门连续读到几份彼此冲突的记忆。在场的人都确定自己说的是真话，你想分辨是哪一段出了偏差。",
+    "left": "先换成从对方看不见的角度复盘，找共同盲区",
+    "right": "保留每个人自己的记述，逐个核对时间和视线"
+  },
+  {
+    "id": "p30",
+    "axis": "bond",
+    "part": 1,
+    "scene": "齐贝林的邀请",
+    "situation": "乔纳森踏上学习波纹的路。你和新认识的伙伴刚做完第一次训练，有些问题你可以自己想，也可以请他们一起讨论。",
+    "left": "一起聊聊今天哪里受挫，让大家互相了解",
+    "right": "先独自整理感受，想清楚了再决定要不要分享"
+  },
+  {
+    "id": "p31",
+    "axis": "bond",
+    "part": 2,
+    "scene": "与西撒并肩",
+    "situation": "你和西撒因为训练方式吵了一架。接下来仍要并肩行动，离出发还有时间说几句。",
+    "left": "直接说出哪句话让我不舒服，也听听他的感受",
+    "right": "先把感受放一边，把下一步分工说清楚"
+  },
+  {
+    "id": "p32",
+    "axis": "bond",
+    "part": 3,
+    "scene": "花京院带回的消息",
+    "situation": "同伴被一种能控制人的东西影响过。恢复后，他愿意加入队伍，也可能需要更多时间适应。",
+    "left": "把一个有实质作用的位置交给他，让他以自己的方式参与",
+    "right": "让他先做压力小的事，关键环节暂时由自己掌握"
+  },
+  {
+    "id": "p33",
+    "axis": "bond",
+    "part": 4,
+    "scene": "杜王町的碎片",
+    "situation": "仗助能修好你珍惜的一件东西。你在别人面前一直表现得毫不在意，如今他问起这件东西为什么重要。",
+    "left": "告诉他真实原因，允许自己被他看见",
+    "right": "只说东西需要修，不在这时谈自己的私事"
+  },
+  {
+    "id": "p34",
+    "axis": "bond",
+    "part": 5,
+    "scene": "布加拉提小队",
+    "situation": "护送途中需要有人留在集合点，有人去探路。你和一位还不熟悉的队友各自最擅长不同的事，时间不够把每个环节说透。",
+    "left": "约好底线后分头行动，允许队友临场调整",
+    "right": "自己掌握关键决定，请队友先与我确认再变更"
+  },
+  {
+    "id": "p35",
+    "axis": "bond",
+    "part": 6,
+    "scene": "父亲的 DISC",
+    "situation": "徐伦追查父亲失去的记忆 DISC。你和她的亲人一样有一段没说开的心结，任务中这件事又被提起。",
+    "left": "承认这件事仍影响我，愿意让伙伴知道",
+    "right": "把这件事暂时放在自己心里，不让它占满当下"
+  },
+  {
+    "id": "p36",
+    "axis": "bond",
+    "part": 7,
+    "scene": "乔尼和杰洛的补给点",
+    "situation": "钢球跑一天结束，你在补给点发现队友也不在状态。独处能让你休息得更完整，坐过去聊聊也可能让彼此都轻松一点。",
+    "left": "坐到队友旁边，一起消化今天的挫折",
+    "right": "先各自休息，恢复后再谈今天的事"
+  }
+]
 }
