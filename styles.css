@@ -99,3 +99,6 @@
 .legacy-links summary{cursor:pointer;width:max-content}
 .legacy-links a{display:inline-block;margin:5px 13px 0 0}
 @media(max-width:420px){.story-choices>div{padding:7px;gap:5px}.story-choices b{min-width:19px}}
+
+.quick-works-actions{gap:12px;flex-wrap:wrap}.quick-works-actions .button{white-space:nowrap}
+@media(max-width:470px){.quick-works-actions{display:grid;grid-template-columns:1fr}.quick-works-actions .button{justify-content:center;width:100%}}

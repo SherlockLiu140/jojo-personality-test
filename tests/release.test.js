@@ -308,3 +308,40 @@ test('final scenario questionnaire uses exact four-axis split and preserves inte
  assert.equal(new Set(raw.storyQuestionsV2.map(q=>q.id)).size,36);
  assert.match(raw.storyQuestionsV2[0].situation,/没有替身.*不知道自己是否有资质.*可能重伤/);
 });
+
+test('quick work chooser is optional, validates and persists only selected parts',()=>{
+ const main={innerHTML:''}, handlers={}, checks=[], skip={}, next={};
+ const saved={answers:Array(9).fill(3),index:8,complete:false,works:[],version:'story-2'};
+ const storage={'jojo-personality-story-quick-v2':JSON.stringify(saved)};
+ const form={addEventListener(k,f){handlers[k]=f;},querySelectorAll(q){return q.includes(':checked')?checks:[];}};
+ const document={body:{dataset:{}},querySelectorAll:()=>[],getElementById:id=>id==='main'?main:id==='quick-works-form'&&main.innerHTML.includes('id="quick-works-form"')?form:id==='quick-works-skip'?skip:id==='quick-works-next'?next:null};
+ const location={hash:'#/quick-works'};
+ const window={JOJO_DATA:raw,JOJO_ART:art,JOJO_NORMALIZE:engine.normalize,JOJO_ENGINE:engine,addEventListener:()=>{}};
+ const localStorage={getItem:key=>storage[key]||null,setItem:(key,value)=>storage[key]=value};
+ const run=hash=>{location.hash=hash;vm.runInNewContext(read('app.js'),{document,location,window,localStorage});return main.innerHTML;};
+ assert.match(run('#/'),/href="#\/quick-works"[^>]*>继续快测/);
+ assert.match(run('#/quick-works'),/跳过，直接看结果/);
+ assert.equal((main.innerHTML.match(/name="quick-part"/g)||[]).length,9);
+ checks.push({value:'part-3'},{value:'part-3'},{value:'part-5'},{value:'other'});
+ handlers.change();assert.equal(next.disabled,false);
+ handlers.submit({preventDefault(){}});
+ assert.equal(location.hash,'#/quick-result');assert.deepEqual(JSON.parse(storage['jojo-personality-story-quick-v2']).works,['part-3','part-5']);
+ assert.match(run('#/quick-result'),/已按你勾选的第 3、5 部/);
+ assert.match(run('#/quick-works'),/value="part-3" checked/);
+ skip.onclick();assert.equal(location.hash,'#/quick-result');
+ assert.deepEqual(JSON.parse(storage['jojo-personality-story-quick-v2']).works,[]);
+ assert.doesNotMatch(run('#/quick-result'),/轻微优先熟悉角色/);
+ delete storage['jojo-personality-story-quick-v2'];
+ assert.match(run('#/quick-works'),/先答完 9 道题/);
+});
+
+test('familiarity changes close matches, not a character with a clear lead',()=>{
+ const q={options:[{scores:{x:0}}]};
+ const sample={questions:[q],dimensions:[{id:'x'}],characters:[
+  {id:'original',part:1,vector:{x:50}},{id:'close',part:3,vector:{x:51}},{id:'distant',part:4,vector:{x:54}}
+ ]};
+ assert.equal(engine.score([0],sample).ranking[0].id,'original');
+ // ID tie-break at distance zero favors "close", after the bounded boost.
+ assert.equal(engine.score([0],sample,{selectedWorks:['part-3']}).ranking[0].id,'close');
+ assert.equal(engine.score([0],sample,{selectedWorks:['part-4']}).ranking[0].id,'original');
+});
